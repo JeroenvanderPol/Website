@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Tuin aanleggen",
+    "description": "Van ontwerp tot realisatie: wij creëren uw droomtuin op maat. Met oog voor detail en duurzame materialen.",
+    
+    "icon": "/images/services/tuin-aanleggen.svg",
+    "originalDescription": "Overweegt u al een tijdje om uw droomtuin aan te laten leggen? Als u op zoek bent naar een prachtige tuin die bij uw wensen past, dan is Van de Voort Tuinen de perfecte keuze voor u.",
+    "slug": "tuin-aanleggen"
+  },
+  {
+    "title": "Tuinonderhoud",
+    "description": "Professioneel onderhoud voor een verzorgde tuin het hele jaar door. Regelmatig of seizoensgebonden.",
+    "features": [
+      "Snoeien",
+      "Onkruidbestrijding",
+      "Gazonverzorging"
+    ],
+    "icon": "/images/services/tuinonderhoud.svg",
+    "originalDescription": "Bij Van de Voort tuinen begrijpen we dat tuinonderhoud essentieel is om je tuin in topconditie te houden. Of je nu een door ons ontworpen en aangelegde tuin hebt of een bestaande tuin, wij staan klaar om je te helpen met professioneel onderhoud",
+    "slug": "tuinonderhoud"
+  },
+  {
+    "title": "Bestrating aanleggen",
+    "description": "Een terras, tuinpad of oprit die past bij uw buitenruimte. Met aandacht voor de ondergrond en een nette afwerking.",
+    "features": [
+      "Terrassen",
+      "Tuinpaden",
+      "Opritten"
+    ],
+    "icon": "/images/services/bestrating-aanleggen.svg",
+    "originalDescription": "Voor het aanleggen van een terras, tuinpad of oprit kunt u bij Van de Voort Tuinen terecht.",
+    "slug": "bestrating-aanleggen"
+  },
+  {
+    "title": "Gras aanleggen",
+    "description": "Wij leveren en leggen graszoden voor een direct prachtig gazon. Professionele voorbereiding inclusief.",
+    "features": [
+      "Graszoden",
+      "Bodemvoorbereiding",
+      "Nazorg advies"
+    ],
+    "icon": "/images/services/gras-aanleggen.svg",
+    "originalDescription": "Wil je graszoden plaatsen in jouw tuin of op een ander gebied? Dan kunnen wij hiervoor niet alleen graszoden aanleveren, maar ook voor je aanleggen.",
+    "slug": "gras-aanleggen"
+  }
+]

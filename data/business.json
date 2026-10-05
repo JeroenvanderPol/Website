@@ -1,0 +1,30 @@
+{
+  "name": "Van de Voort Tuinen",
+  "phone": "+31 6 83 25 97 62",
+  "email": "info@vandevoortgrondwerken.nl",
+  "address": "Hondsklauw 20",
+  "postcode": "5271 CN",
+  "city": "Sint-Michielsgestel",
+  "kvk": "92208614",
+  "workArea": [
+    "’s-Hertogenbosch",
+    "Best",
+    "Boxtel",
+    "Breda",
+    "Den Dungen",
+    "Eindhoven",
+    "Oss",
+    "Oirschot",
+    "Oisterwijk",
+    "Rosmalen",
+    "Veldhoven",
+    "Vlijmen",
+    "Vught",
+    "Schijndel",
+    "Sint-Michielsgestel",
+    "Tilburg",
+    "Waalwijk",
+    "Zaltbommel"
+  ],
+  "source": "https://vandevoortgrondwerken.nl/"
+}

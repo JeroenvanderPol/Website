@@ -1,0 +1,467 @@
+[
+  {
+    "file": "public/images/original-site/project-01.jpg",
+    "src": "/images/original-site/project-01.jpg",
+    "source": "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/1e01de37-74e6-4d45-95a1-71b041a497a9/image.jpg",
+    "role": "project",
+    "sha256": "8ba8307069114850d4492e5d893e4391c9ca899ed68364a578564467d8b5b39c",
+    "sourceVariants": [
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/1e01de37-74e6-4d45-95a1-71b041a497a9/image.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/1e01de37-74e6-4d45-95a1-71b041a497a9/image-683x384.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/1e01de37-74e6-4d45-95a1-71b041a497a9/image-427x240.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/1e01de37-74e6-4d45-95a1-71b041a497a9/image-607x341.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/1e01de37-74e6-4d45-95a1-71b041a497a9/image-341x192.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/1e01de37-74e6-4d45-95a1-71b041a497a9/image-333x187.jpg"
+    ],
+    "storedSha256": "70d9bf964c057993290e5ef569b444b3b0a64989c4e8962ce58f951122b6074e"
+  },
+  {
+    "file": "public/images/original-site/project-02.jpg",
+    "src": "/images/original-site/project-02.jpg",
+    "source": "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/9128bec0-59f8-4485-823a-b7957f4910ea/image.jpg",
+    "role": "project",
+    "sha256": "fe077984bddac810c9ea638e9ef0c2bddbf92b08f2fb208b88704afbde333ff8",
+    "sourceVariants": [
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/9128bec0-59f8-4485-823a-b7957f4910ea/image.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/9128bec0-59f8-4485-823a-b7957f4910ea/image-512x384.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/9128bec0-59f8-4485-823a-b7957f4910ea/image-320x240.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/9128bec0-59f8-4485-823a-b7957f4910ea/image-455x341.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/9128bec0-59f8-4485-823a-b7957f4910ea/image-256x192.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/9128bec0-59f8-4485-823a-b7957f4910ea/image-250x188.jpg"
+    ],
+    "storedSha256": "c58135e8cfbc1aa808b092754b0f60bec727627036d2dd8700afddcb274107c6"
+  },
+  {
+    "file": "public/images/original-site/project-03.jpg",
+    "src": "/images/original-site/project-03.jpg",
+    "source": "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/36203844-f7ef-4370-a246-6cac3da8bee8/image.jpg",
+    "role": "project",
+    "sha256": "bc5965682539095766dda122ad4a7cc1b5327f9ba9c3598bdc351a4629843fb6",
+    "sourceVariants": [
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/36203844-f7ef-4370-a246-6cac3da8bee8/image.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/36203844-f7ef-4370-a246-6cac3da8bee8/image-512x384.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/36203844-f7ef-4370-a246-6cac3da8bee8/image-320x240.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/36203844-f7ef-4370-a246-6cac3da8bee8/image-455x341.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/36203844-f7ef-4370-a246-6cac3da8bee8/image-256x192.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/36203844-f7ef-4370-a246-6cac3da8bee8/image-250x188.jpg"
+    ],
+    "storedSha256": "9228ed9aa2e3e5e5a2f5a2b3cc9a25ee4516ff4c5bbdd552bb80fe22ce9db602"
+  },
+  {
+    "file": "public/images/original-site/project-04.jpg",
+    "src": "/images/original-site/project-04.jpg",
+    "source": "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/ce1830be-cd07-4c87-9a23-cb51f1143db5/image.jpg",
+    "role": "project",
+    "sha256": "fc2f51aeb3ba1c03001eb8d105185e0ac3679e25286f0f5f805185eec42c4680",
+    "sourceVariants": [
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/ce1830be-cd07-4c87-9a23-cb51f1143db5/image.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/ce1830be-cd07-4c87-9a23-cb51f1143db5/image-512x384.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/ce1830be-cd07-4c87-9a23-cb51f1143db5/image-320x240.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/ce1830be-cd07-4c87-9a23-cb51f1143db5/image-455x341.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/ce1830be-cd07-4c87-9a23-cb51f1143db5/image-256x192.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/ce1830be-cd07-4c87-9a23-cb51f1143db5/image-250x188.jpg"
+    ],
+    "storedSha256": "a5c6e1348bb66405999c50db3d42aea53fd42ba431876e086416afbb2a43a9e0"
+  },
+  {
+    "file": "public/images/original-site/project-05.jpg",
+    "src": "/images/original-site/project-05.jpg",
+    "source": "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/d998f692-e581-4136-b421-09c32103f68d/image.jpg",
+    "role": "project",
+    "sha256": "199e101866b29fe9dec08062c6afea58c81af8799fcd3c217a77897181db9daf",
+    "sourceVariants": [
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/d998f692-e581-4136-b421-09c32103f68d/image.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/d998f692-e581-4136-b421-09c32103f68d/image-512x384.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/d998f692-e581-4136-b421-09c32103f68d/image-320x240.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/d998f692-e581-4136-b421-09c32103f68d/image-455x341.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/d998f692-e581-4136-b421-09c32103f68d/image-256x192.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/d998f692-e581-4136-b421-09c32103f68d/image-250x188.jpg"
+    ],
+    "storedSha256": "8ac77a9261a3a095e13a9d4d37704e45795f3bb4f163095c4af5be44c4e661a6"
+  },
+  {
+    "file": "public/images/original-site/project-06.jpg",
+    "src": "/images/original-site/project-06.jpg",
+    "source": "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/2bd1e844-e7a1-4f75-ad49-dd2a9c966dd8/image.jpg",
+    "role": "project",
+    "sha256": "34a0ef48cb69779331d6800f8ab2c993d90f0a77d000f7679dd614d2a1872792",
+    "sourceVariants": [
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/2bd1e844-e7a1-4f75-ad49-dd2a9c966dd8/image.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/2bd1e844-e7a1-4f75-ad49-dd2a9c966dd8/image-512x384.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/2bd1e844-e7a1-4f75-ad49-dd2a9c966dd8/image-320x240.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/2bd1e844-e7a1-4f75-ad49-dd2a9c966dd8/image-455x341.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/2bd1e844-e7a1-4f75-ad49-dd2a9c966dd8/image-256x192.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/2bd1e844-e7a1-4f75-ad49-dd2a9c966dd8/image-250x188.jpg"
+    ],
+    "storedSha256": "16c177433e443e70bf5a0c630775358126ab9bd4829a982a559edc9e71c3c6a0"
+  },
+  {
+    "file": "public/images/original-site/project-07.jpg",
+    "src": "/images/original-site/project-07.jpg",
+    "source": "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/10d236bb-399d-4028-a33d-a514f9f49a3e/image.jpg",
+    "role": "project",
+    "sha256": "ccb3a8d0436bb1d5748b6836463c1f44395d66306e597d7684eb5b1bb65a66c3",
+    "sourceVariants": [
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/10d236bb-399d-4028-a33d-a514f9f49a3e/image.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/10d236bb-399d-4028-a33d-a514f9f49a3e/image-512x384.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/10d236bb-399d-4028-a33d-a514f9f49a3e/image-320x240.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/10d236bb-399d-4028-a33d-a514f9f49a3e/image-455x341.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/10d236bb-399d-4028-a33d-a514f9f49a3e/image-256x192.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/10d236bb-399d-4028-a33d-a514f9f49a3e/image-250x188.jpg"
+    ],
+    "storedSha256": "5ab3a3d74b9248aec86e3cf0b38a7dcfbf08cb2663be55ddcaf63f035f8db9ac"
+  },
+  {
+    "file": "public/images/original-site/project-08.jpg",
+    "src": "/images/original-site/project-08.jpg",
+    "source": "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/0ab885be-3ab3-4627-ad61-cd5b3a9e1a7d/image.jpg",
+    "role": "project",
+    "sha256": "8fd6bd932350788a4fa6aeff822876efe1850d0787ab8832fb18c86a9ba2e613",
+    "sourceVariants": [
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/0ab885be-3ab3-4627-ad61-cd5b3a9e1a7d/image.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/0ab885be-3ab3-4627-ad61-cd5b3a9e1a7d/image-683x384.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/0ab885be-3ab3-4627-ad61-cd5b3a9e1a7d/image-427x240.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/0ab885be-3ab3-4627-ad61-cd5b3a9e1a7d/image-607x341.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/0ab885be-3ab3-4627-ad61-cd5b3a9e1a7d/image-341x192.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/0ab885be-3ab3-4627-ad61-cd5b3a9e1a7d/image-333x187.jpg"
+    ],
+    "storedSha256": "ad49e3518599daee59b6f92371877931b9e7f8d2a1f32222b3a74650ad0d88ce"
+  },
+  {
+    "file": "public/images/original-site/project-09.jpg",
+    "src": "/images/original-site/project-09.jpg",
+    "source": "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/48e82435-e843-418f-8403-66c489e60f84/image.jpg",
+    "role": "project",
+    "sha256": "b2aa5668df87b01b11606a082fba46b09a9f71f6399bd1735c3fce6a0651f4dc",
+    "sourceVariants": [
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/48e82435-e843-418f-8403-66c489e60f84/image.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/48e82435-e843-418f-8403-66c489e60f84/image-384x683.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/48e82435-e843-418f-8403-66c489e60f84/image-240x427.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/48e82435-e843-418f-8403-66c489e60f84/image-342x608.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/48e82435-e843-418f-8403-66c489e60f84/image-192x341.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/48e82435-e843-418f-8403-66c489e60f84/image-188x334.jpg"
+    ],
+    "storedSha256": "a4311fe4dd99e8a1185667644e93a806d1b3053e2c8f471f2cea2859835ac8fc"
+  },
+  {
+    "file": "public/images/original-site/project-10.jpg",
+    "src": "/images/original-site/project-10.jpg",
+    "source": "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/aced01fc-c978-4772-9036-c4d4c74e18a1/image.jpg",
+    "role": "project",
+    "sha256": "fc4767061e54868a9e2c5801cffb7ce496d4b057db5702836a846c4fdec15504",
+    "sourceVariants": [
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/aced01fc-c978-4772-9036-c4d4c74e18a1/image.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/aced01fc-c978-4772-9036-c4d4c74e18a1/image-512x384.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/aced01fc-c978-4772-9036-c4d4c74e18a1/image-320x240.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/aced01fc-c978-4772-9036-c4d4c74e18a1/image-455x341.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/aced01fc-c978-4772-9036-c4d4c74e18a1/image-256x192.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/aced01fc-c978-4772-9036-c4d4c74e18a1/image-250x188.jpg"
+    ],
+    "storedSha256": "41fbcd08f06ec84fe777520d5d996280c95f53aaf555c2c37823e32d5e498515"
+  },
+  {
+    "file": "public/images/original-site/project-11.jpg",
+    "src": "/images/original-site/project-11.jpg",
+    "source": "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/b5981acc-4dbf-4f59-9b6b-aab430989521/image.jpg",
+    "role": "project",
+    "sha256": "653604796797fdce8c86c9db645729aa796b1715d92ad0a401aa241b8505af49",
+    "sourceVariants": [
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/b5981acc-4dbf-4f59-9b6b-aab430989521/image.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/b5981acc-4dbf-4f59-9b6b-aab430989521/image-512x384.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/b5981acc-4dbf-4f59-9b6b-aab430989521/image-320x240.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/b5981acc-4dbf-4f59-9b6b-aab430989521/image-455x341.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/b5981acc-4dbf-4f59-9b6b-aab430989521/image-256x192.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/b5981acc-4dbf-4f59-9b6b-aab430989521/image-250x188.jpg"
+    ],
+    "storedSha256": "cf138a09bb84746fe8aba14e516cfb98a3b98bdd1d298279f78a953675b97a7c"
+  },
+  {
+    "file": "public/images/original-site/project-12.jpg",
+    "src": "/images/original-site/project-12.jpg",
+    "source": "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/5b86c559-8b3d-48bc-b962-620233ece2f8/image.jpg",
+    "role": "project",
+    "sha256": "a57479e5ffda8461208c80222be1ece38671e073d26ff5590810c5a1412ad088",
+    "sourceVariants": [
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/5b86c559-8b3d-48bc-b962-620233ece2f8/image.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/5b86c559-8b3d-48bc-b962-620233ece2f8/image-384x512.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/5b86c559-8b3d-48bc-b962-620233ece2f8/image-240x320.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/5b86c559-8b3d-48bc-b962-620233ece2f8/image-342x456.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/5b86c559-8b3d-48bc-b962-620233ece2f8/image-192x256.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/5b86c559-8b3d-48bc-b962-620233ece2f8/image-188x251.jpg"
+    ],
+    "storedSha256": "432cb3dd88c01c109004d9031a911bdaa78e6f36b711513159f4f14ace5a0e15"
+  },
+  {
+    "file": "public/images/original-site/project-13.jpg",
+    "src": "/images/original-site/project-13.jpg",
+    "source": "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/3c92f115-c96b-45ea-8983-f2a668efb6b4/image.jpg",
+    "role": "project",
+    "sha256": "66578f78655cb5ffb9253301c831a9b924f99d9eb2f5e4b102255654d0f912b3",
+    "sourceVariants": [
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/3c92f115-c96b-45ea-8983-f2a668efb6b4/image.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/3c92f115-c96b-45ea-8983-f2a668efb6b4/image-512x384.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/3c92f115-c96b-45ea-8983-f2a668efb6b4/image-320x240.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/3c92f115-c96b-45ea-8983-f2a668efb6b4/image-455x341.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/3c92f115-c96b-45ea-8983-f2a668efb6b4/image-256x192.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/3c92f115-c96b-45ea-8983-f2a668efb6b4/image-250x188.jpg"
+    ],
+    "storedSha256": "6fba27fbc2027c6dc67e119401541bd7671c05f0d857ab5c0aa04e5b6730183b"
+  },
+  {
+    "file": "public/images/original-site/project-14.jpg",
+    "src": "/images/original-site/project-14.jpg",
+    "source": "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/1f931a25-f345-4100-b8f4-55a79631d099/image.jpg",
+    "role": "project",
+    "sha256": "3fca280b0faf906465f80a7d22fb3bb697a762a432bd009af0c9259fe4a93e71",
+    "sourceVariants": [
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/1f931a25-f345-4100-b8f4-55a79631d099/image.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/1f931a25-f345-4100-b8f4-55a79631d099/image-465x384.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/1f931a25-f345-4100-b8f4-55a79631d099/image-291x240.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/1f931a25-f345-4100-b8f4-55a79631d099/image-413x341.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/1f931a25-f345-4100-b8f4-55a79631d099/image-232x192.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/1f931a25-f345-4100-b8f4-55a79631d099/image-227x188.jpg"
+    ],
+    "storedSha256": "bc9b492ff4353c90f881fbab3508ed94238ce799677c867a6c42aafb0ba126b8"
+  },
+  {
+    "file": "public/images/original-site/project-15.jpg",
+    "src": "/images/original-site/project-15.jpg",
+    "source": "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/f44e5c7d-3b5f-4b6a-b0e6-c565a072437a/image.jpg",
+    "role": "project",
+    "sha256": "cb0f59dd52edab4b81c4e613491361cab725cf8cfa0d9eb9168c0c63f1ff5db4",
+    "sourceVariants": [
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/f44e5c7d-3b5f-4b6a-b0e6-c565a072437a/image.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/f44e5c7d-3b5f-4b6a-b0e6-c565a072437a/image-512x384.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/f44e5c7d-3b5f-4b6a-b0e6-c565a072437a/image-320x240.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/f44e5c7d-3b5f-4b6a-b0e6-c565a072437a/image-455x341.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/f44e5c7d-3b5f-4b6a-b0e6-c565a072437a/image-256x192.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/f44e5c7d-3b5f-4b6a-b0e6-c565a072437a/image-250x188.jpg"
+    ],
+    "storedSha256": "ae16685ec5d6bccb92a0ef878a08f382b04c820c58924d9fc2260d8c9f55febe"
+  },
+  {
+    "file": "public/images/original-site/project-16.jpg",
+    "src": "/images/original-site/project-16.jpg",
+    "source": "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/2a6d32e7-95c8-4540-b818-dd408cd09feb/image.jpg",
+    "role": "project",
+    "sha256": "41ab82300073587fc6008a1d5b2d041f7a0fc513a42cf8a41d22de43a0963232",
+    "sourceVariants": [
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/2a6d32e7-95c8-4540-b818-dd408cd09feb/image.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/2a6d32e7-95c8-4540-b818-dd408cd09feb/image-512x384.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/2a6d32e7-95c8-4540-b818-dd408cd09feb/image-320x240.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/2a6d32e7-95c8-4540-b818-dd408cd09feb/image-455x341.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/2a6d32e7-95c8-4540-b818-dd408cd09feb/image-256x192.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/2a6d32e7-95c8-4540-b818-dd408cd09feb/image-250x188.jpg"
+    ],
+    "storedSha256": "46a5cc7aa01730e307a7de9050aefa91010d0384ede32606f4a6ea076492fcd4"
+  },
+  {
+    "file": "public/images/original-site/project-17.jpg",
+    "src": "/images/original-site/project-17.jpg",
+    "source": "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/c272b46c-4336-4e06-8635-ef91d497c389/image.jpg",
+    "role": "project",
+    "sha256": "940c6b662c0bca110d9a1ada08a17c0384d95a38bf48f2747299a997dbc99631",
+    "sourceVariants": [
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/c272b46c-4336-4e06-8635-ef91d497c389/image.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/c272b46c-4336-4e06-8635-ef91d497c389/image-512x384.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/c272b46c-4336-4e06-8635-ef91d497c389/image-320x240.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/c272b46c-4336-4e06-8635-ef91d497c389/image-455x341.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/c272b46c-4336-4e06-8635-ef91d497c389/image-256x192.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/c272b46c-4336-4e06-8635-ef91d497c389/image-250x188.jpg"
+    ],
+    "storedSha256": "c1c38574c9689368a326bd9822040e3ed2087d24453104a2675967093ce5f8d3"
+  },
+  {
+    "file": "public/images/original-site/project-18.jpg",
+    "src": "/images/original-site/project-18.jpg",
+    "source": "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/a06f8ebf-c744-496a-a466-91b5e4c91c74/image.jpg",
+    "role": "project",
+    "sha256": "560d42538828ba3cf8574069f2b53b445574fe56643ff4dcc8c6932a4e689c01",
+    "sourceVariants": [
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/a06f8ebf-c744-496a-a466-91b5e4c91c74/image.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/a06f8ebf-c744-496a-a466-91b5e4c91c74/image-384x512.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/a06f8ebf-c744-496a-a466-91b5e4c91c74/image-240x320.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/a06f8ebf-c744-496a-a466-91b5e4c91c74/image-342x456.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/a06f8ebf-c744-496a-a466-91b5e4c91c74/image-192x256.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/a06f8ebf-c744-496a-a466-91b5e4c91c74/image-188x251.jpg"
+    ],
+    "storedSha256": "198e5a1b92a4f42562ba1135ecf58fee3541b8282a1edaf7fe36a3c40bfc169d"
+  },
+  {
+    "file": "public/images/original-site/project-19.jpg",
+    "src": "/images/original-site/project-19.jpg",
+    "source": "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/f4bf7972-01f0-4a28-a920-85fdfda2ee0c/image.jpg",
+    "role": "project",
+    "sha256": "5c02d4f266b136e44b686b8433ded3161df82e2d60c5d34778c2cfa73d7a20cd",
+    "sourceVariants": [
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/f4bf7972-01f0-4a28-a920-85fdfda2ee0c/image.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/f4bf7972-01f0-4a28-a920-85fdfda2ee0c/image-683x384.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/f4bf7972-01f0-4a28-a920-85fdfda2ee0c/image-427x240.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/f4bf7972-01f0-4a28-a920-85fdfda2ee0c/image-607x341.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/f4bf7972-01f0-4a28-a920-85fdfda2ee0c/image-341x192.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/f4bf7972-01f0-4a28-a920-85fdfda2ee0c/image-333x187.jpg"
+    ],
+    "storedSha256": "f10e18604cb8dc2c27755494119d09185c2c94c1f2ec302c1f5b06ee9995b906"
+  },
+  {
+    "file": "public/images/original-site/project-20.jpg",
+    "src": "/images/original-site/project-20.jpg",
+    "source": "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/11edf83d-a9a6-4653-aa04-d70978590232/image.jpg",
+    "role": "project",
+    "sha256": "c2ffe789d34d590b88afa57b98fb04dd8e7cda74f1e66b5a7b255a0741c267d4",
+    "sourceVariants": [
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/11edf83d-a9a6-4653-aa04-d70978590232/image.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/11edf83d-a9a6-4653-aa04-d70978590232/image-240x427.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/11edf83d-a9a6-4653-aa04-d70978590232/image-342x608.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/11edf83d-a9a6-4653-aa04-d70978590232/image-192x341.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/11edf83d-a9a6-4653-aa04-d70978590232/image-188x334.jpg"
+    ],
+    "storedSha256": "b04f467dedb656372829e0d02f470ec972d2015fb62c33b58feda07c4ce1260d"
+  },
+  {
+    "file": "public/images/original-site/project-21.jpg",
+    "src": "/images/original-site/project-21.jpg",
+    "source": "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/7b84053f-2bcf-4c56-aea1-f45775332d5f/image.jpg",
+    "role": "project",
+    "sha256": "6934a90d94d20618338f4e6bac8fcd74a10873fdfb905162feda66d1b775a7d2",
+    "sourceVariants": [
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/7b84053f-2bcf-4c56-aea1-f45775332d5f/image.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/7b84053f-2bcf-4c56-aea1-f45775332d5f/image-683x384.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/7b84053f-2bcf-4c56-aea1-f45775332d5f/image-427x240.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/7b84053f-2bcf-4c56-aea1-f45775332d5f/image-607x341.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/7b84053f-2bcf-4c56-aea1-f45775332d5f/image-341x192.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/7b84053f-2bcf-4c56-aea1-f45775332d5f/image-333x187.jpg"
+    ],
+    "storedSha256": "c88c12d94236d48273580632897ad4b91a95f4ff0f71ae245c83842740e690e8"
+  },
+  {
+    "file": "public/images/original-site/project-22.jpg",
+    "src": "/images/original-site/project-22.jpg",
+    "source": "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/0daea142-d226-4219-af15-f3d1dd91cf0c/image.jpg",
+    "role": "project",
+    "sha256": "cbdff3f4c5245f264c9af92535921464f20b06bd696533ae8754a03cb363bf34",
+    "sourceVariants": [
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/0daea142-d226-4219-af15-f3d1dd91cf0c/image.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/0daea142-d226-4219-af15-f3d1dd91cf0c/image-384x512.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/0daea142-d226-4219-af15-f3d1dd91cf0c/image-240x320.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/0daea142-d226-4219-af15-f3d1dd91cf0c/image-342x456.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/0daea142-d226-4219-af15-f3d1dd91cf0c/image-192x256.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/0daea142-d226-4219-af15-f3d1dd91cf0c/image-188x251.jpg"
+    ],
+    "storedSha256": "c3005be9efb311e27ff12470e8437306c5a8cb5d746a333188a02c4006b9b25a"
+  },
+  {
+    "file": "public/images/original-site/project-23.jpg",
+    "src": "/images/original-site/project-23.jpg",
+    "source": "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/79cc89f6-71ea-457b-8c3e-7c21ba991202/image.jpg",
+    "role": "project",
+    "sha256": "bce452b3a8451e28f8fb95ab57fcfbf7ed6aa449680d4a6ac08c5f9cb2d38094",
+    "sourceVariants": [
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/79cc89f6-71ea-457b-8c3e-7c21ba991202/image.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/79cc89f6-71ea-457b-8c3e-7c21ba991202/image-384x512.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/79cc89f6-71ea-457b-8c3e-7c21ba991202/image-240x320.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/79cc89f6-71ea-457b-8c3e-7c21ba991202/image-342x456.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/79cc89f6-71ea-457b-8c3e-7c21ba991202/image-192x256.jpg",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/79cc89f6-71ea-457b-8c3e-7c21ba991202/image-188x251.jpg"
+    ],
+    "storedSha256": "dfb35984c566868358ff506953f89606074f4731c81ce6ee6640e3f1589a7c87"
+  },
+  {
+    "file": "public/images/original-site/logo.png",
+    "src": "/images/original-site/logo.png",
+    "source": "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/d6922006-83ff-437e-8020-8d823c175aff/image-455x303.png",
+    "role": "logo",
+    "sha256": "3b4b965adf40aa06d725c559698d77215c019ec8efeea4db502e61ff9f127efc",
+    "sourceVariants": [
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/d6922006-83ff-437e-8020-8d823c175aff/image-455x303.png",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/d6922006-83ff-437e-8020-8d823c175aff/image-320x213.png",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/d6922006-83ff-437e-8020-8d823c175aff/image-228x152.png",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/d6922006-83ff-437e-8020-8d823c175aff/image-342x228.png",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/d6922006-83ff-437e-8020-8d823c175aff/image-192x128.png",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/d6922006-83ff-437e-8020-8d823c175aff/image-384x256.png",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/d6922006-83ff-437e-8020-8d823c175aff/image-188x125.png"
+    ],
+    "storedSha256": "0ee82a9417643e2af945e12dd7ded2572d57e3fc1a2bbffdcfa363e787ee4826"
+  },
+  {
+    "file": "public/images/original-site/service-1.png",
+    "src": "/images/original-site/service-1.png",
+    "source": "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/e6b9b6d0-82eb-4fee-bb0d-5e3dd860f8b7/l0,t1,w84,h63/image.png",
+    "role": "service-icon",
+    "sha256": "38fda29b1d7d62ca584b7af756db0d82526e7f464a1e82c6641eec43a5380a8e",
+    "sourceVariants": [
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/e6b9b6d0-82eb-4fee-bb0d-5e3dd860f8b7/l0,t1,w84,h63/image.png"
+    ],
+    "storedSha256": "30ad2fd638b80590df8cc744dccc9b576844af4705046471f2bbecfe0aecdbf6"
+  },
+  {
+    "file": "public/images/original-site/service-2.png",
+    "src": "/images/original-site/service-2.png",
+    "source": "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/8124bd49-7f08-4c21-a377-13d761296d93/l0,t0,w69,h69/image.png",
+    "role": "service-icon",
+    "sha256": "3a6f78a3a7a95327e493dfc8a895052d76a75928a752d8a58af457bf36f927f9",
+    "sourceVariants": [
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/8124bd49-7f08-4c21-a377-13d761296d93/l0,t0,w69,h69/image.png"
+    ],
+    "storedSha256": "01d1211ad3393439b72528a8c095cff16ca3a7b72ecb707479a7cfa989cb1554"
+  },
+  {
+    "file": "public/images/original-site/service-3.png",
+    "src": "/images/original-site/service-3.png",
+    "source": "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/f27a3bd5-d2e1-4f5e-b22e-ccadd321f7f9/l0,t0,w111,h67/image.png",
+    "role": "service-icon",
+    "sha256": "0db8b582a6c74479941358b8d958ff8631ede3d15b5f9373536b19c7d171a97c",
+    "sourceVariants": [
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/f27a3bd5-d2e1-4f5e-b22e-ccadd321f7f9/l0,t0,w111,h67/image.png"
+    ],
+    "storedSha256": "d4c8a5bbfa83f535007d8dc2c0d9369c345402677caa159c777677fe9ada61ce"
+  },
+  {
+    "file": "public/images/original-site/service-4.png",
+    "src": "/images/original-site/service-4.png",
+    "source": "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/ee17f6d4-ec0f-442d-82d8-8f934ccd6bd6/l10,t0,w42,h37/image.png",
+    "role": "service-icon",
+    "sha256": "bd0bceeea4200b3f42a915cd19ded1b7bc22fe5714498d71d6439b5771c41d0d",
+    "sourceVariants": [
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/ee17f6d4-ec0f-442d-82d8-8f934ccd6bd6/l10,t0,w42,h37/image.png"
+    ],
+    "storedSha256": "afdaff8e2a2b0f492b9d7055a457278c2cf7c0e155c7d6819c5df7f2fa5c7983"
+  },
+  {
+    "file": "public/images/original-site/service-5.png",
+    "src": "/images/original-site/service-5.png",
+    "source": "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/78995703-dc6c-4313-ac23-53391feab49c/l1,t0,w65,h65/image.png",
+    "role": "service-icon",
+    "sha256": "100c0ed1e62637a3e6eb0ba26fc242f1b01401850dbc13059d0ea5f2b0d8b193",
+    "sourceVariants": [
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/78995703-dc6c-4313-ac23-53391feab49c/l1,t0,w65,h65/image.png"
+    ],
+    "storedSha256": "9bfc4cd46a65b0063a5eb12db989eeed8610cca16eae404e7fe99d660ef36077"
+  },
+  {
+    "file": "public/images/original-site/service-6.png",
+    "src": "/images/original-site/service-6.png",
+    "source": "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/ca475316-c29d-4635-adec-a09fbbf6c2a3/l0,t0,w69,h52/image.png",
+    "role": "service-icon",
+    "sha256": "534246719380da00b61118300bf56d722fa29b95b4a413e3104615a20439d537",
+    "sourceVariants": [
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/ca475316-c29d-4635-adec-a09fbbf6c2a3/l0,t0,w69,h52/image.png"
+    ],
+    "storedSha256": "296b82362a782cc5c0981616bd063ea9b47a59d4fdd7028857e3bf33c62ffe2b"
+  },
+  {
+    "file": "public/images/original-site/favicon.png",
+    "src": "/images/original-site/favicon.png",
+    "source": "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/cf3b48db-8278-4164-8f2e-9f128cecee92/w192,h192,rtfit,bg,el1,ex1,fpng/image.png?v=1778050265541",
+    "role": "favicon",
+    "sha256": "0552144e02abd5247ae895049ee294f10eecd0a791e269d8eb10697a9507f2f6",
+    "sourceVariants": [
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/cf3b48db-8278-4164-8f2e-9f128cecee92/w16,h16,rtfit,bg,el1,ex1,fico/image.ico?v=1778050265541",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/cf3b48db-8278-4164-8f2e-9f128cecee92/w180,h180,rtfit,bgdde1e5,el1,ex1,fpng/image.png?v=1778050265541",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/cf3b48db-8278-4164-8f2e-9f128cecee92/w32,h32,rtfit,bg,el1,ex1,fpng/image.png?v=1778050265541",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/cf3b48db-8278-4164-8f2e-9f128cecee92/w192,h192,rtfit,bg,el1,ex1,fpng/image.png?v=1778050265541",
+      "https://vandevoortgrondwerken.nl/wp-content/uploads/go-x/u/cf3b48db-8278-4164-8f2e-9f128cecee92/w16,h16,rtfit,bg,el1,ex1,fpng/image.png?v=1778050265541"
+    ],
+    "storedSha256": "ac8cf09087efe0ca58190fe936ea328b0f00d04e98d7679169747fcf9a77d86d"
+  }
+]
