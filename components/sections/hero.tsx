@@ -11,6 +11,7 @@ export function Hero() {
         priority
         sizes="100vw"
       />
+      <div className="poc-hero-panel" aria-hidden="true" />
       <div className="poc-hero-shade" />
       <div className="poc-hero-copy">
         <h1>
@@ -21,7 +22,7 @@ export function Hero() {
         <p>
           Tuinaanleg, tuinonderhoud en een groen gazon.
           <br />
-          Van de eerste voorbereiding tot het laatste groen.
+          {" "}Van de eerste voorbereiding tot het laatste groen.
         </p>
         <div className="poc-actions">
           <Link className="poc-button" href="#contact">

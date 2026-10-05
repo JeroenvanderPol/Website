@@ -63,7 +63,9 @@ export default async function ServicePage({ params }: Props) {
           <section aria-labelledby="service-offer">
             <h2 id="service-offer">{content.heading}</h2>
             {content.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
-            <ul>{service.features.map((feature) => <li key={feature}>{feature}</li>)}</ul>
+            {service.features?.length ? (
+              <ul>{service.features.map((feature) => <li key={feature}>{feature}</li>)}</ul>
+            ) : null}
           </section>
           <section className="service-preparation" aria-labelledby="service-plans">
             <h2 id="service-plans">Uw plannen bespreken</h2>

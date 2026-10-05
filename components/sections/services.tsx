@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import services from "@/data/services.json";
 export function Services() {
   return (
@@ -16,18 +16,23 @@ export function Services() {
             <Image
               src={service.icon}
               alt=""
-              width={70}
-              height={56}
-              className="poc-service-icon"
+              fill
+              sizes="(min-width: 1280px) 22vw, (min-width: 768px) 45vw, 90vw"
+              className="poc-service-image"
             />
-            <h3>{service.title}</h3>
-            <p>{service.description}</p>
-            
-            <div className="service-card-actions">
-            <Link href={`/diensten/${service.slug}`} className="service-detail-link">
-              Meer over {service.title.toLowerCase()} <ArrowUpRight size={16} />
-            </Link>
-            
+            <div className="poc-service-shade" aria-hidden="true" />
+            <div className="poc-service-content">
+              <div>
+                <h3>{service.title}</h3>
+                <p>{service.description}</p>
+              </div>
+              <Link
+                href={`/diensten/${service.slug}`}
+                className="poc-service-link"
+                aria-label={`Meer over ${service.title}`}
+              >
+                <ArrowRight size={20} aria-hidden="true" />
+              </Link>
             </div>
           </article>
         ))}
