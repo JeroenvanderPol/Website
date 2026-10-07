@@ -168,14 +168,17 @@ html {
   padding: 12px;
 }
 .poc-hero {
-  height: 600px;
+  height: 500px;
   position: relative;
   display: grid;
   align-items: center;
-  margin-inline: 1%;
+  width: 90%;
+  max-width: 1260px;
+  margin-inline: auto;
   overflow: hidden;
   border-radius: 28px;
   color: #244c2a;
+  
 }
 .poc-hero > img {
   object-fit: cover;
@@ -188,9 +191,9 @@ html {
 .poc-hero-panel {
   position: absolute;
   inset: 0 auto 0 0;
-  width: 43%;
+  width: 46%;
   background: #b5d39e;
-  border-radius: 28px 88px 88px 28px / 28px 50% 50% 28px;
+  border-radius: 28px 72px 72px 28px / 28px 50% 50% 28px;
 }
 .poc-hero-copy {
   position: relative;
@@ -314,6 +317,11 @@ html {
   min-width: 0;
   padding-right: 4px;
 }
+
+.poc-service-content h3 {
+text-wrap: nowrap;
+}
+
 .poc-services .poc-service-content h3 {
   margin-bottom: 8px;
   color: #fff;
@@ -321,11 +329,13 @@ html {
   line-height: 1.08;
   font-weight: 550;
   overflow-wrap: anywhere;
+  
 }
 .poc-services .poc-service-content p {
   color: #fff;
   font-size: 14px;
   line-height: 1.5;
+
 }
 .poc-services ul {
   list-style: disc;
@@ -334,10 +344,12 @@ html {
   color: #526257;
   font-size: 14px;
   line-height: 1.9;
+  
 }
 .poc-services details {
   font-size: 13px;
   margin-bottom: 20px;
+  
 }
 .poc-services summary {
   cursor: pointer;
