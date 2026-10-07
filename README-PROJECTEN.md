@@ -31,15 +31,11 @@ De website is daarmee lokaal aangepast. Online publiceren is een aparte stap via
 
 De agent bedenkt geen feiten die u niet heeft opgegeven. Exacte prijzen, afmetingen en datums zijn niet verplicht. Deel geen privé-adres of naam van een opdrachtgever als dat niet nodig is.
 
-## Een bestaande voorbeeldpagina aanvullen
+## Bestaande projectgegevens corrigeren
 
-Alle 23 oorspronkelijke foto's hebben voorlopig een voorbeeldpagina. De foto's zijn echt; de plaatsnamen en verhalen zijn fictieve POC-inhoud. Deze pagina's zijn zichtbaar gemarkeerd en staan niet in de sitemap; zoekmachines krijgen `noindex`.
+De 23 projecten en foto's zijn echt. De huidige titels, plaatsen en projectteksten kunnen nog onjuist zijn en moeten per project worden gecontroleerd. De gegevens staan centraal in `data/original-projects.json`; pas daar `title`, `city`, `summary`, `request`, `approach` en `result` aan. Controleer ook `alt` en `images[].alt` bij de foto's. Laat `slug` staan om de bestaande projectlink te behouden.
 
-Typ bijvoorbeeld:
-
-> Gebruik $project-toevoegen om het voorbeeld “Tuin met terras en beplanting” te vervangen door de echte gegevens. Dit werk was in Vught. Stel mij de vragen die je nodig hebt.
-
-U kunt ook de link naar de pagina meesturen. Na bevestiging van de gegevens en het fotogebruik verdwijnt de voorbeeldmelding. De pagina komt automatisch in de sitemap voor de definitieve website. Op testversies blijft indexering uitgeschakeld. Opname in Google is niet gegarandeerd.
+Na controle van alle zichtbare projectgegevens zet u voor dat project `contentStatus` op `verified`. Zolang de tekst nog nagekeken moet worden, blijft deze op `needs-review`; projectpagina's met die status krijgen geen zoekindexvermelding. De overzichtspagina komt pas in de sitemap als alle projectteksten zijn gecontroleerd. Testversies blijven uitgesloten van indexering.
 
 ## Wat wordt automatisch geregeld?
 

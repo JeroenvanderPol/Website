@@ -96,7 +96,7 @@ Service and form cards have gently rounded corners; gallery images have a slight
 
 - **Buttons:** green primary action, white text, darker hover; the hero uses a pale inverse action. Minimum action height is 48px. Focus uses a 3px green outline with 4px offset.
 - **Service cards:** original illustration, title, retained description and features, expandable original-site explanation, then contact link. Cards align their final action at the bottom.
-- **Project filters and gallery:** wrapping filters with `aria-pressed`; all 23 source photographs are available. Tiles open the shared dialog for a larger view.
+- **Project browsing:** the homepage uses a horizontal scroll-snap rail with keyboard-focusable previous/next controls. `/projecten` owns the wrapping service filters with `aria-pressed`; all 23 source photographs remain available. Tiles open the shared dialog for a larger view.
 - **Inputs:** visible Dutch labels, existing shadcn input/textarea primitives, native required-field validation and clear consent. Form fields have a 44px input height; the form prepares an email draft.
 - **Navigation:** visible logo, section links and contact actions; mobile menu and skip link remain accessible.
 

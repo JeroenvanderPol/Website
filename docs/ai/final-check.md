@@ -9,4 +9,8 @@
 
 Dit is een gerichte technische controle, geen volledige WCAG-certificering of Lighthouse-meting. Er is geen volledige HTML-validator of screenreadertest uitgevoerd. ESLint is niet geïnstalleerd/geconfigureerd; lint is dus niet als geslaagd aangemerkt.
 
-Voor publicatie: fictieve projectgegevens laten bevestigen en de productie-URL/Search Console-inrichting uit `seo-setup.md` volgen. Het contactformulier opent een e-mailprogramma en verstuurt zelf geen berichten.
+Voor publicatie: projecttitels, locaties en beschrijvingen controleren via `README-PROJECTEN.md`, plus de productie-URL/Search Console-inrichting uit `seo-setup.md`. Het contactformulier opent een e-mailprogramma en verstuurt zelf geen berichten.
+
+## Update — 7 oktober 2026
+
+De eigenaar bevestigt dat alle 23 projecten echt zijn, maar zegt dat de huidige titels, locaties en beschrijvingen nog moeten worden gecorrigeerd. Alle projectrecords hebben `status: confirmed`; `contentStatus: needs-review` houdt projectpagina's uit zoekresultaten en de sitemap totdat de teksten zijn gecontroleerd. De checklist van september beschrijft de eerdere situatie.

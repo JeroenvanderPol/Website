@@ -21,22 +21,27 @@ async function getProject(params: Props["params"]) {
 }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const project = await getProject(params);
-  const mock = project.status !== "confirmed";
-  const title = `${mock ? "Voorbeeld: " : ""}${project.title} in ${project.city} | Van de Voort Tuinen`;
-  const description = `${mock ? "POC-voorbeeld met fictieve projectgegevens. " : ""}${project.summary}`;
+  const copyVerified = project.status === "confirmed" && project.contentStatus === "verified";
+  const title = copyVerified
+    ? `${project.title} in ${project.city} | Van de Voort Tuinen`
+    : `Projectfoto's | Van de Voort Tuinen`;
+  const description = copyVerified
+    ? project.summary
+    : "Bekijk projectfoto's van Van de Voort Tuinen. De projectgegevens worden gecontroleerd.";
   return { title: { absolute: title }, description,
     alternates: { canonical: absoluteUrl(`/projecten/${project.slug}`) },
-    robots: { index: !mock && !isPreview, follow: !isPreview },
+    robots: { index: copyVerified && !isPreview, follow: !isPreview },
     ...socialMetadata(title, description, absoluteUrl(`/projecten/${project.slug}`)),
   };
 }
 export default async function ProjectPage({ params }: Props) {
   const project = await getProject(params);
+  const copyVerified = project.status === "confirmed" && project.contentStatus === "verified";
   const service = services.find((item) => item.title === project.category);
   const related = projects.filter((item) => item.id !== project.id && item.tags.some(tag => project.tags.includes(tag))).slice(0, 3);
   const url = absoluteUrl(`/projecten/${project.slug}`);
   return <div className="approved-site"><Header /><main id="main" className="service-page poc-container project-detail">
-    {project.status === "confirmed" && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+    {project.status === "confirmed" && project.contentStatus === "verified" && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
       "@context": "https://schema.org", "@type": "WebPage", "@id": url, url, name: `${project.title} in ${project.city}`, description: project.summary,
       primaryImageOfPage: { "@type": "ImageObject", contentUrl: absoluteUrl(coverPhoto(project).src), caption: coverPhoto(project).alt },
       about: { "@type": "Service", name: project.category, provider: { "@id": absoluteUrl("/#business") } },
@@ -45,19 +50,24 @@ export default async function ProjectPage({ params }: Props) {
         { "@type": "ListItem", position: 2, name: project.title, item: url },
       ] },
     }).replace(/</g, "\\u003c") }} />}
-    <nav className="service-breadcrumb" aria-label="Broodkruimel"><Link href="/">Home</Link><span>/</span><Link href="/#portfolio">Ons werk</Link><span>/</span><span aria-current="page">{project.title}</span></nav>
+    <nav className="service-breadcrumb" aria-label="Broodkruimel"><Link href="/">Home</Link><span>/</span><Link href="/projecten">Ons werk</Link><span>/</span><span aria-current="page">{copyVerified ? project.title : "Projectfoto's"}</span></nav>
     {project.status !== "confirmed" && <aside className="project-mock"><strong>Voorbeeldproject voor de POC</strong><p>De foto's komen uit het oorspronkelijke portfolio. De plaats {project.city}, de projectbeschrijving en eventuele groepering van foto's zijn voorbeelden en moeten nog door de klant worden bevestigd of aangepast.</p></aside>}
-    <h1>{project.title} in {project.city}</h1>
-    <p className="service-lead">{project.summary}</p>
+    {copyVerified ? <>
+      <h1>{project.title} in {project.city}</h1>
+      <p className="service-lead">{project.summary}</p>
+    </> : <>
+      <h1>Projectfoto's</h1>
+      <aside className="project-copy-review"><strong>Projectgegevens worden gecontroleerd</strong><p>Deze foto's tonen echt werk. De projecttitel, plaats en beschrijving worden bijgewerkt.</p></aside>
+    </>}
     <div className="project-detail-tags">{project.tags.map(tag => <span className="project-badge" key={tag}>{tag}</span>)}</div>
     <ProjectImage images={project.images} coverImageId={project.coverImageId} />
-    <div className="project-story">
+    {copyVerified && <div className="project-story">
       <section><h2>De vraag</h2><p>{project.request}</p></section>
       <section><h2>De aanpak</h2><p>{project.approach}</p></section>
       <section><h2>{/voorbereid|tijdens/i.test(project.title) ? "Deze fase van het werk" : "Het resultaat"}</h2><p>{project.result}</p></section>
-    </div>
+    </div>}
     <section className="service-preparation"><h2>Ook plannen voor uw tuin?</h2><p>Bespreek uw wensen en de situatie in uw tuin met Van de Voort Tuinen.</p><div className="service-actions"><Link className="poc-button" href="/#contact">Offerte aanvragen</Link>{service && <Link className="service-text-link" href={`/diensten/${service.slug}`}>Meer over {service.title.toLowerCase()}</Link>}</div></section>
     {related.length > 0 && <section className="service-work"><h2>Meer uit ons portfolio</h2><ProjectGrid projects={related} /></section>}
-    <Link className="service-text-link" href="/#portfolio">Terug naar het volledige portfolio</Link>
+    <Link className="service-text-link" href="/projecten">Terug naar al het werk</Link>
   </main><Footer /></div>;
 }

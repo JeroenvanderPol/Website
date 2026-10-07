@@ -29,7 +29,7 @@ Visitors compare services and project photographs before making contact, includi
 ## Capabilities and Constraints
 
 - Next.js App Router, TypeScript, Tailwind CSS, shadcn/Radix and pnpm.
-- Homepage: hero, four services, about, portfolio with all 23 original photographs, reviews notice, contact and footer. Filtering and enlarged image viewing remain.
+- Homepage: hero, four services, about, a horizontal rail with all 23 original project photographs, reviews notice, contact and footer. Service filtering lives on `/projecten`; enlarged image viewing remains on project detail pages.
 - Contact preserves name, phone, email, subject, message and consent. It prepares a mailto draft; the visitor sends it in an email program. No backend delivery or success confirmation exists.
 - Original-site contact details, address, KvK and all 18 work-area towns are captured in `data/business.json`.
 - POC testimonials, statistics, opening hours and response promises are not verified evidence and are omitted from live factual claims. Service wording copied from the source does not independently verify certification.

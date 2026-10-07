@@ -12,7 +12,7 @@ Homeowners first; business inquiries welcome. Preserve the leaf logo, recognizab
 
 Mode: Persuade. A full-photo, centered opening leads into services, about, all project photographs, an honest reviews notice and contact. The hero is 600px high with white 60px copy on desktop and 540px with 42px copy below 768px. The original service-card organization remains, with all four services and their descriptions/features plus expandable original-site descriptions.
 
-The portfolio includes all 23 original project photos. Six original service illustrations, the leaf logo and favicon complete the 31 source assets. Preserve `diensten`, `over-ons`, `portfolio`, `reviews` and `contact`, together with original-site aliases present in the implementation.
+The homepage portfolio presents all 23 original project photos in a horizontal scroll-snap rail, with a “Bekijk al het werk” link to the filterable `/projecten` overview. Category filters live on that overview. Six original service illustrations, the leaf logo and favicon complete the 31 source assets. Preserve `diensten`, `over-ons`, `portfolio`, `reviews` and `contact`, together with original-site aliases present in the implementation.
 
 ## Content and contact
 

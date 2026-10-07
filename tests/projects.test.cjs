@@ -32,7 +32,8 @@ test('all project records have unique routes, valid content and existing images'
   for (const project of projects) {
     assert.match(project.slug, /^[a-z0-9]+(?:-[a-z0-9]+)*$/);
     for (const key of ['alt','title','city','summary','request','approach','result']) assert.ok(project[key]?.trim(), `${project.slug}: ${key}`);
-    assert.ok(['mock','confirmed'].includes(project.status));
+    assert.equal(project.status, 'confirmed', `${project.slug}: project status`);
+    assert.ok(['needs-review', 'verified'].includes(project.contentStatus), `${project.slug}: content status`);
     assert.ok(services.some(s => s.title === project.category));
     assert.ok(project.src.startsWith('/images/'));
     assert.ok(fs.existsSync(`public${project.src}`));
@@ -52,11 +53,24 @@ function sitemap(preview, records) {
   return exports.default();
 }
 
-test('sitemap includes confirmed projects but excludes mock projects and all preview URLs', () => {
-  const records = [{...projects[0], status:'mock'}, {...projects[1], status:'confirmed'}];
-  const urls = sitemap(false, records).map(p => p.url);
-  assert.ok(!urls.some(url => url.endsWith(`/projecten/${records[0].slug}`)));
-  assert.ok(urls.some(url => url.endsWith(`/projecten/${records[1].slug}`)));
-  assert.equal(urls.length, 6);
-  assert.equal(sitemap(true, records).length, 0);
+test('sitemap requires real projects with verified copy and excludes preview URLs', () => {
+  const records = projects.map(project => ({ ...project, status: 'confirmed' }));
+  const pendingUrls = sitemap(false, records).map(p => p.url);
+  assert.ok(!pendingUrls.some(url => url.endsWith('/projecten')));
+  assert.ok(!pendingUrls.some(url => url.includes('/projecten/')));
+
+  const mockRecords = records.map(project => ({ ...project, contentStatus: 'verified' }));
+  mockRecords[0].status = 'mock';
+  const mockUrls = sitemap(false, mockRecords).map(p => p.url);
+  assert.ok(!mockUrls.some(url => url.endsWith('/projecten')));
+  assert.ok(!mockUrls.some(url => url.endsWith(`/projecten/${mockRecords[0].slug}`)));
+
+  const verifiedRecords = records.map(project => ({ ...project, contentStatus: 'verified' }));
+  const urls = sitemap(false, verifiedRecords).map(p => p.url);
+  assert.ok(urls.some(url => url.endsWith('/projecten')));
+  for (const project of verifiedRecords) {
+    assert.ok(urls.some(url => url.endsWith(`/projecten/${project.slug}`)));
+  }
+  assert.equal(urls.length, 2 + services.length + verifiedRecords.length);
+  assert.equal(sitemap(true, verifiedRecords).length, 0);
 });
