@@ -1,695 +1,626 @@
 [
-  {
-    "id": 1,
-    "src": "/images/original-site/project-01.jpg",
-    "alt": "Tuin met terras en beplanting",
-    "title": "Tuin met terras en beplanting",
-    "category": "Tuin aanleggen",
-    "slug": "tuin-met-terras-en-beplanting",
-    "city": "Best",
-    "status": "confirmed",
-    "contentStatus": "needs-review", 
-    "summary": "Tuin met terras en beplanting in Best. De bewoners wilden een tuin waarin een terras en groen elkaar aanvullen.",
-    "request": "De bewoners wilden een tuin waarin een terras en groen elkaar aanvullen.",
-    "approach": "De indeling combineert een zitplek met plantvakken langs de randen.",
-    "result": "Het voorbeeld laat zien hoe een terras en beplanting samen een overzichtelijke buitenruimte vormen.",
-    "tags": [
-      "Tuin aanleggen",
-      "Gras aanleggen",
-      "Bestrating aanleggen"
-    ],
-    "coverImageId": "photo-1",
-    "images": [
-      {
-        "id": "photo-1",
-        "src": "/images/original-site/project-01.jpg",
-        "alt": "Tuin met terras en beplanting",
-        "thumbnail": "/images/thumbnails/project-1.webp",
-        "width": 2000,
-        "height": 1125
-      },
-      {
-        "id": "detail-path",
-        "src": "/images/original-site/project-03.jpg",
-        "alt": "Stapstenen in het gazon",
-        "thumbnail": "/images/thumbnails/project-1-detail-path.webp",
-        "width": 2000,
-        "height": 1500
-      },
-      {
-        "id": "detail-terrace",
-        "src": "/images/original-site/project-05.jpg",
-        "alt": "Terras naast het gazon",
-        "thumbnail": "/images/thumbnails/project-1-detail-terrace.webp",
-        "width": 2000,
-        "height": 1500
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "src": "/images/original-site/project-02.jpg",
-    "alt": "Gazon met ronde plantvakken",
-    "title": "Gazon met ronde plantvakken",
-    "category": "Gras aanleggen",
-    "slug": "gazon-met-ronde-plantvakken",
-    "city": "Vught",
-    "status": "confirmed",
-    "contentStatus": "needs-review",
-    "summary": "Gazon met ronde plantvakken in Vught. De wens was een groen gazon met ruimte voor opvallende plantvakken.",
-    "request": "De wens was een groen gazon met ruimte voor opvallende plantvakken.",
-    "approach": "Ronde vormen in de plantvakken geven het gras een afwisselende begrenzing.",
-    "result": "Een gazon met zachte lijnen vormt het uitgangspunt voor deze tuin.",
-    "tags": [
-      "Gras aanleggen"
-    ],
-    "coverImageId": "photo-2",
-    "images": [
-      {
-        "id": "photo-2",
-        "src": "/images/original-site/project-02.jpg",
-        "alt": "Gazon met ronde plantvakken",
-        "thumbnail": "/images/thumbnails/project-2.webp",
-        "width": 2000,
-        "height": 1500
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "src": "/images/original-site/project-03.jpg",
-    "alt": "Stapstenen in het gazon",
-    "title": "Stapstenen in het gazon",
-    "category": "Tuin aanleggen",
-    "slug": "stapstenen-in-het-gazon",
-    "city": "Rosmalen",
-    "status": "confirmed",
-    "contentStatus": "needs-review",
-    "summary": "Stapstenen in het gazon in Rosmalen. De bewoners zochten een looproute door het gras zonder een breed pad.",
-    "request": "De bewoners zochten een looproute door het gras zonder een breed pad.",
-    "approach": "Stapstenen verbinden de verschillende delen van het gazon.",
-    "result": "De tuin houdt een groen karakter met een herkenbare route.",
-    "tags": [
-      "Tuin aanleggen",
-      "Bestrating aanleggen"
-    ],
-    "coverImageId": "photo-3",
-    "images": [
-      {
-        "id": "photo-3",
-        "src": "/images/original-site/project-03.jpg",
-        "alt": "Stapstenen in het gazon",
-        "thumbnail": "/images/thumbnails/project-3.webp",
-        "width": 2000,
-        "height": 1500
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "src": "/images/original-site/project-04.jpg",
-    "alt": "Tuin tijdens de aanleg",
-    "title": "Tuin tijdens de aanleg",
-    "category": "Tuin aanleggen",
-    "slug": "tuin-tijdens-de-aanleg",
-    "city": "Sint-Michielsgestel",
-    "status": "confirmed",
-    "contentStatus": "needs-review",
-    "summary": "Tuin tijdens de aanleg in Sint-Michielsgestel. Een bestaande buitenruimte moest een nieuwe tuinindeling krijgen.",
-    "request": "Een bestaande buitenruimte moest een nieuwe tuinindeling krijgen.",
-    "approach": "Tijdens de aanleg werden de verschillende delen van de tuin voorbereid.",
-    "result": "Deze foto toont een tussenstap; het eindresultaat moet nog worden toegevoegd.",
-    "tags": [
-      "Tuin aanleggen"
-    ],
-    "coverImageId": "photo-4",
-    "images": [
-      {
-        "id": "photo-4",
-        "src": "/images/original-site/project-04.jpg",
-        "alt": "Tuin tijdens de aanleg",
-        "thumbnail": "/images/thumbnails/project-4.webp",
-        "width": 2000,
-        "height": 1500
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "src": "/images/original-site/project-05.jpg",
-    "alt": "Terras naast het gazon",
-    "title": "Terras naast het gazon",
-    "category": "Tuin aanleggen",
-    "slug": "terras-naast-het-gazon",
-    "city": "Boxtel",
-    "status": "confirmed",
-    "contentStatus": "needs-review",
-    "summary": "Terras naast het gazon in Boxtel. De vraag was een terras dat prettig aansluit op het gazon.",
-    "request": "De vraag was een terras dat prettig aansluit op het gazon.",
-    "approach": "De overgang tussen de zitplek en het gras kreeg aandacht in de indeling.",
-    "result": "De buitenruimte biedt plaats om te zitten en houdt ruimte voor groen.",
-    "tags": [
-      "Tuin aanleggen",
-      "Bestrating aanleggen"
-    ],
-    "coverImageId": "photo-5",
-    "images": [
-      {
-        "id": "photo-5",
-        "src": "/images/original-site/project-05.jpg",
-        "alt": "Terras naast het gazon",
-        "thumbnail": "/images/thumbnails/project-5.webp",
-        "width": 2000,
-        "height": 1500
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "src": "/images/original-site/project-06.jpg",
-    "alt": "Gazon bij een overkapping",
-    "title": "Gazon bij een overkapping",
-    "category": "Gras aanleggen",
-    "slug": "gazon-bij-een-overkapping",
-    "city": "Schijndel",
-    "status": "confirmed",
-    "contentStatus": "needs-review",
-    "summary": "Gazon bij een overkapping in Schijndel. Bij de overkapping wilden de bewoners een groen gazon.",
-    "request": "Bij de overkapping wilden de bewoners een groen gazon.",
-    "approach": "Het gras werd als onderdeel van de indeling rond de overkapping meegenomen.",
-    "result": "Gazon en overkapping vormen samen een plek om buiten te verblijven.",
-    "tags": [
-      "Gras aanleggen"
-    ],
-    "coverImageId": "photo-6",
-    "images": [
-      {
-        "id": "photo-6",
-        "src": "/images/original-site/project-06.jpg",
-        "alt": "Gazon bij een overkapping",
-        "thumbnail": "/images/thumbnails/project-6.webp",
-        "width": 2000,
-        "height": 1500
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "src": "/images/original-site/project-07.jpg",
-    "alt": "Vers aangelegd gazon",
-    "title": "Vers aangelegd gazon",
-    "category": "Gras aanleggen",
-    "slug": "vers-aangelegd-gazon",
-    "city": "Den Bosch",
-    "status": "confirmed",
-    "contentStatus": "needs-review",
-    "summary": "Vers aangelegd gazon in Den Bosch. De tuin kon een frisse groene basis gebruiken.",
-    "request": "De tuin kon een frisse groene basis gebruiken.",
-    "approach": "In dit voorbeeld is gekozen voor een nieuw gazon met graszoden.",
-    "result": "Het pas aangelegde gras vraagt in de eerste periode om passende nazorg.",
-    "tags": [
-      "Gras aanleggen"
-    ],
-    "coverImageId": "photo-7",
-    "images": [
-      {
-        "id": "photo-7",
-        "src": "/images/original-site/project-07.jpg",
-        "alt": "Vers aangelegd gazon",
-        "thumbnail": "/images/thumbnails/project-7.webp",
-        "width": 2000,
-        "height": 1500
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "src": "/images/original-site/project-08.jpg",
-    "alt": "Voorbereiding van de tuin",
-    "title": "Voorbereiding van de tuin",
-    "category": "Tuin aanleggen",
-    "slug": "voorbereiding-van-de-tuin",
-    "city": "Vught",
-    "status": "confirmed",
-    "contentStatus": "needs-review",
-    "summary": "Voorbereiding van de tuin in Vught. Voor een nieuwe tuin moest eerst de bestaande situatie worden voorbereid.",
-    "request": "Voor een nieuwe tuin moest eerst de bestaande situatie worden voorbereid.",
-    "approach": "De voorbereiding richtte zich op de toekomstige indeling van de buitenruimte.",
-    "result": "De foto brengt de werkzaamheden vóór de verdere aanleg in beeld.",
-    "tags": [
-      "Tuin aanleggen"
-    ],
-    "coverImageId": "photo-8",
-    "images": [
-      {
-        "id": "photo-8",
-        "src": "/images/original-site/project-08.jpg",
-        "alt": "Voorbereiding van de tuin",
-        "thumbnail": "/images/thumbnails/project-8.webp",
-        "width": 2000,
-        "height": 1125
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "src": "/images/original-site/project-09.jpg",
-    "alt": "Beplanting langs een tuinpad",
-    "title": "Beplanting langs een tuinpad",
-    "category": "Tuinonderhoud",
-    "slug": "beplanting-langs-een-tuinpad",
-    "city": "Rosmalen",
-    "status": "confirmed",
-    "contentStatus": "needs-review",
-    "summary": "Beplanting langs een tuinpad in Rosmalen. Langs het tuinpad was aandacht nodig voor de beplanting.",
-    "request": "Langs het tuinpad was aandacht nodig voor de beplanting.",
-    "approach": "Het onderhoud richtte zich op het verzorgen van de plantvakken naast de looproute.",
-    "result": "De beplanting omlijst het pad en houdt de route herkenbaar.",
-    "tags": [
-      "Tuinonderhoud"
-    ],
-    "coverImageId": "photo-9",
-    "images": [
-      {
-        "id": "photo-9",
-        "src": "/images/original-site/project-09.jpg",
-        "alt": "Beplanting langs een tuinpad",
-        "thumbnail": "/images/thumbnails/project-9.webp",
-        "width": 900,
-        "height": 1600
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "src": "/images/original-site/project-10.jpg",
-    "alt": "Oprit bij de woning",
-    "title": "Oprit bij de woning",
-    "category": "Tuin aanleggen",
-    "slug": "oprit-bij-de-woning",
-    "city": "Sint-Michielsgestel",
-    "status": "confirmed",
-    "contentStatus": "needs-review",
-    "summary": "Oprit bij de woning in Sint-Michielsgestel. De bewoners wilden een verzorgde toegang tot hun woning.",
-    "request": "De bewoners wilden een verzorgde toegang tot hun woning.",
-    "approach": "De oprit werd meegenomen als onderdeel van de inrichting van de buitenruimte.",
-    "result": "Een duidelijke toegang vormt de verbinding tussen straat en woning.",
-    "tags": [
-      "Tuin aanleggen",
-      "Bestrating aanleggen"
-    ],
-    "coverImageId": "photo-10",
-    "images": [
-      {
-        "id": "photo-10",
-        "src": "/images/original-site/project-10.jpg",
-        "alt": "Oprit bij de woning",
-        "thumbnail": "/images/thumbnails/project-10.webp",
-        "width": 2000,
-        "height": 1500
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "src": "/images/original-site/project-11.jpg",
-    "alt": "Tuinpad en terras",
-    "title": "Tuinpad en terras",
-    "category": "Tuin aanleggen",
-    "slug": "tuinpad-en-terras",
-    "city": "Boxtel",
-    "status": "confirmed",
-    "contentStatus": "needs-review",
-    "summary": "Tuinpad en terras in Boxtel. Het terras en het tuinpad moesten samen één geheel vormen.",
-    "request": "Het terras en het tuinpad moesten samen één geheel vormen.",
-    "approach": "Loopruimte en verblijfsruimte werden op elkaar afgestemd.",
-    "result": "De indeling verbindt de verschillende plekken in de tuin.",
-    "tags": [
-      "Tuin aanleggen",
-      "Bestrating aanleggen"
-    ],
-    "coverImageId": "photo-11",
-    "images": [
-      {
-        "id": "photo-11",
-        "src": "/images/original-site/project-11.jpg",
-        "alt": "Tuinpad en terras",
-        "thumbnail": "/images/thumbnails/project-11.webp",
-        "width": 640,
-        "height": 480
-      }
-    ]
-  },
-  {
-    "id": 12,
-    "src": "/images/original-site/project-12.jpg",
-    "alt": "Klinkerpad in visgraatverband",
-    "title": "Klinkerpad in visgraatverband",
-    "category": "Tuin aanleggen",
-    "slug": "klinkerpad-in-visgraatverband",
-    "city": "Schijndel",
-    "status": "confirmed",
-    "contentStatus": "needs-review",
-    "summary": "Klinkerpad in visgraatverband in Schijndel. De wens was een tuinpad met een herkenbaar legpatroon.",
-    "request": "De wens was een tuinpad met een herkenbaar legpatroon.",
-    "approach": "Klinkers in visgraatverband geven de looproute structuur.",
-    "result": "Het patroon vormt een zichtbaar detail in de buitenruimte.",
-    "tags": [
-      "Tuin aanleggen",
-      "Bestrating aanleggen"
-    ],
-    "coverImageId": "photo-12",
-    "images": [
-      {
-        "id": "photo-12",
-        "src": "/images/original-site/project-12.jpg",
-        "alt": "Klinkerpad in visgraatverband",
-        "thumbnail": "/images/thumbnails/project-12.webp",
-        "width": 1500,
-        "height": 2000
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "src": "/images/original-site/project-13.jpg",
-    "alt": "Terras met klinkers",
-    "title": "Terras met klinkers",
-    "category": "Tuin aanleggen",
-    "slug": "terras-met-klinkers",
-    "city": "Den Bosch",
-    "status": "confirmed",
-    "contentStatus": "needs-review",
-    "summary": "Terras met klinkers in Den Bosch. De bewoners zochten een zitplek die aansluit bij hun tuin.",
-    "request": "De bewoners zochten een zitplek die aansluit bij hun tuin.",
-    "approach": "Klinkers vormen in dit voorbeeld de basis van het terras.",
-    "result": "Een terras biedt ruimte voor een zitplek tussen het groen.",
-    "tags": [
-      "Tuin aanleggen",
-      "Bestrating aanleggen"
-    ],
-    "coverImageId": "photo-13",
-    "images": [
-      {
-        "id": "photo-13",
-        "src": "/images/original-site/project-13.jpg",
-        "alt": "Terras met klinkers",
-        "thumbnail": "/images/thumbnails/project-13.webp",
-        "width": 2000,
-        "height": 1500
-      }
-    ]
-  },
-  {
-    "id": 14,
-    "src": "/images/original-site/project-14.jpg",
-    "alt": "Voorbereide ondergrond",
-    "title": "Voorbereide ondergrond",
-    "category": "Tuin aanleggen",
-    "slug": "voorbereide-ondergrond",
-    "city": "Vught",
-    "status": "confirmed",
-    "contentStatus": "needs-review",
-    "summary": "Voorbereide ondergrond in Vught. Voor de volgende fase van de tuin was een voorbereide basis nodig.",
-    "request": "Voor de volgende fase van de tuin was een voorbereide basis nodig.",
-    "approach": "De ondergrond werd klaargemaakt voor de verdere inrichting.",
-    "result": "Dit is een werkfoto van de voorbereiding, geen foto van een afgeronde tuin.",
-    "tags": [
-      "Tuin aanleggen"
-    ],
-    "coverImageId": "photo-14",
-    "images": [
-      {
-        "id": "photo-14",
-        "src": "/images/original-site/project-14.jpg",
-        "alt": "Voorbereide ondergrond",
-        "thumbnail": "/images/thumbnails/project-14.webp",
-        "width": 2000,
-        "height": 1652
-      }
-    ]
-  },
-  {
-    "id": 15,
-    "src": "/images/original-site/project-15.jpg",
-    "alt": "Terras bij een overkapping",
-    "title": "Terras bij een overkapping",
-    "category": "Tuin aanleggen",
-    "slug": "terras-bij-een-overkapping",
-    "city": "Rosmalen",
-    "status": "confirmed",
-    "contentStatus": "needs-review",
-    "summary": "Terras bij een overkapping in Rosmalen. De ruimte bij de overkapping moest een bruikbare zitplek worden.",
-    "request": "De ruimte bij de overkapping moest een bruikbare zitplek worden.",
-    "approach": "De indeling van het terras sluit aan op de overkapping.",
-    "result": "De twee delen vormen samen een plek om beschut buiten te zitten.",
-    "tags": [
-      "Tuin aanleggen",
-      "Bestrating aanleggen"
-    ],
-    "coverImageId": "photo-15",
-    "images": [
-      {
-        "id": "photo-15",
-        "src": "/images/original-site/project-15.jpg",
-        "alt": "Terras bij een overkapping",
-        "thumbnail": "/images/thumbnails/project-15.webp",
-        "width": 2000,
-        "height": 1500
-      }
-    ]
-  },
-  {
-    "id": 16,
-    "src": "/images/original-site/project-16.jpg",
-    "alt": "Tuin tijdens de voorbereiding",
-    "title": "Tuin tijdens de voorbereiding",
-    "category": "Tuin aanleggen",
-    "slug": "tuin-tijdens-de-voorbereiding",
-    "city": "Sint-Michielsgestel",
-    "status": "confirmed",
-    "contentStatus": "needs-review",
-    "summary": "Tuin tijdens de voorbereiding in Sint-Michielsgestel. Een nieuwe indeling vroeg eerst om voorbereiding van de tuin.",
-    "request": "Een nieuwe indeling vroeg eerst om voorbereiding van de tuin.",
-    "approach": "De werkzaamheden begonnen bij de bestaande buitenruimte en de toekomstige inrichting.",
-    "result": "Op deze foto is de voorbereidende fase zichtbaar.",
-    "tags": [
-      "Tuin aanleggen"
-    ],
-    "coverImageId": "photo-16",
-    "images": [
-      {
-        "id": "photo-16",
-        "src": "/images/original-site/project-16.jpg",
-        "alt": "Tuin tijdens de voorbereiding",
-        "thumbnail": "/images/thumbnails/project-16.webp",
-        "width": 2000,
-        "height": 1500
-      }
-    ]
-  },
-  {
-    "id": 17,
-    "src": "/images/original-site/project-17.jpg",
-    "alt": "Terras in een overkapping",
-    "title": "Terras in een overkapping",
-    "category": "Tuin aanleggen",
-    "slug": "terras-in-een-overkapping",
-    "city": "Boxtel",
-    "status": "confirmed",
-    "contentStatus": "verified",
-    "summary": "Terras in een overkapping in Boxtel. De bewoners wilden de ruimte onder de overkapping als terras gebruiken.",
-    "request": "De bewoners wilden de ruimte onder de overkapping als terras gebruiken.",
-    "approach": "Het terras vormt een samenhangend onderdeel van de overdekte zitplek.",
-    "result": "De foto laat een beschutte plek zien voor verblijf in de tuin.",
-    "tags": [
-      "Tuin aanleggen",
-      "Bestrating aanleggen"
-    ],
-    "coverImageId": "photo-17",
-    "images": [
-      {
-        "id": "photo-17",
-        "src": "/images/original-site/project-17.jpg",
-        "alt": "Terras in een overkapping",
-        "thumbnail": "/images/thumbnails/project-17.webp",
-        "width": 2000,
-        "height": 1500
-      }
-    ]
-  },
-  {
-    "id": 18,
-    "src": "/images/original-site/project-18.jpg",
-    "alt": "Gazon langs de erfafscheiding",
-    "title": "Gazon langs de erfafscheiding",
-    "category": "Gras aanleggen",
-    "slug": "gazon-langs-de-erfafscheiding",
-    "city": "Schijndel",
-    "status": "confirmed",
-    "contentStatus": "needs-review",
-    "summary": "Gazon langs de erfafscheiding in Schijndel. Langs de erfafscheiding moest een groen geheel ontstaan.",
-    "request": "Langs de erfafscheiding moest een groen geheel ontstaan.",
-    "approach": "Het gazon sluit aan op de rand van de tuin.",
-    "result": "De strook gras geeft de buitenruimte een rustige basis.",
-    "tags": [
-      "Gras aanleggen"
-    ],
-    "coverImageId": "photo-18",
-    "images": [
-      {
-        "id": "photo-18",
-        "src": "/images/original-site/project-18.jpg",
-        "alt": "Gazon langs de erfafscheiding",
-        "thumbnail": "/images/thumbnails/project-18.webp",
-        "width": 1500,
-        "height": 2000
-      }
-    ]
-  },
-  {
-    "id": 19,
-    "src": "/images/original-site/project-19.jpg",
-    "alt": "Tuin met zithoek en overkapping",
-    "title": "Tuin met zithoek en overkapping",
-    "category": "Tuin aanleggen",
-    "slug": "tuin-met-zithoek-en-overkapping",
-    "city": "Den Bosch",
-    "status": "confirmed",
-    "contentStatus": "needs-review",
-    "summary": "Tuin met zithoek en overkapping in Den Bosch. De tuin moest ruimte bieden voor groen én een comfortabele zitplek.",
-    "request": "De tuin moest ruimte bieden voor groen én een comfortabele zitplek.",
-    "approach": "De indeling combineert gazon, zithoek en overkapping.",
-    "result": "Verschillende plekken om buiten te verblijven komen samen in één tuin.",
-    "tags": [
-      "Tuin aanleggen"
-    ],
-    "coverImageId": "photo-19",
-    "images": [
-      {
-        "id": "photo-19",
-        "src": "/images/original-site/project-19.jpg",
-        "alt": "Tuin met zithoek en overkapping",
-        "thumbnail": "/images/thumbnails/project-19.webp",
-        "width": 2000,
-        "height": 1125
-      }
-    ]
-  },
-  {
-    "id": 20,
-    "src": "/images/original-site/project-20.jpg",
-    "alt": "Tuinvoorbereiding naast een woning",
-    "title": "Tuinvoorbereiding naast een woning",
-    "category": "Tuin aanleggen",
-    "slug": "tuinvoorbereiding-naast-een-woning",
-    "city": "Vught",
-    "status": "confirmed",
-    "contentStatus": "needs-review",
-    "summary": "Tuinvoorbereiding naast een woning in Vught. Naast de woning was voorbereiding nodig voor de toekomstige tuin.",
-    "request": "Naast de woning was voorbereiding nodig voor de toekomstige tuin.",
-    "approach": "Bij het voorbereiden van de ruimte werd rekening gehouden met de ligging naast het huis.",
-    "result": "Deze werkfoto laat de basis voor de volgende fase zien.",
-    "tags": [
-      "Tuin aanleggen"
-    ],
-    "coverImageId": "photo-20",
-    "images": [
-      {
-        "id": "photo-20",
-        "src": "/images/original-site/project-20.jpg",
-        "alt": "Tuinvoorbereiding naast een woning",
-        "thumbnail": "/images/thumbnails/project-20.webp",
-        "width": 360,
-        "height": 640
-      }
-    ]
-  },
-  {
-    "id": 21,
-    "src": "/images/original-site/project-21.jpg",
-    "alt": "Beplanting aan de straatzijde",
-    "title": "Beplanting aan de straatzijde",
-    "category": "Tuinonderhoud",
-    "slug": "beplanting-aan-de-straatzijde",
-    "city": "Rosmalen",
-    "status": "confirmed",
-    "contentStatus": "needs-review",
-    "summary": "Beplanting aan de straatzijde in Rosmalen. De beplanting aan de straatzijde verdiende extra aandacht.",
-    "request": "De beplanting aan de straatzijde verdiende extra aandacht.",
-    "approach": "Het onderhoud concentreerde zich op de plantvakken aan de voorkant.",
-    "result": "Een verzorgde groene rand sluit aan op de omgeving van de woning.",
-    "tags": [
-      "Tuinonderhoud"
-    ],
-    "coverImageId": "photo-21",
-    "images": [
-      {
-        "id": "photo-21",
-        "src": "/images/original-site/project-21.jpg",
-        "alt": "Beplanting aan de straatzijde",
-        "thumbnail": "/images/thumbnails/project-21.webp",
-        "width": 2000,
-        "height": 1125
-      }
-    ]
-  },
-  {
-    "id": 22,
-    "src": "/images/original-site/project-22.jpg",
-    "alt": "Beplanting langs de gevel",
-    "title": "Beplanting langs de gevel",
-    "category": "Tuinonderhoud",
-    "slug": "beplanting-langs-de-gevel",
-    "city": "Sint-Michielsgestel",
-    "status": "confirmed",
-    "contentStatus": "needs-review",
-    "summary": "Beplanting langs de gevel in Sint-Michielsgestel. Langs de gevel wilden de bewoners de beplanting verzorgd houden.",
-    "request": "Langs de gevel wilden de bewoners de beplanting verzorgd houden.",
-    "approach": "De werkzaamheden richtten zich op het groen direct naast de woning.",
-    "result": "De gevelbeplanting geeft de overgang tussen woning en buitenruimte karakter.",
-    "tags": [
-      "Tuinonderhoud"
-    ],
-    "coverImageId": "photo-22",
-    "images": [
-      {
-        "id": "photo-22",
-        "src": "/images/original-site/project-22.jpg",
-        "alt": "Beplanting langs de gevel",
-        "thumbnail": "/images/thumbnails/project-22.webp",
-        "width": 1200,
-        "height": 1600
-      }
-    ]
-  },
-  {
-    "id": 23,
-    "src": "/images/original-site/project-23.jpg",
-    "alt": "Nieuw aangeplante border",
-    "title": "Nieuw aangeplante border",
-    "category": "Tuinonderhoud",
-    "slug": "nieuw-aangeplante-border",
-    "city": "Boxtel",
-    "status": "confirmed",
-    "contentStatus": "needs-review",
-    "summary": "Nieuw aangeplante border in Boxtel. Een nieuw aangeplante border had aandacht nodig om zich te ontwikkelen.",
-    "request": "Een nieuw aangeplante border had aandacht nodig om zich te ontwikkelen.",
-    "approach": "De verzorging richtte zich op de jonge beplanting en het plantvak.",
-    "result": "De border vormt een groene toevoeging die zich nog verder kan ontwikkelen.",
-    "tags": [
-      "Tuinonderhoud"
-    ],
-    "coverImageId": "photo-23",
-    "images": [
-      {
-        "id": "photo-23",
-        "src": "/images/original-site/project-23.jpg",
-        "alt": "Nieuw aangeplante border",
-        "thumbnail": "/images/thumbnails/project-23.webp",
-        "width": 480,
-        "height": 640
-      }
-    ]
-  }
+    {
+        "id":  1,
+        "src":  "/images/original-site/project-01.jpg",
+        "alt":  "Tuin met terras en beplanting",
+        "title":  "Tuin met terras en beplanting",
+        "category":  "Tuin aanleggen",
+        "slug":  "tuin-met-terras-en-beplanting",
+        "city":  "Best",
+        "status":  "confirmed",
+        "contentStatus":  "needs-review",
+        "summary":  "Tuin met terras en beplanting in Best. De bewoners wilden een tuin waarin een terras en groen elkaar aanvullen.",
+        "tags":  [
+                     "Tuin aanleggen",
+                     "Gras aanleggen",
+                     "Bestrating aanleggen"
+                 ],
+        "coverImageId":  "photo-1",
+        "images":  [
+                       {
+                           "id":  "photo-1",
+                           "src":  "/images/original-site/project-01.jpg",
+                           "alt":  "Tuin met terras en beplanting",
+                           "thumbnail":  "/images/thumbnails/project-1.webp",
+                           "width":  2000,
+                           "height":  1125
+                       },
+                       {
+                           "id":  "detail-path",
+                           "src":  "/images/original-site/project-03.jpg",
+                           "alt":  "Stapstenen in het gazon",
+                           "thumbnail":  "/images/thumbnails/project-1-detail-path.webp",
+                           "width":  2000,
+                           "height":  1500
+                       },
+                       {
+                           "id":  "detail-terrace",
+                           "src":  "/images/original-site/project-05.jpg",
+                           "alt":  "Terras naast het gazon",
+                           "thumbnail":  "/images/thumbnails/project-1-detail-terrace.webp",
+                           "width":  2000,
+                           "height":  1500
+                       }
+                   ]
+    },
+    {
+        "id":  2,
+        "src":  "/images/original-site/project-02.jpg",
+        "alt":  "Gazon met ronde plantvakken",
+        "title":  "Gazon met ronde plantvakken",
+        "category":  "Gras aanleggen",
+        "slug":  "gazon-met-ronde-plantvakken",
+        "city":  "Vught",
+        "status":  "confirmed",
+        "contentStatus":  "needs-review",
+        "summary":  "Gazon met ronde plantvakken in Vught. De wens was een groen gazon met ruimte voor opvallende plantvakken.",
+        "tags":  [
+                     "Gras aanleggen"
+                 ],
+        "coverImageId":  "photo-2",
+        "images":  [
+                       {
+                           "id":  "photo-2",
+                           "src":  "/images/original-site/project-02.jpg",
+                           "alt":  "Gazon met ronde plantvakken",
+                           "thumbnail":  "/images/thumbnails/project-2.webp",
+                           "width":  2000,
+                           "height":  1500
+                       }
+                   ]
+    },
+    {
+        "id":  3,
+        "src":  "/images/original-site/project-03.jpg",
+        "alt":  "Stapstenen in het gazon",
+        "title":  "Stapstenen in het gazon",
+        "category":  "Tuin aanleggen",
+        "slug":  "stapstenen-in-het-gazon",
+        "city":  "Rosmalen",
+        "status":  "confirmed",
+        "contentStatus":  "needs-review",
+        "summary":  "Stapstenen in het gazon in Rosmalen. De bewoners zochten een looproute door het gras zonder een breed pad.",
+        "tags":  [
+                     "Tuin aanleggen",
+                     "Bestrating aanleggen"
+                 ],
+        "coverImageId":  "photo-3",
+        "images":  [
+                       {
+                           "id":  "photo-3",
+                           "src":  "/images/original-site/project-03.jpg",
+                           "alt":  "Stapstenen in het gazon",
+                           "thumbnail":  "/images/thumbnails/project-3.webp",
+                           "width":  2000,
+                           "height":  1500
+                       }
+                   ]
+    },
+    {
+        "id":  4,
+        "src":  "/images/original-site/project-04.jpg",
+        "alt":  "Tuin tijdens de aanleg",
+        "title":  "Tuin tijdens de aanleg",
+        "category":  "Tuin aanleggen",
+        "slug":  "tuin-tijdens-de-aanleg",
+        "city":  "Sint-Michielsgestel",
+        "status":  "confirmed",
+        "contentStatus":  "needs-review",
+        "summary":  "Tuin tijdens de aanleg in Sint-Michielsgestel. Een bestaande buitenruimte moest een nieuwe tuinindeling krijgen.",
+        "tags":  [
+                     "Tuin aanleggen"
+                 ],
+        "coverImageId":  "photo-4",
+        "images":  [
+                       {
+                           "id":  "photo-4",
+                           "src":  "/images/original-site/project-04.jpg",
+                           "alt":  "Tuin tijdens de aanleg",
+                           "thumbnail":  "/images/thumbnails/project-4.webp",
+                           "width":  2000,
+                           "height":  1500
+                       }
+                   ]
+    },
+    {
+        "id":  5,
+        "src":  "/images/original-site/project-05.jpg",
+        "alt":  "Terras naast het gazon",
+        "title":  "Terras naast het gazon",
+        "category":  "Tuin aanleggen",
+        "slug":  "terras-naast-het-gazon",
+        "city":  "Boxtel",
+        "status":  "confirmed",
+        "contentStatus":  "needs-review",
+        "summary":  "Terras naast het gazon in Boxtel. De vraag was een terras dat prettig aansluit op het gazon.",
+        "tags":  [
+                     "Tuin aanleggen",
+                     "Bestrating aanleggen"
+                 ],
+        "coverImageId":  "photo-5",
+        "images":  [
+                       {
+                           "id":  "photo-5",
+                           "src":  "/images/original-site/project-05.jpg",
+                           "alt":  "Terras naast het gazon",
+                           "thumbnail":  "/images/thumbnails/project-5.webp",
+                           "width":  2000,
+                           "height":  1500
+                       }
+                   ]
+    },
+    {
+        "id":  6,
+        "src":  "/images/original-site/project-06.jpg",
+        "alt":  "Gazon bij een overkapping",
+        "title":  "Gazon bij een overkapping",
+        "category":  "Gras aanleggen",
+        "slug":  "gazon-bij-een-overkapping",
+        "city":  "Schijndel",
+        "status":  "confirmed",
+        "contentStatus":  "needs-review",
+        "summary":  "Gazon bij een overkapping in Schijndel. Bij de overkapping wilden de bewoners een groen gazon.",
+        "tags":  [
+                     "Gras aanleggen"
+                 ],
+        "coverImageId":  "photo-6",
+        "images":  [
+                       {
+                           "id":  "photo-6",
+                           "src":  "/images/original-site/project-06.jpg",
+                           "alt":  "Gazon bij een overkapping",
+                           "thumbnail":  "/images/thumbnails/project-6.webp",
+                           "width":  2000,
+                           "height":  1500
+                       }
+                   ]
+    },
+    {
+        "id":  7,
+        "src":  "/images/original-site/project-07.jpg",
+        "alt":  "Vers aangelegd gazon",
+        "title":  "Vers aangelegd gazon",
+        "category":  "Gras aanleggen",
+        "slug":  "vers-aangelegd-gazon",
+        "city":  "Den Bosch",
+        "status":  "confirmed",
+        "contentStatus":  "needs-review",
+        "summary":  "Vers aangelegd gazon in Den Bosch. De tuin kon een frisse groene basis gebruiken.",
+        "tags":  [
+                     "Gras aanleggen"
+                 ],
+        "coverImageId":  "photo-7",
+        "images":  [
+                       {
+                           "id":  "photo-7",
+                           "src":  "/images/original-site/project-07.jpg",
+                           "alt":  "Vers aangelegd gazon",
+                           "thumbnail":  "/images/thumbnails/project-7.webp",
+                           "width":  2000,
+                           "height":  1500
+                       }
+                   ]
+    },
+    {
+        "id":  8,
+        "src":  "/images/original-site/project-08.jpg",
+        "alt":  "Voorbereiding van de tuin",
+        "title":  "Voorbereiding van de tuin",
+        "category":  "Tuin aanleggen",
+        "slug":  "voorbereiding-van-de-tuin",
+        "city":  "Vught",
+        "status":  "confirmed",
+        "contentStatus":  "needs-review",
+        "summary":  "Voorbereiding van de tuin in Vught. Voor een nieuwe tuin moest eerst de bestaande situatie worden voorbereid.",
+        "tags":  [
+                     "Tuin aanleggen"
+                 ],
+        "coverImageId":  "photo-8",
+        "images":  [
+                       {
+                           "id":  "photo-8",
+                           "src":  "/images/original-site/project-08.jpg",
+                           "alt":  "Voorbereiding van de tuin",
+                           "thumbnail":  "/images/thumbnails/project-8.webp",
+                           "width":  2000,
+                           "height":  1125
+                       }
+                   ]
+    },
+    {
+        "id":  9,
+        "src":  "/images/original-site/project-09.jpg",
+        "alt":  "Beplanting langs een tuinpad",
+        "title":  "Beplanting langs een tuinpad",
+        "category":  "Tuinonderhoud",
+        "slug":  "beplanting-langs-een-tuinpad",
+        "city":  "Rosmalen",
+        "status":  "confirmed",
+        "contentStatus":  "needs-review",
+        "summary":  "Beplanting langs een tuinpad in Rosmalen. Langs het tuinpad was aandacht nodig voor de beplanting.",
+        "tags":  [
+                     "Tuinonderhoud"
+                 ],
+        "coverImageId":  "photo-9",
+        "images":  [
+                       {
+                           "id":  "photo-9",
+                           "src":  "/images/original-site/project-09.jpg",
+                           "alt":  "Beplanting langs een tuinpad",
+                           "thumbnail":  "/images/thumbnails/project-9.webp",
+                           "width":  900,
+                           "height":  1600
+                       }
+                   ]
+    },
+    {
+        "id":  10,
+        "src":  "/images/original-site/project-10.jpg",
+        "alt":  "Oprit bij de woning",
+        "title":  "Oprit bij de woning",
+        "category":  "Tuin aanleggen",
+        "slug":  "oprit-bij-de-woning",
+        "city":  "Sint-Michielsgestel",
+        "status":  "confirmed",
+        "contentStatus":  "needs-review",
+        "summary":  "Oprit bij de woning in Sint-Michielsgestel. De bewoners wilden een verzorgde toegang tot hun woning.",
+        "tags":  [
+                     "Tuin aanleggen",
+                     "Bestrating aanleggen"
+                 ],
+        "coverImageId":  "photo-10",
+        "images":  [
+                       {
+                           "id":  "photo-10",
+                           "src":  "/images/original-site/project-10.jpg",
+                           "alt":  "Oprit bij de woning",
+                           "thumbnail":  "/images/thumbnails/project-10.webp",
+                           "width":  2000,
+                           "height":  1500
+                       }
+                   ]
+    },
+    {
+        "id":  11,
+        "src":  "/images/original-site/project-11.jpg",
+        "alt":  "Tuinpad en terras",
+        "title":  "Tuinpad en terras",
+        "category":  "Tuin aanleggen",
+        "slug":  "tuinpad-en-terras",
+        "city":  "Boxtel",
+        "status":  "confirmed",
+        "contentStatus":  "needs-review",
+        "summary":  "Tuinpad en terras in Boxtel. Het terras en het tuinpad moesten samen ÃƒÆ’Ã‚Â©ÃƒÆ’Ã‚Â©n geheel vormen.",
+        "tags":  [
+                     "Tuin aanleggen",
+                     "Bestrating aanleggen"
+                 ],
+        "coverImageId":  "photo-11",
+        "images":  [
+                       {
+                           "id":  "photo-11",
+                           "src":  "/images/original-site/project-11.jpg",
+                           "alt":  "Tuinpad en terras",
+                           "thumbnail":  "/images/thumbnails/project-11.webp",
+                           "width":  640,
+                           "height":  480
+                       }
+                   ]
+    },
+    {
+        "id":  12,
+        "src":  "/images/original-site/project-12.jpg",
+        "alt":  "Klinkerpad in visgraatverband",
+        "title":  "Klinkerpad in visgraatverband",
+        "category":  "Tuin aanleggen",
+        "slug":  "klinkerpad-in-visgraatverband",
+        "city":  "Schijndel",
+        "status":  "confirmed",
+        "contentStatus":  "needs-review",
+        "summary":  "Klinkerpad in visgraatverband in Schijndel. De wens was een tuinpad met een herkenbaar legpatroon.",
+        "tags":  [
+                     "Tuin aanleggen",
+                     "Bestrating aanleggen"
+                 ],
+        "coverImageId":  "photo-12",
+        "images":  [
+                       {
+                           "id":  "photo-12",
+                           "src":  "/images/original-site/project-12.jpg",
+                           "alt":  "Klinkerpad in visgraatverband",
+                           "thumbnail":  "/images/thumbnails/project-12.webp",
+                           "width":  1500,
+                           "height":  2000
+                       }
+                   ]
+    },
+    {
+        "id":  13,
+        "src":  "/images/original-site/project-13.jpg",
+        "alt":  "Terras met klinkers",
+        "title":  "Terras met klinkers",
+        "category":  "Tuin aanleggen",
+        "slug":  "terras-met-klinkers",
+        "city":  "Den Bosch",
+        "status":  "confirmed",
+        "contentStatus":  "needs-review",
+        "summary":  "Terras met klinkers in Den Bosch. De bewoners zochten een zitplek die aansluit bij hun tuin.",
+        "tags":  [
+                     "Tuin aanleggen",
+                     "Bestrating aanleggen"
+                 ],
+        "coverImageId":  "photo-13",
+        "images":  [
+                       {
+                           "id":  "photo-13",
+                           "src":  "/images/original-site/project-13.jpg",
+                           "alt":  "Terras met klinkers",
+                           "thumbnail":  "/images/thumbnails/project-13.webp",
+                           "width":  2000,
+                           "height":  1500
+                       }
+                   ]
+    },
+    {
+        "id":  14,
+        "src":  "/images/original-site/project-14.jpg",
+        "alt":  "Voorbereide ondergrond",
+        "title":  "Voorbereide ondergrond",
+        "category":  "Tuin aanleggen",
+        "slug":  "voorbereide-ondergrond",
+        "city":  "Vught",
+        "status":  "confirmed",
+        "contentStatus":  "needs-review",
+        "summary":  "Voorbereide ondergrond in Vught. Voor de volgende fase van de tuin was een voorbereide basis nodig.",
+        "tags":  [
+                     "Tuin aanleggen"
+                 ],
+        "coverImageId":  "photo-14",
+        "images":  [
+                       {
+                           "id":  "photo-14",
+                           "src":  "/images/original-site/project-14.jpg",
+                           "alt":  "Voorbereide ondergrond",
+                           "thumbnail":  "/images/thumbnails/project-14.webp",
+                           "width":  2000,
+                           "height":  1652
+                       }
+                   ]
+    },
+    {
+        "id":  15,
+        "src":  "/images/original-site/project-15.jpg",
+        "alt":  "Terras bij een overkapping",
+        "title":  "Terras bij een overkapping",
+        "category":  "Tuin aanleggen",
+        "slug":  "terras-bij-een-overkapping",
+        "city":  "Rosmalen",
+        "status":  "confirmed",
+        "contentStatus":  "needs-review",
+        "summary":  "Terras bij een overkapping in Rosmalen. De ruimte bij de overkapping moest een bruikbare zitplek worden.",
+        "tags":  [
+                     "Tuin aanleggen",
+                     "Bestrating aanleggen"
+                 ],
+        "coverImageId":  "photo-15",
+        "images":  [
+                       {
+                           "id":  "photo-15",
+                           "src":  "/images/original-site/project-15.jpg",
+                           "alt":  "Terras bij een overkapping",
+                           "thumbnail":  "/images/thumbnails/project-15.webp",
+                           "width":  2000,
+                           "height":  1500
+                       }
+                   ]
+    },
+    {
+        "id":  16,
+        "src":  "/images/original-site/project-16.jpg",
+        "alt":  "Tuin tijdens de voorbereiding",
+        "title":  "Tuin tijdens de voorbereiding",
+        "category":  "Tuin aanleggen",
+        "slug":  "tuin-tijdens-de-voorbereiding",
+        "city":  "Sint-Michielsgestel",
+        "status":  "confirmed",
+        "contentStatus":  "needs-review",
+        "summary":  "Tuin tijdens de voorbereiding in Sint-Michielsgestel. Een nieuwe indeling vroeg eerst om voorbereiding van de tuin.",
+        "tags":  [
+                     "Tuin aanleggen"
+                 ],
+        "coverImageId":  "photo-16",
+        "images":  [
+                       {
+                           "id":  "photo-16",
+                           "src":  "/images/original-site/project-16.jpg",
+                           "alt":  "Tuin tijdens de voorbereiding",
+                           "thumbnail":  "/images/thumbnails/project-16.webp",
+                           "width":  2000,
+                           "height":  1500
+                       }
+                   ]
+    },
+    {
+        "id":  17,
+        "src":  "/images/original-site/project-17.jpg",
+        "alt":  "Terras in een overkapping",
+        "title":  "Terras in een overkapping",
+        "category":  "Tuin aanleggen",
+        "slug":  "terras-in-een-overkapping",
+        "city":  "Boxtel",
+        "status":  "confirmed",
+        "contentStatus":  "needs-review",
+        "summary":  "Terras in een overkapping in Boxtel. De bewoners wilden de ruimte onder de overkapping als terras gebruiken.",
+        "tags":  [
+                     "Tuin aanleggen",
+                     "Bestrating aanleggen"
+                 ],
+        "coverImageId":  "photo-17",
+        "images":  [
+                       {
+                           "id":  "photo-17",
+                           "src":  "/images/original-site/project-17.jpg",
+                           "alt":  "Terras in een overkapping",
+                           "thumbnail":  "/images/thumbnails/project-17.webp",
+                           "width":  2000,
+                           "height":  1500
+                       }
+                   ]
+    },
+    {
+        "id":  18,
+        "src":  "/images/original-site/project-18.jpg",
+        "alt":  "Gazon langs de erfafscheiding",
+        "title":  "Gazon langs de erfafscheiding",
+        "category":  "Gras aanleggen",
+        "slug":  "gazon-langs-de-erfafscheiding",
+        "city":  "Schijndel",
+        "status":  "confirmed",
+        "contentStatus":  "needs-review",
+        "summary":  "Gazon langs de erfafscheiding in Schijndel. Langs de erfafscheiding moest een groen geheel ontstaan.",
+        "tags":  [
+                     "Gras aanleggen"
+                 ],
+        "coverImageId":  "photo-18",
+        "images":  [
+                       {
+                           "id":  "photo-18",
+                           "src":  "/images/original-site/project-18.jpg",
+                           "alt":  "Gazon langs de erfafscheiding",
+                           "thumbnail":  "/images/thumbnails/project-18.webp",
+                           "width":  1500,
+                           "height":  2000
+                       }
+                   ]
+    },
+    {
+        "id":  19,
+        "src":  "/images/original-site/project-19.jpg",
+        "alt":  "Tuin met zithoek en overkapping",
+        "title":  "Tuin met zithoek en overkapping",
+        "category":  "Tuin aanleggen",
+        "slug":  "tuin-met-zithoek-en-overkapping",
+        "city":  "Den Bosch",
+        "status":  "confirmed",
+        "contentStatus":  "needs-review",
+        "summary":  "Tuin met zithoek en overkapping in Den Bosch. De tuin moest ruimte bieden voor groen ÃƒÆ’Ã‚Â©n een comfortabele zitplek.",
+        "tags":  [
+                     "Tuin aanleggen"
+                 ],
+        "coverImageId":  "photo-19",
+        "images":  [
+                       {
+                           "id":  "photo-19",
+                           "src":  "/images/original-site/project-19.jpg",
+                           "alt":  "Tuin met zithoek en overkapping",
+                           "thumbnail":  "/images/thumbnails/project-19.webp",
+                           "width":  2000,
+                           "height":  1125
+                       }
+                   ]
+    },
+    {
+        "id":  20,
+        "src":  "/images/original-site/project-20.jpg",
+        "alt":  "Tuinvoorbereiding naast een woning",
+        "title":  "Tuinvoorbereiding naast een woning",
+        "category":  "Tuin aanleggen",
+        "slug":  "tuinvoorbereiding-naast-een-woning",
+        "city":  "Vught",
+        "status":  "confirmed",
+        "contentStatus":  "needs-review",
+        "summary":  "Tuinvoorbereiding naast een woning in Vught. Naast de woning was voorbereiding nodig voor de toekomstige tuin.",
+        "tags":  [
+                     "Tuin aanleggen"
+                 ],
+        "coverImageId":  "photo-20",
+        "images":  [
+                       {
+                           "id":  "photo-20",
+                           "src":  "/images/original-site/project-20.jpg",
+                           "alt":  "Tuinvoorbereiding naast een woning",
+                           "thumbnail":  "/images/thumbnails/project-20.webp",
+                           "width":  360,
+                           "height":  640
+                       }
+                   ]
+    },
+    {
+        "id":  21,
+        "src":  "/images/original-site/project-21.jpg",
+        "alt":  "Beplanting aan de straatzijde",
+        "title":  "Beplanting aan de straatzijde",
+        "category":  "Tuinonderhoud",
+        "slug":  "beplanting-aan-de-straatzijde",
+        "city":  "Rosmalen",
+        "status":  "confirmed",
+        "contentStatus":  "needs-review",
+        "summary":  "Beplanting aan de straatzijde in Rosmalen. De beplanting aan de straatzijde verdiende extra aandacht.",
+        "tags":  [
+                     "Tuinonderhoud"
+                 ],
+        "coverImageId":  "photo-21",
+        "images":  [
+                       {
+                           "id":  "photo-21",
+                           "src":  "/images/original-site/project-21.jpg",
+                           "alt":  "Beplanting aan de straatzijde",
+                           "thumbnail":  "/images/thumbnails/project-21.webp",
+                           "width":  2000,
+                           "height":  1125
+                       }
+                   ]
+    },
+    {
+        "id":  22,
+        "src":  "/images/original-site/project-22.jpg",
+        "alt":  "Beplanting langs de gevel",
+        "title":  "Beplanting langs de gevel",
+        "category":  "Tuinonderhoud",
+        "slug":  "beplanting-langs-de-gevel",
+        "city":  "Sint-Michielsgestel",
+        "status":  "confirmed",
+        "contentStatus":  "needs-review",
+        "summary":  "Beplanting langs de gevel in Sint-Michielsgestel. Langs de gevel wilden de bewoners de beplanting verzorgd houden.",
+        "tags":  [
+                     "Tuinonderhoud"
+                 ],
+        "coverImageId":  "photo-22",
+        "images":  [
+                       {
+                           "id":  "photo-22",
+                           "src":  "/images/original-site/project-22.jpg",
+                           "alt":  "Beplanting langs de gevel",
+                           "thumbnail":  "/images/thumbnails/project-22.webp",
+                           "width":  1200,
+                           "height":  1600
+                       }
+                   ]
+    },
+    {
+        "id":  23,
+        "src":  "/images/original-site/project-23.jpg",
+        "alt":  "Nieuw aangeplante border",
+        "title":  "Nieuw aangeplante border",
+        "category":  "Tuinonderhoud",
+        "slug":  "nieuw-aangeplante-border",
+        "city":  "Boxtel",
+        "status":  "confirmed",
+        "contentStatus":  "needs-review",
+        "summary":  "Nieuw aangeplante border in Boxtel. Een nieuw aangeplante border had aandacht nodig om zich te ontwikkelen.",
+        "tags":  [
+                     "Tuinonderhoud"
+                 ],
+        "coverImageId":  "photo-23",
+        "images":  [
+                       {
+                           "id":  "photo-23",
+                           "src":  "/images/original-site/project-23.jpg",
+                           "alt":  "Nieuw aangeplante border",
+                           "thumbnail":  "/images/thumbnails/project-23.webp",
+                           "width":  480,
+                           "height":  640
+                       }
+                   ]
+    }
 ]

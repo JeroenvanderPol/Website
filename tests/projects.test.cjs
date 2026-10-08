@@ -31,7 +31,8 @@ test('all project records have unique routes, valid content and existing images'
   for (const key of ['id', 'slug']) assert.equal(new Set(projects.map(p => p[key])).size, projects.length);
   for (const project of projects) {
     assert.match(project.slug, /^[a-z0-9]+(?:-[a-z0-9]+)*$/);
-    for (const key of ['alt','title','city','summary','request','approach','result']) assert.ok(project[key]?.trim(), `${project.slug}: ${key}`);
+    for (const key of ['alt','title','city','summary']) assert.ok(project[key]?.trim(), `${project.slug}: ${key}`);
+    for (const key of ['request', 'approach', 'result']) assert.ok(!(key in project), `${project.slug}: removed ${key} field`);
     assert.equal(project.status, 'confirmed', `${project.slug}: project status`);
     assert.ok(['needs-review', 'verified'].includes(project.contentStatus), `${project.slug}: content status`);
     assert.ok(services.some(s => s.title === project.category));

@@ -4,7 +4,7 @@ export type Project = {
   id: number; slug: string; src: string; alt: string; title: string;
   category: string; city: string; status: "mock" | "confirmed";
   contentStatus: "needs-review" | "verified";
-  summary: string; request: string; approach: string; result: string;
+  summary: string;
   tags: string[]; coverImageId: string; images: ProjectPhoto[];
 };
 

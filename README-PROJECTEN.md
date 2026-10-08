@@ -33,13 +33,13 @@ De agent bedenkt geen feiten die u niet heeft opgegeven. Exacte prijzen, afmetin
 
 ## Bestaande projectgegevens corrigeren
 
-De 23 projecten en foto's zijn echt. De huidige titels, plaatsen en projectteksten kunnen nog onjuist zijn en moeten per project worden gecontroleerd. De gegevens staan centraal in `data/original-projects.json`; pas daar `title`, `city`, `summary`, `request`, `approach` en `result` aan. Controleer ook `alt` en `images[].alt` bij de foto's. Laat `slug` staan om de bestaande projectlink te behouden.
+De 23 projecten en foto's zijn echt. De huidige titels, plaatsen en korte projectbeschrijvingen kunnen nog onjuist zijn en moeten per project worden gecontroleerd. De gegevens staan centraal in `data/original-projects.json`; pas daar `title`, `city` en `summary` aan. Controleer ook `tags`, `alt` en `images[].alt` bij de foto's. Laat `slug` staan om de bestaande projectlink te behouden. De velden `request`, `approach` en `result` worden niet gebruikt en horen niet in een projectrecord.
 
 Na controle van alle zichtbare projectgegevens zet u voor dat project `contentStatus` op `verified`. Zolang de tekst nog nagekeken moet worden, blijft deze op `needs-review`; projectpagina's met die status krijgen geen zoekindexvermelding. De overzichtspagina komt pas in de sitemap als alle projectteksten zijn gecontroleerd. Testversies blijven uitgesloten van indexering.
 
 ## Wat wordt automatisch geregeld?
 
-- Een eigen detailpagina met foto, plaats, aanleiding, aanpak en resultaat.
+- Een eigen detailpagina met foto, titel, plaats en korte projectbeschrijving.
 - Dezelfde klikbare fotokaart in het portfolio en bij de diensten. Een dienstpagina toont een selectie van maximaal drie foto's; vraag de agent als een bepaalde foto daarin moet komen.
 - Een vergrootbare foto op de detailpagina.
 - Een paginatitel, korte zoekresultaatbeschrijving, afbeeldingsbeschrijving en links naar de dienst en het contactformulier.
