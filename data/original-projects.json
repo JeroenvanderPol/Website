@@ -4,15 +4,14 @@
         "src":  "/images/original-site/project-01.jpg",
         "alt":  "Tuin met terras en beplanting",
         "title":  "Tuin met terras en beplanting",
-        "category":  "Tuin aanleggen",
+        "category":  "bestrating aanleggen",
         "slug":  "tuin-met-terras-en-beplanting",
         "city":  "Best",
         "status":  "confirmed",
         "contentStatus":  "verified", 
         "summary":  "Tuin met terras en beplanting in Best. De bewoners wilden een tuin waarin een terras en groen elkaar aanvullen.",
         "tags":  [
-                     "Tuin aanleggen",
-                     "Gras aanleggen",
+                     
                      "Bestrating aanleggen"
                  ],
         "coverImageId":  "photo-1",
