@@ -296,6 +296,7 @@
   gap: 36px;
   padding-bottom: 48px;
   border-bottom: 1px solid #dce5d8;
+  
 }
 .approved-site .service-intro h1 {
   font-size: clamp(34px, 5vw, 60px);
@@ -317,7 +318,7 @@
 }
 .approved-site .service-illustration {
   object-fit: contain;
-  width: 320px;
+  width: 600px;
   height: 260px;
 }
 .approved-site .service-actions {
