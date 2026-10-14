@@ -91,7 +91,7 @@ export default function PrivacyPage() {
               <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer">
                 privacybeleid van Google
               </a>
-              .
+              . Bekijk ook onze <Link href="/voorwaarden">gebruiksvoorwaarden</Link>.
             </p>
             <p>
               Controleer vóór definitieve publicatie in de actuele
