@@ -27,6 +27,9 @@ export async function POST(request: Request) {
     return reply({ status: "invalid-request" }, 400);
   }
 
+  const website = input && typeof input === "object" ? (input as Record<string, unknown>).website : undefined;
+  if (typeof website !== "string" || website.trim()) return reply({ status: "invalid-request" }, 400);
+
   const result = validateContact(input);
   if (!result.data) return reply({ status: "invalid", errors: result.errors }, 400);
 

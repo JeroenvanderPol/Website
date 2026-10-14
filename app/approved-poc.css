@@ -347,6 +347,41 @@
   margin-top: 20px;
   line-height: 1.9;
 }
+.approved-site .privacy-page {
+  padding-top: 130px;
+  padding-bottom: 68px;
+}
+.approved-site .privacy-page h1 {
+  font-size: 34px;
+  font-weight: 550;
+  line-height: 1.12;
+}
+.approved-site .privacy-page .privacy-draft-note {
+  max-width: 75ch;
+  padding: 14px 18px;
+  background: #edf2e9;
+  border: 1px solid #dce5d8;
+  border-radius: 6px;
+  color: #202d24;
+}
+.approved-site .privacy-content {
+  max-width: 75ch;
+  margin-top: 42px;
+}
+.approved-site .privacy-content section + section {
+  margin-top: 34px;
+}
+.approved-site .privacy-content h2 {
+  font-size: 20px;
+  font-weight: 550;
+  line-height: 1.3;
+}
+.approved-site .privacy-content a {
+  color: #326f39;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  overflow-wrap: anywhere;
+}
 .approved-site .service-preparation {
   background: #edf2e9;
   padding: 28px;
@@ -408,6 +443,9 @@
     padding-top: 105px;
     padding-bottom: 46px;
   }
+  .approved-site .privacy-content h2 {
+    font-size: 20px;
+  }
   .approved-site .service-intro {
     gap: 20px;
     align-items: flex-start;
@@ -419,6 +457,7 @@
     
   }
   .approved-site .service-body,
+  .approved-site .privacy-content,
   .approved-site .service-photos {
     grid-template-columns: 1fr;
     gap: 28px;

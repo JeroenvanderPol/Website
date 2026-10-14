@@ -4,6 +4,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Phone, Mail, MapPin, Send } from "lucide-react";
+import Link from "next/link";
 import business from "@/data/business.json";
 import { validateContact, type ContactErrors, type ContactField } from "@/lib/contact";
 export function Contact() {
@@ -23,7 +24,7 @@ export function Contact() {
     if (pending.current) return;
     const form = e.currentTarget;
     const f = new FormData(form);
-    const payload = { name: f.get("name"), phone: f.get("phone"), email: f.get("email"), subject: f.get("subject"), message: f.get("message"), consent: f.get("consent") === "on" };
+    const payload = { name: f.get("name"), phone: f.get("phone"), email: f.get("email"), subject: f.get("subject"), message: f.get("message"), privacyAcknowledged: f.get("privacyAcknowledged") === "on", website: f.get("website") };
     const validation = validateContact(payload);
     setErrors(validation.errors);
     setNotice("");
@@ -88,6 +89,10 @@ export function Contact() {
           <p>
             Stel uw vraag of vertel ons over uw plannen. Velden met * zijn verplicht.
           </p>
+          <div aria-hidden="true" style={{ position: "absolute", left: "-10000px" }}>
+            <Label htmlFor="website">Website</Label>
+            <Input id="website" name="website" autoComplete="off" tabIndex={-1} />
+          </div>
           <div className="poc-form-row">
             <div>
               <Label htmlFor="name">Naam *</Label>
@@ -135,11 +140,10 @@ export function Contact() {
             {error("message")}
           </div>
           <label className="poc-consent">
-            <input type="checkbox" name="consent" required {...fieldProps("consent")} />
-            Ik ga ermee akkoord dat mijn gegevens worden verwerkt om contact met
-            mij op te nemen. *
+            <input type="checkbox" name="privacyAcknowledged" required {...fieldProps("privacyAcknowledged")} />
+            Ik heb de <Link href="/privacy">privacyverklaring</Link> gelezen. *
           </label>
-          {error("consent")}
+          {error("privacyAcknowledged")}
           <button className="poc-button" type="submit" disabled={sending}>
             <Send aria-hidden="true" size={18} />
             {sending ? "Bezig met versturen…" : "Bericht versturen"}
