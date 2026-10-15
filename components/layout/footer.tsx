@@ -44,6 +44,8 @@ export function Footer() {
             <Link href="/#portfolio">Ons werk</Link>
             <Link href="/#reviews">Reviews</Link>
             <Link href="/#contact">Contact</Link>
+            <Link href="/privacy">Privacyverklaring</Link>
+            <Link href="/voorwaarden">Gebruiksvoorwaarden</Link>
           </nav>
         </div>
       </div>

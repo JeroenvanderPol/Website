@@ -1,6 +1,8 @@
 import { validateContact } from "@/lib/contact";
 import { deliverContactMessage } from "@/lib/contact-delivery";
 
+export const runtime = "nodejs";
+
 export async function POST(request: Request) {
   const reply = (body: unknown, status: number) => Response.json(body, { status, headers: { "Cache-Control": "no-store" } });
   if (!request.headers.get("content-type")?.includes("application/json")) return reply({ status: "invalid-request" }, 415);
@@ -10,6 +12,7 @@ export async function POST(request: Request) {
   let size = 0;
   let body = "";
   const decoder = new TextDecoder();
+  let input: unknown;
   try {
     while (true) {
       const { done, value } = await reader.read();
@@ -19,11 +22,21 @@ export async function POST(request: Request) {
       body += decoder.decode(value, { stream: true });
     }
     body += decoder.decode();
-    const result = validateContact(JSON.parse(body));
-    if (!result.data) return reply({ status: "invalid", errors: result.errors }, 400);
+    input = JSON.parse(body);
+  } catch {
+    return reply({ status: "invalid-request" }, 400);
+  }
+
+  const website = input && typeof input === "object" ? (input as Record<string, unknown>).website : undefined;
+  if (typeof website !== "string" || website.trim()) return reply({ status: "invalid-request" }, 400);
+
+  const result = validateContact(input);
+  if (!result.data) return reply({ status: "invalid", errors: result.errors }, 400);
+
+  try {
     const delivery = await deliverContactMessage(result.data);
     return reply(delivery, delivery.status === "sent" ? 200 : 503);
   } catch {
-    return reply({ status: "unavailable" }, 400);
+    return reply({ status: "unavailable" }, 503);
   }
 }

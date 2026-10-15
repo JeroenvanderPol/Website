@@ -1,12 +1,12 @@
-export type ContactField = "name" | "phone" | "email" | "subject" | "message" | "consent";
+export type ContactField = "name" | "phone" | "email" | "subject" | "message" | "privacyAcknowledged";
 export type ContactErrors = Partial<Record<ContactField, string>>;
-export type ContactMessage = Record<Exclude<ContactField, "consent">, string> & { consent: true };
+export type ContactMessage = Record<Exclude<ContactField, "privacyAcknowledged">, string>;
 
 export function validateContact(input: unknown): { errors: ContactErrors; data?: ContactMessage } {
   const source = input && typeof input === "object" && !Array.isArray(input)
     ? input as Record<string, unknown> : {};
   const errors: ContactErrors = {};
-  const values = {} as Record<Exclude<ContactField, "consent">, string>;
+  const values = {} as ContactMessage;
   for (const field of ["name", "phone", "email", "subject", "message"] as const) {
     const raw = source[field];
     const limit = field === "message" ? 1000 : 100;
@@ -17,6 +17,6 @@ export function validateContact(input: unknown): { errors: ContactErrors; data?:
     else if (field !== "message" && /[\r\n\x00]/.test(raw)) errors[field] = "Gebruik één regel tekst.";
   }
   if (!errors.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(values.email)) errors.email = "Vul een geldig e-mailadres in.";
-  if (source.consent !== true) errors.consent = "Geef toestemming om contact met u op te nemen.";
-  return Object.keys(errors).length ? { errors } : { errors, data: { ...values, consent: true } };
+  if (source.privacyAcknowledged !== true) errors.privacyAcknowledged = "Bevestig dat u de privacyverklaring hebt gelezen.";
+  return Object.keys(errors).length ? { errors } : { errors, data: values };
 }

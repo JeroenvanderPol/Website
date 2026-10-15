@@ -17,7 +17,7 @@ The user-provided Google search identified Van de Voort Tuinen at Hondsklauw 20,
 
 4. Restart the local server; redeploy after changing Vercel environment variables. Check the listing name, aggregate rating, author/source links and review text against the actual Google listing.
 5. Set API quotas and billing alerts in Google Cloud. Reviews use a paid Places field tier; verify current prices before enabling production traffic. The endpoint always targets this one business. Add hosting-level rate limiting for `/api/google-reviews` before public launch to limit automated billable requests.
-6. Google requires publicly accessible website Terms of Use and Privacy Policy incorporating the applicable Google terms/privacy references. Add owner-approved pages before going live; the current site does not have them. Account/billing acceptance stays with the owner.
+6. Google requires publicly accessible website Terms of Use and Privacy Policy incorporating the applicable Google terms/privacy references. Draft pages are available at `/voorwaarden` and `/privacy`; both are marked noindex and require owner review before public activation. Confirm the privacy retention period is implemented in the mail archive. Account and billing acceptance stay with the owner.
 
 ## Behavior
 
