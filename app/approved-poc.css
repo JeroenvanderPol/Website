@@ -1,9 +1,13 @@
 /* Direction 1, selected by the user. Scoped to preserve the comparison previews. */
 .approved-site .poc-portfolio-layout {
+  display: block;
+}
+.approved-site .poc-portfolio-intro {
   display: grid;
-  grid-template-columns: minmax(240px, 0.9fr) minmax(0, 2.1fr);
-  align-items: center;
-  gap: 48px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
+  gap: 12px 28px;
+  margin-bottom: 28px;
 }
 .approved-site .poc-portfolio-intro h2 {
   max-width: 10ch;
@@ -14,46 +18,18 @@
 }
 .approved-site .poc-portfolio-intro p {
   max-width: 38ch;
-  margin-top: 18px;
+  margin-top: 4px;
   color: #526257;
   line-height: 1.8;
 }
 .approved-site .poc-portfolio-actions {
+  grid-column: 2;
+  grid-row: 1 / 3;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 18px;
-  margin-top: 28px;
-}
-.approved-site .poc-portfolio-controls {
-  display: flex;
-  gap: 10px;
-}
-.approved-site .poc-portfolio-controls button {
-  display: grid;
-  width: 46px;
-  height: 46px;
-  place-items: center;
-  border: 1px solid #dce5d8;
-  border-radius: 50%;
-  background: #fff;
-  color: #326f39;
-  cursor: pointer;
-}
-.approved-site .poc-portfolio-controls button:hover {
-  background: #edf2e9;
-}
-.approved-site .poc-portfolio-controls button:disabled {
-  background: #edf2e9;
-  color: #526257;
-  cursor: not-allowed;
-}
-.approved-site .poc-portfolio-controls button:not(:disabled) {
-  background: #326f39;
-  color: #fff;
-}
-.approved-site .poc-portfolio-controls button:not(:disabled):hover {
-  background: #285a2e;
+  justify-content: flex-end;
+  align-self: end;
 }
 .approved-site .poc-portfolio-all {
   display: inline-flex;
@@ -64,37 +40,71 @@
   text-decoration: underline;
   text-underline-offset: 4px;
 }
-.approved-site .poc-portfolio-track {
-  min-width: 0;
-  overflow-x: auto;
-  overscroll-behavior-inline: contain;
-  scroll-behavior: smooth;
-  scroll-snap-type: x mandatory;
-  scrollbar-width: none;
-  outline-offset: 5px;
-}
-.approved-site .poc-portfolio-track::-webkit-scrollbar {
-  display: none;
-}
-.approved-site .poc-portfolio-track.is-dragging {
-  scroll-behavior: auto;
-  scroll-snap-type: none;
-  cursor: grabbing;
-  user-select: none;
-}
-.approved-site .poc-portfolio-track.is-dragging * {
-  cursor: grabbing !important;
-  user-select: none;
-}
 .approved-site .project-grid.poc-portfolio-grid {
-  grid-template-columns: none;
-  grid-auto-flow: column;
-  grid-auto-columns: minmax(260px, 360px);
-  gap: 24px;
-  padding: 4px 2px 14px;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-rows: repeat(2, clamp(240px, 28vw, 360px));
+  gap: 12px;
+  padding: 0;
 }
 .approved-site .poc-portfolio-grid .project-tile {
-  scroll-snap-align: start;
+  position: relative;
+  min-width: 0;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.approved-site .poc-portfolio-grid .project-tile:nth-child(1),
+.approved-site .poc-portfolio-grid .project-tile:nth-child(2) {
+  grid-column: span 3;
+}
+.approved-site .poc-portfolio-grid .project-tile:nth-child(3) {
+  grid-column: span 4;
+}
+.approved-site .poc-portfolio-grid .project-tile:nth-child(4) {
+  grid-column: span 2;
+}
+.approved-site .poc-portfolio-grid .project-photo {
+  height: 100%;
+  aspect-ratio: auto;
+  border-radius: inherit;
+}
+.approved-site .poc-portfolio-grid .project-tile::after {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(180deg, transparent 34%, rgb(0 0 0 / 68%) 100%);
+  content: "";
+  pointer-events: none;
+}
+.approved-site .poc-portfolio-grid .project-badges {
+  top: 12px;
+  bottom: auto;
+  z-index: 1;
+}
+.approved-site .poc-portfolio-grid .project-caption {
+  position: absolute;
+  right: 16px;
+  bottom: 14px;
+  left: 16px;
+  z-index: 1;
+  padding: 0;
+  color: #fff;
+}
+.approved-site .poc-portfolio-grid .project-caption h3 {
+  font-size: 18px;
+  line-height: 1.3;
+  color: inherit;
+}
+.approved-site .poc-portfolio-grid .project-location,
+.approved-site .poc-portfolio-grid .project-caption span {
+  color: #fff;
+}
+.approved-site .poc-portfolio-grid .project-location {
+  margin-top: 4px;
+  font-size: 14px;
+}
+.approved-site .poc-portfolio-grid .project-caption .project-open {
+  margin-top: 8px;
+  font-size: 12px;
 }
 .approved-site .projects-index-intro {
   padding-bottom: 36px;
@@ -130,30 +140,50 @@
   color: #526257;
 }
 @media (max-width: 767px) {
-  .approved-site .poc-portfolio-layout {
+  .approved-site .poc-portfolio-intro {
     grid-template-columns: minmax(0, 1fr);
-    gap: 24px;
+    gap: 8px;
+    margin-bottom: 20px;
   }
   .approved-site .poc-portfolio-intro h2 {
     max-width: 14ch;
     font-size: 28px;
   }
   .approved-site .poc-portfolio-actions {
-    margin-top: 20px;
+    grid-column: auto;
+    grid-row: auto;
+    justify-content: flex-start;
+    margin-top: 8px;
   }
   .approved-site .project-grid.poc-portfolio-grid {
-    grid-auto-columns: min(82vw, 360px);
+    grid-template-rows: repeat(2, clamp(220px, 36vw, 280px));
+  }
+  .approved-site .poc-portfolio-grid .project-caption {
+    right: 12px;
+    bottom: 12px;
+    left: 12px;
+  }
+  .approved-site .poc-portfolio-grid .project-caption h3 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 639px) {
+  .approved-site .project-grid.poc-portfolio-grid {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: none;
+  }
+  .approved-site .poc-portfolio-grid .project-tile:nth-child(n) {
+    grid-column: 1;
+    aspect-ratio: 16 / 9;
+  }
+  .approved-site .poc-portfolio-grid .project-photo {
+    height: 100%;
   }
   .approved-site .projects-index-intro h1 {
     font-size: 34px;
   }
   .approved-site .projects-index-intro p {
     font-size: 14px;
-  }
-}
-@media (prefers-reduced-motion: reduce) {
-  .approved-site .poc-portfolio-track {
-    scroll-behavior: auto;
   }
 }
 .approved-site .project-badges {

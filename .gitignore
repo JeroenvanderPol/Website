@@ -40,3 +40,4 @@ next-env.d.ts
 .env.test
 .env.staging
 .env.preview
+.playwright-mcp/
