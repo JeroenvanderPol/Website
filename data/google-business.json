@@ -1,3 +1,22 @@
 {
-  "mapsUrl": "https://maps.google.com/maps?ftid=0x47c6e94540e48b67:0x75675c97c6f25817"
+  "mapsUrl": "https://maps.google.com/maps?ftid=0x47c6e94540e48b67:0x75675c97c6f25817",
+  "reviewSnapshot": {
+    "featured": [
+      {
+        "author": "Joep van Hemert",
+        "rating": 5,
+        "text": "We zijn super blij met het werk dat Randy heeft verzorgd aan onze achtertuin. We hebben de hele tuin onder handen laten nemen: snoeien, grondwerk, bestrating en aanleg. Professioneel voor een eerlijke prijs en zeer vriendelijk en meedenkend. Aanrader!"
+      },
+      {
+        "author": "Janny Gloudemans",
+        "rating": 5,
+        "text": "We zijn heel blij met onze tuin. Ze hebben alle oude schuttingen en straatwerk eruit gehaald alles opnieuw bestraat, kunstgras, hekwerk en de beplanting gedaan. Hele leuke en professionele mannen ze denken goed met je mee en werken hard soms wel tot in de avond. Bedankt Randy"
+      },
+      {
+        "author": "Sem Van der Sanden",
+        "rating": 5,
+        "text": "Zeer tevreden over het eindresultaat. Communicatie met Randy was prettig en duidelijk. We zijn erg blij met het resultaat. Zeker een aanrader!"
+      }
+    ]
+  }
 }

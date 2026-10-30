@@ -67,11 +67,11 @@ export default function TermsPage() {
           <section>
             <h2>Google Maps en reviews</h2>
             <p>
-              Als Google Maps-informatie of Google-reviews op deze website worden
-              getoond, wordt die informatie door Google geleverd en kan Google
-              bepalen welke reviews worden weergegeven. Reviews worden voorzien
-              van de vereiste bronvermelding en niet inhoudelijk aangepast. Het
-              gebruik van Google Maps Platform-content valt ook onder de
+              Op de pagina met Google-reviews tonen we drie handmatig
+              geselecteerde korte fragmenten uit openbare reviews op het profiel.
+              Deze selectie is niet volledig en kan verouderen; de volledige en
+              actuele reviews staan op Google. De korte fragmenten zijn niet
+              inhoudelijk aangepast. Het gebruik van Google Maps-content valt ook onder de
               {" "}
               <a href="https://cloud.google.com/maps-platform/terms" target="_blank" rel="noreferrer">
                 Google Maps Platform-voorwaarden

@@ -250,6 +250,9 @@
   line-height: 1.5;
   color: #526257;
 }
+.approved-site .poc-portfolio-grid .project-caption .project-location {
+  color: #fff;
+}
 .approved-site .project-caption .project-open {
   display: inline-block;
   margin-top: 8px;
@@ -1167,6 +1170,23 @@ html {
   color: #326f39;
   margin-block: 20px;
 }
+.approved-site .google-review-attribution {
+  margin: 0;
+  color: #526257;
+  font-size: 13px;
+}
+.approved-site .google-review-page h1 {
+  font-size: 44px;
+  font-weight: 550;
+  line-height: 1.12;
+}
+.approved-site .google-review-page .google-review-intro {
+  max-width: 65ch;
+  margin-top: 16px;
+}
+.approved-site .google-review-profile-link {
+  margin-top: 18px;
+}
 .google-review blockquote {
   white-space: pre-wrap;
   line-height: 1.8;
@@ -1180,6 +1200,11 @@ html {
     400 14px/1.5 Arial,
     sans-serif;
   letter-spacing: normal;
+}
+@media (max-width: 767px) {
+  .approved-site .google-review-page h1 {
+    font-size: 34px;
+  }
 }
 @media (min-width: 1280px) {
   .poc-services {
