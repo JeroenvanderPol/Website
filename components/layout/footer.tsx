@@ -1,23 +1,21 @@
 import Link from "next/link";
+import Image from "next/image";
 import business from "@/data/business.json";
 import services from "@/data/services.json";
-import { Phone, Mail, MapPin } from "lucide-react";
 export function Footer() {
   return (
     <footer className="poc-footer">
       <div className="poc-container">
         <div className="poc-footer-grid">
-          <div>
-            <h2>Van de Voort Tuinen</h2>
-            <p>Het is onze passie om al het groen te laten stralen!</p>
-            <a className="footer-contact-row" href="tel:+31683259762"><Phone aria-hidden="true" size={18} /><span>{business.phone}</span></a>
-            <a className="footer-contact-row" href={`mailto:${business.email}`}><Mail aria-hidden="true" size={18} /><span>{business.email}</span></a>
-            <address className="footer-contact-row"><MapPin aria-hidden="true" size={18} /><span>
-              {business.address}
-              <br />
-              {business.postcode} {business.city}
-            </span></address>
-            <p>KvK: {business.kvk}</p>
+          <div className="poc-footer-brand-column">
+            <div className="poc-footer-brand">
+              <Image
+                src="/images/original-site/logo.png"
+                alt="Van de Voort Tuinen"
+                width={300}
+                height={80}
+              />
+            </div>
           </div>
           <div>
             <h2>Diensten</h2>

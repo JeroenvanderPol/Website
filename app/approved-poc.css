@@ -1068,8 +1068,19 @@ html {
 }
 .poc-footer-grid {
   display: grid;
-  grid-template-columns: 1fr 0.8fr 1.4fr;
-  gap: 46px;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 0.8fr) minmax(0, 1.2fr);
+  gap: 30px;
+}
+.poc-footer .poc-footer-brand {
+  display: inline-flex;
+  width: min(240px, 100%);
+  margin: 0;
+  line-height: normal;
+}
+.poc-footer-brand img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 .poc-footer h2 {
   font-size: 18px;
@@ -1093,32 +1104,13 @@ html {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
-.poc-footer .footer-contact-row {
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
-}
-.poc-footer .footer-contact-row svg {
-  flex: 0 0 auto;
-  margin-top: 3px;
-  color: #326f39;
-}
-.poc-footer .footer-contact-row span {
-  min-width: 0;
-  overflow-wrap: anywhere;
-}
-.poc-footer address {
-  font-style: normal;
-  font-size: 13px;
-  line-height: 1.8;
-  color: #526257;
-  margin-bottom: 14px;
-}
 .poc-areas {
-  columns: 2;
+  columns: 3;
+  column-gap: 16px;
   font-size: 13px;
   color: #526257;
   line-height: 2;
+  overflow-wrap: anywhere;
 }
 .poc-footer-bottom {
   margin-top: 34px;
