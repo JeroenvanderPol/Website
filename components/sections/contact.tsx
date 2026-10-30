@@ -1,13 +1,24 @@
 "use client";
 import { useRef, useState } from "react";
+import Image from "next/image";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
-import { Phone, Mail, MapPin, Send } from "lucide-react";
+import {
+  ArrowRight,
+  Building2,
+  ClipboardList,
+  Mail,
+  MapPin,
+  Pencil,
+  Phone,
+  Send,
+  UserRound,
+} from "lucide-react";
 import Link from "next/link";
 import business from "@/data/business.json";
 import { validateContact, type ContactErrors, type ContactField } from "@/lib/contact";
-export function Contact() {
+export function Contact({ standalone = false }: { standalone?: boolean }) {
   const [errors, setErrors] = useState<ContactErrors>({});
   const [message, setMessage] = useState("");
   const [sending, setSending] = useState(false);
@@ -57,38 +68,82 @@ export function Contact() {
     }
   }
   return (
-    <section id="contact" className="poc-contact">
+    <section
+      id="contact"
+      className={`poc-contact${standalone ? " poc-contact-page" : ""}`}
+    >
       <span id="Contact-opnemen" className="poc-anchor" />
       <div className="poc-container poc-contact-grid">
-        <div>
-          <h2>Vertel ons over uw plannen.</h2>
-          <p>
+        <div className="poc-contact-copy">
+          {standalone && (
+            <Link
+              href="/"
+              className="poc-contact-brand"
+              aria-label="Van de Voort Tuinen - home"
+            >
+              <Image
+                src="/images/original-site/logo.png"
+                alt="Van de Voort Tuinen"
+                width={300}
+                height={80}
+                priority
+              />
+            </Link>
+          )}
+          <div className="poc-contact-eyebrow">
+            <span>Contact</span>
+          </div>
+          <h2>
+            Vertel ons
+            <br />
+            {" "}over uw <span>plannen.</span>
+          </h2>
+          <p className="poc-contact-intro">
             Een nieuwe tuin, een groen gazon of hulp bij het onderhoud? Neem
             contact met ons op.
           </p>
           <a className="poc-contact-link" href="tel:+31683259762">
-            <Phone size={20} />
-            {business.phone}
+            <span className="poc-contact-icon">
+              <Phone aria-hidden="true" size={20} />
+            </span>
+            <span>{business.phone}</span>
           </a>
           <a className="poc-contact-link" href={`mailto:${business.email}`}>
-            <Mail size={20} />
-            {business.email}
+            <span className="poc-contact-icon">
+              <Mail aria-hidden="true" size={20} />
+            </span>
+            <span>{business.email}</span>
           </a>
           <address className="poc-contact-address">
-            <MapPin aria-hidden="true" size={20} />
+            <span className="poc-contact-icon">
+              <MapPin aria-hidden="true" size={20} />
+            </span>
             <span>
-            {business.address}
-            <br />
-            {business.postcode} {business.city}
+              {business.address}
+              <br />
+              {business.postcode} {business.city}
             </span>
           </address>
-          <p>KvK: {business.kvk}</p>
+          <div className="poc-contact-kvk">
+            <span className="poc-contact-icon">
+              <Building2 aria-hidden="true" size={20} />
+            </span>
+            <span>KvK: {business.kvk}</span>
+          </div>
         </div>
         <form onSubmit={submit} className="poc-form" noValidate aria-busy={sending}>
-          <h3>Neem contact met ons op</h3>
-          <p>
-            Stel uw vraag of vertel ons over uw plannen. Velden met * zijn verplicht.
-          </p>
+          <div className="poc-form-heading">
+            <span className="poc-form-heading-icon">
+              <Send aria-hidden="true" size={22} />
+            </span>
+            <div>
+              <h3>Neem contact met ons op</h3>
+              <p>
+                Stel uw vraag of vertel ons over uw plannen. Velden met * zijn
+                verplicht.
+              </p>
+            </div>
+          </div>
           <div aria-hidden="true" style={{ position: "absolute", left: "-10000px" }}>
             <Label htmlFor="website">Website</Label>
             <Input id="website" name="website" autoComplete="off" tabIndex={-1} />
@@ -96,47 +151,63 @@ export function Contact() {
           <div className="poc-form-row">
             <div>
               <Label htmlFor="name">Naam *</Label>
-              <Input id="name" name="name" autoComplete="name" required maxLength={100} {...fieldProps("name")} />
+              <div className="poc-input-icon">
+                <UserRound aria-hidden="true" size={18} />
+                <Input id="name" name="name" autoComplete="name" placeholder="Uw naam" required maxLength={100} {...fieldProps("name")} />
+              </div>
               {error("name")}
             </div>
             <div>
               <Label htmlFor="phone">Telefoon</Label>
-              <Input id="phone" name="phone" type="tel" autoComplete="tel" maxLength={100} {...fieldProps("phone")} />
+              <div className="poc-input-icon">
+                <Phone aria-hidden="true" size={18} />
+                <Input id="phone" name="phone" type="tel" autoComplete="tel" placeholder="Uw telefoonnummer" maxLength={100} {...fieldProps("phone")} />
+              </div>
               {error("phone")}
             </div>
           </div>
           <div>
             <Label htmlFor="email">E-mail *</Label>
-            <Input
-              id="email"
-              name="email"
-              type="email"
-              autoComplete="email"
-              maxLength={100}
-              {...fieldProps("email")}
-              required
-            />
+            <div className="poc-input-icon">
+              <Mail aria-hidden="true" size={18} />
+              <Input
+                id="email"
+                name="email"
+                type="email"
+                autoComplete="email"
+                placeholder="Uw e-mailadres"
+                maxLength={100}
+                {...fieldProps("email")}
+                required
+              />
+            </div>
+            {error("email")}
           </div>
-          {error("email")}
           <div>
             <Label htmlFor="subject">Onderwerp</Label>
-            <Input id="subject" name="subject" maxLength={100} {...fieldProps("subject")} />
+            <div className="poc-input-icon">
+              <ClipboardList aria-hidden="true" size={18} />
+              <Input id="subject" name="subject" placeholder="Uw onderwerp" maxLength={100} {...fieldProps("subject")} />
+            </div>
             {error("subject")}
           </div>
           <div>
             <div className="contact-message-label"><Label htmlFor="message">Bericht *</Label><span id="message-count">{message.length}/1000</span></div>
-            <Textarea
-              id="message"
-              name="message"
-              rows={5}
-              maxLength={1000}
-              value={message}
-              onChange={(event) => setMessage(event.target.value)}
-              aria-invalid={!!errors.message}
-              aria-describedby={errors.message ? "message-count message-error" : "message-count"}
-              required
-              placeholder="Vertel ons over uw project of vraag..."
-            />
+            <div className="poc-textarea-icon">
+              <Pencil aria-hidden="true" size={18} />
+              <Textarea
+                id="message"
+                name="message"
+                rows={5}
+                maxLength={1000}
+                value={message}
+                onChange={(event) => setMessage(event.target.value)}
+                aria-invalid={!!errors.message}
+                aria-describedby={errors.message ? "message-count message-error" : "message-count"}
+                required
+                placeholder="Vertel ons over uw project of vraag..."
+              />
+            </div>
             {error("message")}
           </div>
           <label className="poc-consent">
@@ -147,6 +218,7 @@ export function Contact() {
           <button className="poc-button" type="submit" disabled={sending}>
             <Send aria-hidden="true" size={18} />
             {sending ? "Bezig met versturen…" : "Bericht versturen"}
+            <ArrowRight aria-hidden="true" size={18} />
           </button>
           <p role="status" aria-live="polite">{notice}</p>
         </form>

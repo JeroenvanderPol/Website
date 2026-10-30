@@ -14,3 +14,7 @@ Voor publicatie: projecttitels, locaties en beschrijvingen controleren via `READ
 ## Update — 7 oktober 2026
 
 De eigenaar bevestigt dat alle 23 projecten echt zijn, maar zegt dat de huidige titels, locaties en beschrijvingen nog moeten worden gecorrigeerd. Alle projectrecords hebben `status: confirmed`; `contentStatus: needs-review` houdt projectpagina's uit zoekresultaten en de sitemap totdat de teksten zijn gecontroleerd. De checklist van september beschrijft de eerdere situatie.
+
+## Update — 30 oktober 2026
+
+De klant heeft de zichtbare inhoud van alle 23 huidige projecten gecontroleerd en geverifieerd; de records zijn `confirmed` en `verified`. De privacyverklaring is goedgekeurd. Contactaanvragen zonder opdracht worden uiterlijk 12 maanden na het laatste contact uit de mailbox en archiefmap verwijderd. De gebruiksvoorwaardenpagina blijft afzonderlijk als concept gemarkeerd totdat goedkeuring daarvan is bevestigd.

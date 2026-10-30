@@ -23,10 +23,6 @@ export default function TermsPage() {
           <span aria-current="page">Gebruiksvoorwaarden</span>
         </nav>
         <h1>Gebruiksvoorwaarden</h1>
-        <p className="legal-draft-note" role="note">
-          Concept voor eigenaarcontrole. Deze voorwaarden gaan over het gebruik
-          van de website, niet over afspraken voor een tuin- of grondwerkopdracht.
-        </p>
 
         <article className="legal-content">
           <section>

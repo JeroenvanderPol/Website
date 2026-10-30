@@ -1,8 +1,8 @@
 # Product
 
-## Google reviews integration status
+## Google reviews
 
-The reviews section now has a prepared server-side Google Places connection and a direct link to the matched business listing. Live review display awaits `GOOGLE_PLACES_API_KEY` and `GOOGLE_PLACE_ID`. It displays at most five Google-selected reviews with attribution and links, or an honest unavailable state. Do not replace this with archived POC testimonials. See [setup instructions](docs/ai/google-reviews-setup.md) for activation, costs, policy pages and validation requirements.
+The homepage and `/reviews` show three full, client-reviewed excerpts from public Google reviews, stored in `data/google-business.json`. This selection is static and does not update automatically; both surfaces link directly to the live Google profile. The aggregate score and count are not shown. No Google Places API is used by the current review UI; the legacy API route and its tests remain unused.
 
 <!-- impeccable:product-schema 1 -->
 
@@ -32,7 +32,7 @@ Visitors compare services and project photographs before making contact, includi
 - Homepage: hero, four services, about, a horizontal rail with all 23 original project photographs, reviews notice, contact and footer. Service filtering lives on `/projecten`; enlarged image viewing remains on project detail pages.
 - Contact preserves name, phone, email, subject, message and consent. It prepares a mailto draft; the visitor sends it in an email program. No backend delivery or success confirmation exists.
 - Original-site contact details, address, KvK and all 18 work-area towns are captured in `data/business.json`.
-- POC testimonials, statistics, opening hours and response promises are not verified evidence and are omitted from live factual claims. Service wording copied from the source does not independently verify certification.
+- All 23 current project records are real and their displayed copy has been checked and verified by the client. New or changed project copy must stay out of indexing until checked. POC statistics, opening hours and response promises are not verified evidence and remain omitted from live factual claims. Service wording copied from the source does not independently verify certification.
 - Preserve the existing domain unless a verified business change requires updating it.
 
 ## Brand Commitments

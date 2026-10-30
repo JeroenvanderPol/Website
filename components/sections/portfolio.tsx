@@ -26,7 +26,7 @@ export function Portfolio() {
             <Link className="poc-portfolio-all" href="/projecten">Bekijk al het werk →</Link>
           </div>
         </div>
-        <ProjectGrid projects={featuredProjects} className="project-grid poc-portfolio-grid" />
+        <ProjectGrid projects={featuredProjects} className="project-grid poc-portfolio-grid" showProjectLink={false} />
       </div>
     </section>
   );

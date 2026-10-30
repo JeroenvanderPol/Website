@@ -10,6 +10,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   );
   return [
     "/",
+    "/contact",
+    "/privacy",
+    "/reviews",
     ...(allProjectCopyVerified ? ["/projecten"] : []),
     ...services.map((service) => `/diensten/${service.slug}`),
     ...projects

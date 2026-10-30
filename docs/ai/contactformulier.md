@@ -29,11 +29,11 @@ De Vercel-noodstop blokkeert formulierinzendingen met een Firewall-regel: **Requ
 
 Er is bewust geen externe CAPTCHA-, Redis- of betaalde rate-limitdienst toegevoegd. Vercel biedt WAF-rate limiting op Hobby met usage-based kosten; deze site gebruikt dat niet standaard. Er is ook geen persistente idempotency-opslag: de knop voorkomt dubbelklikken in dezelfde browser, maar een herhaalde aanvraag na een time-out kan theoretisch een dubbele mail opleveren.
 
-De concept-privacyverklaring staat op `/privacy` en is gelinkt vanuit het formulier en de footer. De eigenaar bevestigde de naam Van de Voort Tuinen, eenmanszaak, KvK 92208614 en stemde in met een voorgestelde bewaartermijn van maximaal 12 maanden voor aanvragen zonder opdracht. Zorg dat het Strato-archief ook daadwerkelijk volgens deze termijn wordt opgeschoond en laat de definitieve tekst controleren vóór publieke ingebruikname. Google Maps Platform-voorwaarden blijven een afzonderlijk productiepunt als Google Places-reviews worden geactiveerd; daarvoor is ook een openbare gebruiksvoorwaardenpagina nodig.
+De privacyverklaring op `/privacy` is door de klant goedgekeurd. Contactaanvragen die niet tot een opdracht leiden worden uiterlijk 12 maanden na het laatste contact uit de mailbox en archiefmap verwijderd. De gebruiksvoorwaardenpagina is afzonderlijk en blijft een concept totdat de goedkeuring daarvan is bevestigd. De reviewweergave gebruikt statische fragmenten en doet geen Google Places API-verzoeken.
 
 ## Productiecontrole
 
 1. De Vercel-noodstop en productie-SMTP-instellingen zijn door de eigenaar geconfigureerd. Controleer bij wijzigingen dat de zes `STRATO_SMTP_*`-waarden alleen in de bedoelde Vercel-omgeving staan.
 2. De domeinbeheerder controleert SPF/DKIM volgens de instructies van Strato en inspecteert bestaande DNS-records voordat die worden gewijzigd.
 3. Verstuur na een geautoriseerde productie-deploy een test via het formulier en controleer ontvangst in `info@vandevoortgrondwerken.nl`; gebruik beantwoorden om te bevestigen dat de bezoeker als Reply-To is ingesteld.
-4. Controleer vóór publieke lancering de privacyverklaring en bevestig de juridische bedrijfsnaam/rechtsvorm en een beleid voor het verwijderen van gearchiveerde contactmails. De honeypot is een beperkte botfilter; houd de WAF-noodstop beschikbaar.
+4. Voer de afgesproken opschoning van de mailbox en archiefmap uiterlijk 12 maanden na het laatste contact uit. De privacyverklaring is goedgekeurd; houd de WAF-noodstop beschikbaar.

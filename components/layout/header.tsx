@@ -57,7 +57,7 @@ export function Header() {
               <Phone size={19} />
             </a>
             <Button asChild>
-              <Link href="/#contact">Offerte aanvragen</Link>
+              <Link href="/contact">Offerte aanvragen</Link>
             </Button>
             <button
               ref={toggleRef}
@@ -82,7 +82,7 @@ export function Header() {
                 {label}
               </Link>
             ))}
-            <Link href="/#contact" onClick={() => setOpen(false)}>
+            <Link href="/contact" onClick={() => setOpen(false)}>
               Contact
             </Link>
           </nav>

@@ -2,7 +2,7 @@
 
 ## Project pages (POC)
 
-Each real project has a `/projecten/[slug]` page using a shared template and linked cards, plus a filterable `/projecten` overview. The owner confirms the projects are real but says current titles, locations and descriptions need correction. `status` records that the project is real; `contentStatus` remains `needs-review` until its copy is checked. Pending pages are `noindex`, omit project JSON-LD and stay out of the sitemap. Once every project copy is verified, `/projecten` enters the sitemap; verified detail pages enter individually. Preview deployments remain excluded. See `README-PROJECTEN.md` for the fields to correct and the verification flag.
+Each real project has a `/projecten/[slug]` page using a shared template and linked cards, plus a filterable `/projecten` overview. The client confirmed the visible copy for all 23 current projects has been checked; every record is `confirmed` and `verified`. The `contentStatus` gate remains for future unreviewed changes: pending pages are `noindex`, omit project JSON-LD and stay out of the sitemap until verified. Preview deployments remain excluded. See `README-PROJECTEN.md` for the fields and verification flag.
 
 The homepage remains a single scrolling page. Its service cards and footer link to four statically rendered routes under `/diensten/`: `tuin-aanleggen`, `tuinonderhoud`, `sloopwerkzaamheden`, `gras-aanleggen`. Header navigation and quotation links return to homepage anchors. All original portfolio photos remain on the homepage.
 

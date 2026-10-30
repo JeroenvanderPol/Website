@@ -1,10 +1,13 @@
-# Google reviews connection
+# Legacy Google Places API proposal
 
-The integration uses Google Places API (New), Place Details. It is prepared but cannot fetch genuine reviews until the business listing and credentials are configured.
+> Status 30 oktober 2026: dit document beschrijft een optionele API-integratie en niet de huidige reviewweergave. De homepage en `/reviews` tonen drie statische, klantgecontroleerde fragmenten uit openbare Google-reviews en linken naar het actuele profiel. Er is geen Google Places API-key nodig en de interface doet geen review-API-verzoeken. Volg de onderstaande activatiestappen alleen als de klant later expliciet kiest voor live API-reviews.
+
+The legacy integration uses Google Places API (New), Place Details. It is prepared but cannot fetch live reviews until the business listing and credentials are configured.
 
 The user-provided Google search identified Van de Voort Tuinen at Hondsklauw 20, 5271 CN Sint-Michielsgestel, telephone 06 83259762. The matching observed Maps feature ID is `0x47c6e94540e48b67:0x75675c97c6f25817`; a direct link is stored in `data/google-business.json` and displayed even before API activation. This Maps feature ID is not the Places API Place ID. Resolve that listing through the Place ID finder or an authorized Places lookup once the key is available.
 
 ## Owner setup
+## Legacy owner setup (not active)
 
 1. Confirm the business listing and obtain its Place ID using Google's Place ID finder. Check the website/telephone match this business before using it.
 2. Create/select an owner-controlled Google Cloud project, enable billing and **Places API (New)**, then create an API key restricted to that API. For a server key, use IP restrictions only when the hosting has fixed outbound IPs; browser HTTP-referrer restrictions do not work for these server calls.
@@ -17,9 +20,10 @@ The user-provided Google search identified Van de Voort Tuinen at Hondsklauw 20,
 
 4. Restart the local server; redeploy after changing Vercel environment variables. Check the listing name, aggregate rating, author/source links and review text against the actual Google listing.
 5. Set API quotas and billing alerts in Google Cloud. Reviews use a paid Places field tier; verify current prices before enabling production traffic. The endpoint always targets this one business. Add hosting-level rate limiting for `/api/google-reviews` before public launch to limit automated billable requests.
-6. Google requires publicly accessible website Terms of Use and Privacy Policy incorporating the applicable Google terms/privacy references. Draft pages are available at `/voorwaarden` and `/privacy`; both are marked noindex and require owner review before public activation. Confirm the privacy retention period is implemented in the mail archive. Account and billing acceptance stay with the owner.
+6. Google requires publicly accessible website Terms of Use and Privacy Policy incorporating the applicable Google terms/privacy references. The privacy statement at `/privacy` is client-approved and states the 12-month mailbox retention policy. The `/voorwaarden` page remains separately marked as a draft until its approval is confirmed. Account and billing acceptance for any future API integration stay with the owner.
 
 ## Behavior
+## Behavior if this integration is reactivated
 
 - The API supplies at most five reviews selected by relevance, not all reviews or a guaranteed latest-first list. The interface labels this and links to the full listing.
 - Review texts are rendered as plain text, with original language preferred, rating, author attribution/avatar/profile link, date, individual review link and provider attributions.

@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { coverPhoto, type Project } from "@/lib/projects";
 
-export function ProjectGrid({ projects, className = "project-grid" }: { projects: Project[]; className?: string }) {
+export function ProjectGrid({ projects, className = "project-grid", showProjectLink = true }: { projects: Project[]; className?: string; showProjectLink?: boolean }) {
   return <div className={className}>{projects.map((project) => {
     const cover = coverPhoto(project);
     const copyVerified = project.status === "confirmed" && project.contentStatus === "verified";
@@ -13,7 +13,7 @@ export function ProjectGrid({ projects, className = "project-grid" }: { projects
       </div>
       <div className="project-caption"><h3>{copyVerified ? project.title : "Projectfoto"}</h3>
         <p className="project-location">{copyVerified ? project.city : "Projectgegevens worden gecontroleerd"}</p>
-        <span className="project-open">Bekijk project →</span>
+        {showProjectLink && <span className="project-open">Bekijk project →</span>}
       </div>
     </Link>
   ); })}</div>;

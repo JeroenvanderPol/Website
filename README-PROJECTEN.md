@@ -33,7 +33,7 @@ De agent bedenkt geen feiten die u niet heeft opgegeven. Exacte prijzen, afmetin
 
 ## Bestaande projectgegevens corrigeren
 
-De 23 projecten en foto's zijn echt. De huidige titels, plaatsen en korte projectbeschrijvingen kunnen nog onjuist zijn en moeten per project worden gecontroleerd. De gegevens staan centraal in `data/original-projects.json`; pas daar `title`, `city` en `summary` aan. Controleer ook `tags`, `alt` en `images[].alt` bij de foto's. Laat `slug` staan om de bestaande projectlink te behouden. De velden `request`, `approach` en `result` worden niet gebruikt en horen niet in een projectrecord.
+De 23 huidige projecten en foto's zijn echt. De klant heeft de zichtbare titels, plaatsen en korte projectbeschrijvingen gecontroleerd; alle records hebben `status: confirmed` en `contentStatus: verified`. Bij nieuwe of gewijzigde projectgegevens blijft controle nodig voordat ze als geverifieerd worden gepubliceerd. De gegevens staan centraal in `data/original-projects.json`; pas daar `title`, `city` en `summary` aan. Controleer ook `tags`, `alt` en `images[].alt` bij wijzigingen. Laat `slug` staan om de bestaande projectlink te behouden. De velden `request`, `approach` en `result` worden niet gebruikt en horen niet in een projectrecord.
 
 Na controle van alle zichtbare projectgegevens zet u voor dat project `contentStatus` op `verified`. Zolang de tekst nog nagekeken moet worden, blijft deze op `needs-review`; projectpagina's met die status krijgen geen zoekindexvermelding. De overzichtspagina komt pas in de sitemap als alle projectteksten zijn gecontroleerd. Testversies blijven uitgesloten van indexering.
 
