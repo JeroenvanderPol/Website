@@ -181,14 +181,14 @@
     {
         "id":  7,
         "src":  "/images/original-site/project-07.jpg",
-        "alt":  "Vers aangelegd gazon",
-        "title":  "Vers aangelegd gazon",
+        "alt":  "Aangelegd gazon",
+        "title":  "Nieuw gazon aangelegd",
         "category":  "Gras aanleggen",
-        "slug":  "vers-aangelegd-gazon",
+        "slug":  "nieuw-gazon-aangelegd",
         "city":  "Drunen",
         "status":  "confirmed",
         "contentStatus":  "verified",
-        "summary":  "Niew aangelegd gazon in Drun. De tuin kon een frisse groene basis gebruiken.",
+        "summary":  "Nieuw aangelegd gazon in Drunen. De tuin kon een frisse groene basis gebruiken.",
         "tags":  [
                      "Gras aanleggen"
                  ],
@@ -197,7 +197,7 @@
                        {
                            "id":  "photo-7",
                            "src":  "/images/original-site/project-07.jpg",
-                           "alt":  "Vers aangelegd gazon",
+                           "alt":  "Nieuw aangelegd gazon",
                            "thumbnail":  "/images/thumbnails/project-7.webp",
                            "width":  2000,
                            "height":  1500
@@ -207,8 +207,8 @@
     {
         "id":  8,
         "src":  "/images/original-site/project-08.jpg",
-        "alt":  "Voorbereiding van de tuin",
-        "title":  "Voorbereiding van de tuin",
+        "alt":  "Voorbereiding van de tuin voor de beplanting",
+        "title":  "Voorbereiding tuin voor de beplanting",
         "category":  "Tuin aanleggen",
         "slug":  "voorbereiding-van-de-tuin",
         "city":  "Best",
@@ -223,7 +223,7 @@
                        {
                            "id":  "photo-8",
                            "src":  "/images/original-site/project-08.jpg",
-                           "alt":  "Voorbereiding van de tuin",
+                           "alt":  "Voorbereiding van de tuin voor de beplanting",
                            "thumbnail":  "/images/thumbnails/project-8.webp",
                            "width":  2000,
                            "height":  1125
