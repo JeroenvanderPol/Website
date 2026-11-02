@@ -624,5 +624,32 @@
                            "height":  640
                        }
                    ]
+    },
+
+     {
+        "id":  24,
+        "src":  "/images/original-site/project-24.jpeg",
+        "alt":  "Tuinaanleg",
+        "title":  "Tuinaanleg",
+        "category":  "Tuin aanleggen",
+        "slug":  "tuinaanleg-nuenen",
+        "city":  "Nuenen",
+        "status":  "confirmed",
+        "contentStatus":  "verified",
+        "summary":  "Tuinaanleg in Nuenen. Bestrating en beplanting naar wensen van de klant.",
+        "tags":  [
+                     "Tuin aanleggen"
+                 ],
+        "coverImageId":  "photo-24",
+        "images":  [
+                       {
+                           "id":  "photo-24",
+                           "src":  "/images/original-site/project-24.jpeg",
+                           "alt":  "Tuinaanleg Nuenen",
+                           "thumbnail":  "/images/original-site/project-24.jpeg",
+                           "width":  480,
+                           "height":  640
+                       }
+                   ]
     }
 ]
