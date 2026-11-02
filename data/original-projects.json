@@ -628,7 +628,7 @@
 
      {
         "id":  24,
-        "src":  "/images/original-site/project-24.jpeg",
+        "src":  "/images/original-site/project-24.jpg",
         "alt":  "Tuinaanleg Nuenen",
         "title":  "Tuinaanleg",
         "category":  "Tuin aanleggen",
@@ -644,9 +644,35 @@
         "images":  [
                        {
                            "id":  "photo-24",
-                           "src":  "/images/original-site/project-24.jpeg",
+                           "src":  "/images/original-site/project-24.jpg",
                            "alt":  "Tuinaanleg Nuenen",
-                           "thumbnail":  "/images/original-site/project-24.jpeg",
+                           "thumbnail":  "/images/original-site/project-24.jpg",
+                           "width":  480,
+                           "height":  640
+                       }
+                   ]
+    },
+     {
+        "id":  25,
+        "src":  "/images/original-site/project-25.jpg",
+        "alt":  "Tuinaanleg Schijndel",
+        "title":  "Tuinaanleg",
+        "category":  "Tuin aanleggen",
+        "slug":  "tuinaanleg-schijndel",
+        "city":  "Schijndel",
+        "status":  "confirmed",
+        "contentStatus":  "verified",
+        "summary":  "Tuinaanleg in Schijndel. Vervanging van bestrating en beplanting naar wensen van de klant.",
+        "tags":  [
+                     "Tuin aanleggen"
+                 ],
+        "coverImageId":  "photo-25",
+        "images":  [
+                       {
+                           "id":  "photo-25",
+                           "src":  "/images/original-site/project-25.jpg",
+                           "alt":  "Tuinaanleg Schijndel",
+                           "thumbnail":  "/images/original-site/project-25.jpg",
                            "width":  480,
                            "height":  640
                        }
