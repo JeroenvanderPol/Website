@@ -207,10 +207,10 @@
     {
         "id":  8,
         "src":  "/images/original-site/project-08.jpg",
-        "alt":  "Voorbereiding van de tuin voor de beplanting",
-        "title":  "Voorbereiding tuin voor de beplanting",
+        "alt":  "Aanleg portugese laurier wolken in organische vormen",
+        "title":  "Aanleg portugese laurier wolken",
         "category":  "Tuin aanleggen",
-        "slug":  "voorbereiding-van-de-tuin",
+        "slug":  "aanleg-portugese-laurier-wolken",
         "city":  "Best",
         "status":  "confirmed",
         "contentStatus":  "verified",
@@ -223,7 +223,7 @@
                        {
                            "id":  "photo-8",
                            "src":  "/images/original-site/project-08.jpg",
-                           "alt":  "Voorbereiding van de tuin voor de beplanting",
+                           "alt":  "Aanleg portugese laurier wolken",
                            "thumbnail":  "/images/thumbnails/project-8.webp",
                            "width":  2000,
                            "height":  1125
