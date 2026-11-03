@@ -102,10 +102,10 @@
     {
         "id":  4,
         "src":  "/images/original-site/project-04.jpg",
-        "alt":  "Tuin aanleg met organische vormen met beplanting in Oisterwijk",
-        "title":  "Tuinaanleg terras, gazon en beplanting",
+        "alt":  "Tuin tijdens de aanleg",
+        "title":  "Tuin tijdens de aanleg",
         "category":  "Tuin aanleggen",
-        "slug":  "tuin-aanleg-terras-gazon-en-beplanting",
+        "slug":  "tuin-tijdens-de-aanleg",
         "city":  "Oisterwijk",
         "status":  "confirmed",
         "contentStatus":  "verified",
@@ -118,7 +118,7 @@
                        {
                            "id":  "photo-4",
                            "src":  "/images/original-site/project-04.jpg",
-                           "alt":  "Tuinaanleg Oisterwijk terras en gazon",
+                           "alt":  "Tuin tijdens de aanleg",
                            "thumbnail":  "/images/thumbnails/project-4.webp",
                            "width":  2000,
                            "height":  1500
