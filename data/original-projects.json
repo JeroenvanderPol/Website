@@ -604,8 +604,8 @@
     {
         "id":  23,
         "src":  "/images/original-site/project-23.jpg",
-        "alt":  "Nieuw aangeplante border",
-        "title":  "Voortuinaanleg eindhoven",
+        "alt":  "Tuinen eindhoven vervangen van de voortuin",
+        "title":  "Voortuinen aanleg",
         "category":  "Tuin aanleggen",
         "slug":  "nieuw-aangeplante-border",
         "city":  "Eindhoven",
@@ -620,7 +620,7 @@
                        {
                            "id":  "photo-23",
                            "src":  "/images/original-site/project-23.jpg",
-                           "alt":  "Nieuw aangeplante border",
+                           "alt":  "Tuinen eindhoven vervangen van de voortuin",
                            "thumbnail":  "/images/thumbnails/project-23.webp",
                            "width":  480,
                            "height":  640
