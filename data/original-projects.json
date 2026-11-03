@@ -5,8 +5,8 @@
         "alt":  "Tuin aanleg met organische vormen en beplanting",
         "title":  "Tuin met terras en beplanting",
         "category":  "Tuin aanleggen",
-        "slug":  "tuinaanleg-oistewijk",
-        "city":  "Oisterwijk",
+        "slug":  "tuinaanleg-best",
+        "city":  "Best",
         "status":  "confirmed",
         "contentStatus":  "verified", 
         "summary":  "Tuin met terras en beplanting aanleg in organische vormen in Best. De bewoners wilden een tuin waarin een terras en groen elkaar aanvullen.",
@@ -31,7 +31,7 @@
                        {
                            "id":  "detail-path",
                            "src":  "/images/original-site/project-03.jpg",
-                           "alt":  "Stapstenen in het gazon",
+                           "alt":  "Tuin aanleg met organische vormen en beplanting",
                            "thumbnail":  "/images/thumbnails/project-1-detail-path.webp",
                            "width":  2000,
                            "height":  1500
