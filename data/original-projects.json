@@ -128,7 +128,7 @@
     {
         "id":  5,
         "src":  "/images/original-site/project-05.jpg",
-        "alt":  "Terras naast het gazon",
+        "alt":  "Tuinaanleg met een ruim terras, groen gazon en sfeervolle beplanting",
         "title":  "Terras aanleg",
         "category":  "Tuin aanleggen",
         "slug":  "tuinaanleg-drunen",
@@ -145,7 +145,7 @@
                        {
                            "id":  "photo-5",
                            "src":  "/images/original-site/project-05.jpg",
-                           "alt":  "Terras naast het gazon",
+                           "alt":  "Tuinaanleg met een ruim terras, groen gazon en sfeervolle beplanting",
                            "thumbnail":  "/images/thumbnails/project-5.webp",
                            "width":  2000,
                            "height":  1500
@@ -155,7 +155,7 @@
     {
         "id":  6,
         "src":  "/images/original-site/project-06.jpg",
-        "alt":  "Gazon bij een overkapping",
+        "alt":  "Tuinaanleg met een strak gazon naast een sfeervolle overkapping",
         "title":  "Gazon bij een overkapping",
         "category":  "Gras aanleggen",
         "slug":  "gazonaanleg-drunen",
@@ -171,7 +171,7 @@
                        {
                            "id":  "photo-6",
                            "src":  "/images/original-site/project-06.jpg",
-                           "alt":  "Gazon bij een overkapping",
+                           "alt":  "Tuinaanleg met een strak gazon naast een sfeervolle overkapping",
                            "thumbnail":  "/images/thumbnails/project-6.webp",
                            "width":  2000,
                            "height":  1500
@@ -182,7 +182,7 @@
         "id":  7,
         "src":  "/images/original-site/project-07.jpg",
         "alt":  "Aangelegd gazon",
-        "title":  "Nieuw gazon aangelegd",
+        "title":  "Tuinaanleg met een nieuw aangelegd, strak groen gazon",
         "category":  "Gras aanleggen",
         "slug":  "hovenier-drunen",
         "city":  "Drunen",
@@ -197,7 +197,7 @@
                        {
                            "id":  "photo-7",
                            "src":  "/images/original-site/project-07.jpg",
-                           "alt":  "Nieuw aangelegd gazon",
+                           "alt":  "Tuinaanleg met een nieuw aangelegd, strak groen gazon",
                            "thumbnail":  "/images/thumbnails/project-7.webp",
                            "width":  2000,
                            "height":  1500
@@ -207,7 +207,7 @@
     {
         "id":  8,
         "src":  "/images/original-site/project-08.jpg",
-        "alt":  "Aanleg portugese laurier wolken in organische vormen",
+        "alt":  "Tuinaanleg met Portugese laurierwolken in speelse, organische vormen",
         "title":  "Aanleg portugese laurier wolken",
         "category":  "Tuin aanleggen",
         "slug":  "hovenier-best",
@@ -224,7 +224,7 @@
                        {
                            "id":  "photo-8",
                            "src":  "/images/original-site/project-08.jpg",
-                           "alt":  "Aanleg portugese laurier wolken",
+                           "alt":  "Tuinaanleg met Portugese laurierwolken in speelse, organische vormen",
                            "thumbnail":  "/images/thumbnails/project-8.webp",
                            "width":  2000,
                            "height":  1125
@@ -234,7 +234,7 @@
     {
         "id":  9,
         "src":  "/images/original-site/project-09.jpg",
-        "alt":  "Beplanting langs een tuinpad",
+        "alt":  "Tuinaanleg met gevarieerde beplanting langs een strak aangelegd tuinpad",
         "title":  "Beplanting langs een tuinpad",
         "category":  "Tuin aanleggen",
         "slug":  "tuinen-best",
@@ -250,7 +250,7 @@
                        {
                            "id":  "photo-9",
                            "src":  "/images/original-site/project-09.jpg",
-                           "alt":  "Beplanting langs een tuinpad",
+                           "alt":  "Tuinaanleg met gevarieerde beplanting langs een strak aangelegd tuinpad",
                            "thumbnail":  "/images/thumbnails/project-9.webp",
                            "width":  900,
                            "height":  1600
