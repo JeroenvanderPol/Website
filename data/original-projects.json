@@ -75,7 +75,7 @@
     {
         "id":  3,
         "src":  "/images/original-site/project-03.jpg",
-        "alt":  "Tuinaanleg met stapstenen in een groen gazo",
+        "alt":  "Tuinaanleg met stapstenen in een groen gazon",
         "title":  "Stapstenen in het gazon",
         "category":  "gazonaanleg-oisterwijk",
         "slug":  "bestrating-oisterwijk",
@@ -102,7 +102,7 @@
     {
         "id":  4,
         "src":  "/images/original-site/project-04.jpg",
-        "alt":  "Tuinaanleg in uitvoering door Van de Voort Tuinen",
+        "alt":  "Hovenier bereid tuin voor met een nieuwe indeling in Oisterwijk",
         "title":  "Tuinaanleg gazon en bestrating",
         "category":  "Tuin aanleggen",
         "slug":  "hovenier-oisterwijk",
@@ -118,7 +118,7 @@
                        {
                            "id":  "photo-4",
                            "src":  "/images/original-site/project-04.jpg",
-                           "alt":  "Tuinaanleg in uitvoering door Van de Voort Tuinen",
+                           "alt":  "Hovenier bereid tuin voor met een nieuwe indeling in Oisterwijk",
                            "thumbnail":  "/images/thumbnails/project-4.webp",
                            "width":  2000,
                            "height":  1500
@@ -128,7 +128,7 @@
     {
         "id":  5,
         "src":  "/images/original-site/project-05.jpg",
-        "alt":  "Tuinaanleg met een ruim terras, groen gazon en sfeervolle beplanting",
+        "alt":  "Tuinaanleg drunen met een ruim terras, groen gazon en sfeervolle beplanting",
         "title":  "Terras aanleg",
         "category":  "Tuin aanleggen",
         "slug":  "tuinaanleg-drunen",
@@ -145,7 +145,7 @@
                        {
                            "id":  "photo-5",
                            "src":  "/images/original-site/project-05.jpg",
-                           "alt":  "Tuinaanleg met een ruim terras, groen gazon en sfeervolle beplanting",
+                           "alt":  "Tuinaanleg drunen met een ruim terras, groen gazon en sfeervolle beplanting",
                            "thumbnail":  "/images/thumbnails/project-5.webp",
                            "width":  2000,
                            "height":  1500
@@ -155,7 +155,7 @@
     {
         "id":  6,
         "src":  "/images/original-site/project-06.jpg",
-        "alt":  "Tuinaanleg met een strak gazon naast een sfeervolle overkapping",
+        "alt":  "Tuinaanleg drunen met een strak gazon naast een sfeervolle overkapping",
         "title":  "Gazon bij een overkapping",
         "category":  "Gras aanleggen",
         "slug":  "gazonaanleg-drunen",
@@ -207,7 +207,7 @@
     {
         "id":  8,
         "src":  "/images/original-site/project-08.jpg",
-        "alt":  "Tuinaanleg met Portugese laurierwolken in speelse, organische vormen",
+        "alt":  "Tuinaanleg in best met Portugese laurierwolken in speelse, organische vormen",
         "title":  "Aanleg portugese laurier wolken",
         "category":  "Tuin aanleggen",
         "slug":  "hovenier-best",
@@ -224,7 +224,7 @@
                        {
                            "id":  "photo-8",
                            "src":  "/images/original-site/project-08.jpg",
-                           "alt":  "Tuinaanleg met Portugese laurierwolken in speelse, organische vormen",
+                           "alt":  "Tuinaanleg in best met Portugese laurierwolken in speelse, organische vormen",
                            "thumbnail":  "/images/thumbnails/project-8.webp",
                            "width":  2000,
                            "height":  1125
