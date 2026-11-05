@@ -2,7 +2,7 @@
     {
         "id":  1,
         "src":  "/images/original-site/project-01.jpg",
-        "alt":  "Tuin aanleg met organische vormen en beplanting",
+        "alt":  "Moderne tuinaanleg met organische vormen en kleurrijke beplanting",
         "title":  "Tuin met terras en beplanting",
         "category":  "Tuin aanleggen",
         "slug":  "tuinaanleg-best",
@@ -23,7 +23,7 @@
                        {
                            "id":  "photo-1",
                            "src":  "/images/original-site/project-01.jpg",
-                           "alt":  "Tuin met terras en beplanting",
+                           "alt":  "Moderne tuinaanleg met organische vormen en kleurrijke beplanting",
                            "thumbnail":  "/images/thumbnails/project-1.webp",
                            "width":  2000,
                            "height":  1125
@@ -49,7 +49,7 @@
     {
         "id":  2,
         "src":  "/images/original-site/project-02.jpg",
-        "alt":  "Gazon met voorbereiding trampoline",
+        "alt":  "uinaanleg met strak gazon en voorbereide ondergrond voor een trampoline",
         "title":  "Gazon met voorbereiding trampoline",
         "category":  "Gras aanleggen",
         "slug":  "hovenier-son-en-breugel",
@@ -65,7 +65,7 @@
                        {
                            "id":  "photo-2",
                            "src":  "/images/original-site/project-02.jpg",
-                           "alt":  "Gazon met ronde plantvakken",
+                           "alt":  "uinaanleg met strak gazon en voorbereide ondergrond voor een trampoline",
                            "thumbnail":  "/images/thumbnails/project-2.webp",
                            "width":  2000,
                            "height":  1500
@@ -75,7 +75,7 @@
     {
         "id":  3,
         "src":  "/images/original-site/project-03.jpg",
-        "alt":  "Stapstenen in het gazon",
+        "alt":  "Tuinaanleg met stapstenen in een groen gazo",
         "title":  "Stapstenen in het gazon",
         "category":  "gazonaanleg-oisterwijk",
         "slug":  "bestrating-oisterwijk",
@@ -92,7 +92,7 @@
                        {
                            "id":  "photo-3",
                            "src":  "/images/original-site/project-03.jpg",
-                           "alt":  "Stapstenen in het gazon",
+                           "alt":  "Tuinaanleg met stapstenen in een groen gazon",
                            "thumbnail":  "/images/thumbnails/project-3.webp",
                            "width":  2000,
                            "height":  1500
@@ -102,7 +102,7 @@
     {
         "id":  4,
         "src":  "/images/original-site/project-04.jpg",
-        "alt":  "Tuin tijdens de aanleg",
+        "alt":  "Tuinaanleg in uitvoering door Van de Voort Tuinen",
         "title":  "Tuinaanleg gazon en bestrating",
         "category":  "Tuin aanleggen",
         "slug":  "hovenier-oisterwijk",
@@ -118,7 +118,7 @@
                        {
                            "id":  "photo-4",
                            "src":  "/images/original-site/project-04.jpg",
-                           "alt":  "Tuin tijdens de aanleg",
+                           "alt":  "Tuinaanleg in uitvoering door Van de Voort Tuinen",
                            "thumbnail":  "/images/thumbnails/project-4.webp",
                            "width":  2000,
                            "height":  1500
