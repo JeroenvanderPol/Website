@@ -731,5 +731,31 @@
                            "height":  640
                        }
                    ]
+    },
+    {
+        "id":  28,
+        "src":  "/images/original-site/project-28.jpg",
+        "alt":  "Tuinaanleg best met organische vormen en kleurrijke beplanting",
+        "title":  "Tuinaanleg best met organische vormen en kleurrijke beplanting",
+        "category":  "tuin aanleggen",
+        "slug":  "tuinaanleg-best",
+        "city":  "best",
+        "status":  "confirmed",
+        "contentStatus":  "verified",
+        "summary":  "Tuinaanleg in De best met organische vormen en kleurrijke beplanting. De bewoners wilden een tuin waarin een terras en groen elkaar aanvullen.",
+        "tags":  [
+                     "Tuin aanleggen"
+                 ],
+        "coverImageId":  "photo-28",
+        "images":  [
+                       {
+                           "id":  "photo-28",
+                           "src":  "/images/original-site/project-28.jpg",
+                           "alt":  "Tuinaanleg best met organische vormen en kleurrijke beplanting",
+                           "thumbnail":  "/images/original-site/project-28.jpg",
+                           "width":  480,
+                           "height":  640
+                       }
+                   ]
     }
 ]
