@@ -757,5 +757,31 @@
                            "height":  640
                        }
                    ]
+    },
+    {
+        "id":  29,
+        "src":  "/images/original-site/project-29.jpg",
+        "alt":  "Terras aanleg met keramische tegels",
+        "title":  "Terras aanleg met keramische tegels",
+        "category":  "terras aanleggen",
+        "slug":  "terras-aanleg-met-keramische-tegels",
+        "city":  "best",
+        "status":  "confirmed",
+        "contentStatus":  "verified",
+        "summary":  "Terras aanleg in De best met keramische tegels. De bewoners wilden een terras dat zich aansluit bij de omgeving."
+        "tags":  [
+                     ""
+                 ],
+        "coverImageId":  "photo-28",
+        "images":  [
+                       {
+                           "id":  "photo-29",
+                           "src":  "/images/original-site/project-29.jpg",
+                           "alt":  "Terras aanleg met keramische tegels",
+                           "thumbnail":  "/images/original-site/project-29.jpg",
+                           "width":  480,
+                           "height":  640
+                       }
+                   ]
     }
 ]
