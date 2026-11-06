@@ -37,6 +37,8 @@
   gap: 7px;
   min-height: 44px;
   color: #202d24;
+  font-size: 20px;
+  font-weight: 550;
   text-decoration: underline;
   text-underline-offset: 4px;
 }
@@ -634,7 +636,11 @@ html {
   border-radius: 28px;
   color: #244c2a;
 }
-.poc-hero > img {
+.poc-hero-image {
+  position: absolute;
+  inset: 0;
+}
+.poc-hero-image img {
   object-fit: cover;
 }
 .poc-hero-shade {
@@ -1263,19 +1269,24 @@ html {
     display: none;
   }
   .poc-hero {
-    height: 540px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
     border-radius: 22px;
-    align-items: start;
+    background: #b5d39e;
   }
   .poc-hero-panel {
-    width: 100%;
-    height: 74%;
-    border-radius: 22px 22px 28% 0 / 22px 22px 16% 0;
+    display: none;
   }
   .poc-hero-shade {
-    background: linear-gradient(180deg, transparent 35%, rgb(7 27 13 / 28%));
+    display: none;
+  }
+  .poc-hero-image {
+    display: none;
   }
   .poc-hero-copy {
+    order: 1;
     width: 100%;
     padding: 42px 24px 24px;
   }
@@ -1370,16 +1381,10 @@ html {
   gap: 12px;
   margin-bottom: 20px;
   color: #70a638;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 650;
   line-height: 1.2;
   text-transform: uppercase;
-}
-.poc-contact-eyebrow::after {
-  width: 72px;
-  height: 2px;
-  background: currentColor;
-  content: "";
 }
 .poc-contact h2 {
   max-width: 12ch;

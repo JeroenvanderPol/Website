@@ -648,9 +648,9 @@
                            "id":  "photo-24",
                            "src":  "/images/original-site/project-24.jpg",
                            "alt":  "Hovenier Nuenen teras en gazonaanleg",
-                           "thumbnail":  "/images/original-site/project-24.jpg",
-                           "width":  480,
-                           "height":  640
+                           "thumbnail":  "/images/thumbnails/hovenier-nuenen-photo-24.webp",
+                           "width":  1200,
+                           "height":  1600
                        }
                    ]
     },
@@ -674,9 +674,9 @@
                            "id":  "photo-25",
                            "src":  "/images/original-site/project-25.jpg",
                            "alt":  "Tuinaanleg Schijndel",
-                           "thumbnail":  "/images/original-site/project-25.jpg",
-                           "width":  480,
-                           "height":  640
+                           "thumbnail":  "/images/thumbnails/tuinaanleg-schijndel-photo-25.webp",
+                           "width":  1280,
+                           "height":  720
                        }
                    ]
     },
@@ -700,9 +700,9 @@
                            "id":  "photo-26",
                            "src":  "/images/original-site/project-26.jpg",
                            "alt":  "Tuinaanleg Oisterwijk terras en gazon",
-                           "thumbnail":  "/images/original-site/project-26.jpg",
-                           "width":  480,
-                           "height":  640
+                           "thumbnail":  "/images/thumbnails/tuinen-oisterwijk-photo-26.webp",
+                           "width":  1280,
+                           "height":  960
                        }
                    ]
     },
@@ -726,15 +726,15 @@
                            "id":  "photo-27",
                            "src":  "/images/original-site/project-27.jpg",
                            "alt":  "Tuinaanleg keramische tegels onder overkapping",
-                           "thumbnail":  "/images/original-site/project-27.jpg",
-                           "width":  480,
-                           "height":  640
+                           "thumbnail":  "/images/thumbnails/hovenier-vught-photo-27.webp",
+                           "width":  960,
+                           "height":  1280
                        }
                    ]
     },
     {
         "id":  28,
-        "src":  "/images/original-site/project-28.jpg",
+        "src":  "/images/original-site/project-28.JPG",
         "alt":  "Tuinaanleg best met organische vormen en kleurrijke beplanting",
         "title":  "Tuinaanleg met organische vormen en kleurrijke beplanting",
         "category":  "tuin aanleggen",
@@ -752,9 +752,9 @@
                            "id":  "photo-28",
                            "src":  "/images/original-site/project-28.JPG",
                            "alt":  "Tuinaanleg best met organische vormen en kleurrijke beplanting",
-                           "thumbnail":  "/images/original-site/project-28.JPG",
-                           "width":  480,
-                           "height":  640
+                           "thumbnail":  "/images/thumbnails/grazonaanleg-best-photo-28.webp",
+                           "width":  3840,
+                           "height":  2160
                        }
                    ]
     },
@@ -778,9 +778,9 @@
                            "id":  "photo-29",
                            "src":  "/images/original-site/project-29.jpg",
                            "alt":  "Terras aanleg met keramische tegels",
-                           "thumbnail":  "/images/original-site/project-29.jpg",
-                           "width":  480,
-                           "height":  640
+                           "thumbnail":  "/images/thumbnails/terras-aanleg-met-keramische-tegels-photo-29.webp",
+                           "width":  1536,
+                           "height":  2048
                        }
                    ]
     }

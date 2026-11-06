@@ -29,7 +29,7 @@ export function ProjectIndex() {
         {shown.length} {shown.length === 1 ? "project" : "projecten"}
       </p>
       {shown.length > 0 ? (
-        <ProjectGrid projects={shown} />
+        <ProjectGrid projects={shown} showProjectLink={false} />
       ) : (
         <p className="project-index-empty" role="status">
           Er zijn geen projecten gekoppeld aan deze dienst.
