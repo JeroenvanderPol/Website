@@ -750,8 +750,21 @@ html {
   background: #244c2a;
   color: #fff;
 }
-.poc-service-image {
+.poc-services a.poc-service-image-link {
+  position: absolute;
   z-index: -2;
+  inset: 0;
+  display: block;
+  min-height: 0;
+  margin: 0;
+}
+.poc-services a.poc-service-image-link:focus-visible {
+  z-index: 0;
+  outline: 3px solid #fff;
+  outline-offset: -6px;
+  border-radius: 12px;
+}
+.poc-service-image {
   object-fit: cover;
   transition: transform 350ms ease;
 }
@@ -762,6 +775,7 @@ html {
   position: absolute;
   z-index: -1;
   inset: 0;
+  pointer-events: none;
   background: linear-gradient(
     180deg,
     rgb(8 24 13 / 4%) 30%,
@@ -770,6 +784,7 @@ html {
 }
 .poc-service-content {
   position: absolute;
+  z-index: 1;
   inset: auto 0 0;
   display: flex;
   align-items: flex-end;
