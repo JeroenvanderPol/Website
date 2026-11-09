@@ -10,6 +10,13 @@ export function Services() {
         <h2>Van plan naar buitenruimte.</h2>
         <p>Onze vier diensten voor uw tuin, overzichtelijk bij elkaar.</p>
       </div>
+      <ServiceCards />
+    </section>
+  );
+}
+
+export function ServiceCards() {
+  return (
       <div className="poc-services">
         {services.map((service) => (
           <article key={service.title}>
@@ -43,6 +50,5 @@ export function Services() {
           </article>
         ))}
       </div>
-    </section>
   );
 }

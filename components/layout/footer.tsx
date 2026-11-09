@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import business from "@/data/business.json";
 import services from "@/data/services.json";
+import { locationHref } from "@/lib/locations";
 export function Footer() {
   return (
     <footer className="poc-footer">
@@ -29,7 +30,9 @@ export function Footer() {
             <h2>Werkgebied</h2>
             <ul className="poc-areas">
               {business.workArea.map((area) => (
-                <li key={area}>{area}</li>
+                <li key={area}>
+                  <Link href={locationHref(area)}>{area}</Link>
+                </li>
               ))}
             </ul>
           </div>

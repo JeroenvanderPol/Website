@@ -3,11 +3,13 @@ import { projects } from "@/lib/projects";
 import { ProjectGrid } from "@/components/projects/project-grid";
 
 const featuredProjectSlugs = [
-  "tuinen-sint-michielsgestel",
-  "nieuw-aangeplante-border",
-  "bestrating-vught",
-  "gazonaanleg-drunen",
+  "tuinen-oisterwijk",
+  "tuinaanleg-schijndel",
+  "grazonaanleg-best",
+  "hovenier-nuenen",
 ];
+
+// ^ Featured project slugs to display in the portfolio section (dan moet je dus wat in de URL staat aanpassen)
 
 const featuredProjects = featuredProjectSlugs.flatMap((slug) => {
   const project = projects.find((item) => item.slug === slug);

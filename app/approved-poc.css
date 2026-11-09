@@ -340,6 +340,25 @@
   letter-spacing: -0.035em;
   overflow-wrap: anywhere;
 }
+.approved-site .location-title {
+  font-size: clamp(34px, 5vw, 60px);
+  font-weight: 550;
+  line-height: 1.12;
+  letter-spacing: -0.035em;
+  overflow-wrap: anywhere;
+}
+.approved-site .location-services {
+  margin-top: 24px;
+}
+.approved-site .service-page .location-services .poc-service-content p {
+  margin-top: 0;
+  max-width: none;
+}
+.approved-site .service-area p a {
+  color: #326f39;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
 .approved-site .service-page p {
   max-width: 70ch;
   line-height: 1.8;
@@ -590,7 +609,7 @@ html {
   display: flex;
   gap: 24px;
   margin-left: auto;
-  font-size: 14px;
+  font-size: 16px;
   color: var(--primary);
 }
 .approved-site .desktop-nav a:hover {
@@ -1132,6 +1151,12 @@ html {
   color: #526257;
   line-height: 2;
   overflow-wrap: anywhere;
+}
+.poc-footer .poc-areas a {
+  display: inline;
+  margin: 0;
+  line-height: inherit;
+  color: inherit;
 }
 .poc-footer-bottom {
   margin-top: 34px;

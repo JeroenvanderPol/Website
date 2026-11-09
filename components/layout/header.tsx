@@ -57,7 +57,7 @@ export function Header() {
               <Phone size={19} />
             </a>
             <Button asChild>
-              <Link href="/contact">Offerte aanvragen</Link>
+              <Link href="/contact">Contact</Link>
             </Button>
             <button
               ref={toggleRef}

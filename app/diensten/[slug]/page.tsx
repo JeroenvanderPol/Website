@@ -11,6 +11,7 @@ import { projects as photos } from "@/lib/projects";
 import { ProjectGrid } from "@/components/projects/project-grid";
 import { serviceDetails } from "@/data/service-details";
 import { absoluteUrl } from "@/lib/site";
+import { locationHref } from "@/lib/locations";
 
 type Props = { params: Promise<{ slug: string }> };
 export const dynamicParams = false;
@@ -151,8 +152,16 @@ export default async function ServicePage({ params }: Props) {
           <h2 id="service-area">Ons werkgebied</h2>
           <p>
             Van de Voort Tuinen is gevestigd in {business.city}. Ons werkgebied
-            omvat {business.workArea.join(", ")}. Neem contact op om uw locatie
-            en werkzaamheden te bespreken.
+            omvat{" "}
+            {business.workArea.map((area, index) => (
+              <span key={area}>
+                {index > 0 && ", "}
+                <Link href={locationHref(area)}>
+                  {area}
+                </Link>
+              </span>
+            ))}
+            . Neem contact op om uw locatie en werkzaamheden te bespreken.
           </p>
         </section>
         <nav className="service-related" aria-label="Andere diensten">
