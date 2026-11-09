@@ -141,7 +141,7 @@ export default async function ServicePage({ params }: Props) {
         {relatedPhotos.length > 0 && (
           <section className="service-work" aria-labelledby="service-work">
             <h2 id="service-work">Een kijkje in ons werk</h2>
-            <ProjectGrid projects={relatedPhotos} />
+            <ProjectGrid projects={relatedPhotos} showProjectLink={false} />
             <Link className="service-text-link" href="/projecten">
               Bekijk al het werk
             </Link>

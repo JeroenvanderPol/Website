@@ -4,13 +4,15 @@ import { ArrowUpRight, Phone } from "lucide-react";
 export function Hero() {
   return (
     <section className="poc-hero">
-      <Image
-        src="/images/original-site/project-01.jpg"
-        alt="Tuin met gazon, beplanting en terras bij de woning"
-        fill
-        priority
-        sizes="100vw"
-      />
+      <div className="poc-hero-image">
+        <Image
+          src="/images/original-site/project-01.jpg"
+          alt="Tuin met gazon, beplanting en terras bij de woning"
+          fill
+          priority
+          sizes="100vw"
+        />
+      </div>
       <div className="poc-hero-panel" aria-hidden="true" />
       <div className="poc-hero-shade" />
       <div className="poc-hero-copy">

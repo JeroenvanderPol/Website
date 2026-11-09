@@ -3,10 +3,10 @@ import { projects } from "@/lib/projects";
 import { ProjectGrid } from "@/components/projects/project-grid";
 
 const featuredProjectSlugs = [
-  "tuin-tijdens-de-aanleg",
+  "tuinen-sint-michielsgestel",
   "nieuw-aangeplante-border",
-  "oprit-bij-de-woning",
-  "gazon-met-ronde-plantvakken",
+  "bestrating-vught",
+  "gazonaanleg-drunen",
 ];
 
 const featuredProjects = featuredProjectSlugs.flatMap((slug) => {
@@ -23,7 +23,7 @@ export function Portfolio() {
           <h2>Bekijk ons werk</h2>
           <p>Bekijk foto's van ons werk en ontdek onze projecten.</p>
           <div className="poc-portfolio-actions">
-            <Link className="poc-portfolio-all" href="/projecten">Bekijk al het werk →</Link>
+            <Link className="poc-portfolio-all" href="/projecten">Bekijk al het werk</Link>
           </div>
         </div>
         <ProjectGrid projects={featuredProjects} className="project-grid poc-portfolio-grid" showProjectLink={false} />

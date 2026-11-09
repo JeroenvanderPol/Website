@@ -13,13 +13,19 @@ export function Services() {
       <div className="poc-services">
         {services.map((service) => (
           <article key={service.title}>
-            <Image
-              src={service.icon}
-              alt=""
-              fill
-              sizes="(min-width: 1280px) 22vw, (min-width: 768px) 45vw, 90vw"
-              className="poc-service-image"
-            />
+            <Link
+              href={`/diensten/${service.slug}`}
+              className="poc-service-image-link"
+              aria-label={`Bekijk ${service.title}`}
+            >
+              <Image
+                src={service.icon}
+                alt=""
+                fill
+                sizes="(min-width: 1280px) 22vw, (min-width: 768px) 45vw, 90vw"
+                className="poc-service-image"
+              />
+            </Link>
             <div className="poc-service-shade" aria-hidden="true" />
             <div className="poc-service-content">
               <div>

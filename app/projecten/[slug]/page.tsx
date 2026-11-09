@@ -62,7 +62,7 @@ export default async function ProjectPage({ params }: Props) {
     <div className="project-detail-tags">{project.tags.map(tag => <span className="project-badge" key={tag}>{tag}</span>)}</div>
     <ProjectImage images={project.images} coverImageId={project.coverImageId} />
     <section className="service-preparation"><h2>Ook plannen voor uw tuin?</h2><p>Bespreek uw wensen en de situatie in uw tuin met Van de Voort Tuinen.</p><div className="service-actions"><Link className="poc-button" href="/#contact">Offerte aanvragen</Link>{service && <Link className="service-text-link" href={`/diensten/${service.slug}`}>Meer over {service.title.toLowerCase()}</Link>}</div></section>
-    {related.length > 0 && <section className="service-work"><h2>Meer uit ons portfolio</h2><ProjectGrid projects={related} /></section>}
+    {related.length > 0 && <section className="service-work"><h2>Meer uit ons portfolio</h2><ProjectGrid projects={related} showProjectLink={false} /></section>}
     <Link className="service-text-link" href="/projecten">Terug naar al het werk</Link>
   </main><Footer /></div>;
 }

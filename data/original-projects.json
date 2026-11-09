@@ -478,10 +478,10 @@
         "title":  "Gazon langs de erfafscheiding",
         "category":  "Gras aanleggen",
         "slug":  "tuinen-dendungen",
-        "city":  "Den dungen",
+        "city":  "Den Dungen",
         "status":  "confirmed",
         "contentStatus":  "verified",
-        "summary":  "Gazon langs de erfafscheiding in Den dungen. Langs de erfafscheiding moest een groen geheel ontstaan.",
+        "summary":  "Gazon langs de erfafscheiding in Den Dungen. Langs de erfafscheiding moest een groen geheel ontstaan.",
         "tags":  [
                      "Gras aanleggen"
                  ],
@@ -507,7 +507,7 @@
         "city":  "Best",
         "status":  "confirmed",
         "contentStatus":  "verified",
-        "summary":  "Tuinaqnleg met zithoek en overkapping in Best. De tuin moest ruimte bieden voor groen en een comfortabele zitplek.",
+        "summary":  "Tuinaanleg met zithoek en overkapping in Best. De tuin moest ruimte bieden voor groen en een comfortabele zitplek.",
         "tags":  [
                      "Tuin aanleggen"
                  ],
@@ -533,7 +533,7 @@
         "city":  "Best",
         "status":  "confirmed",
         "contentStatus":  "verified",
-        "summary":  "inrit aanleg met voorbereiding plantenborder in Best. Naast de woning was voorbereiding nodig voor de toekomstige tuin.",
+        "summary":  "Inrit aanleg met voorbereiding plantenborder in Best. Naast de woning was voorbereiding nodig voor de toekomstige tuin.",
         "tags":  [
                      "Tuin aanleggen"
                  ],
@@ -648,9 +648,9 @@
                            "id":  "photo-24",
                            "src":  "/images/original-site/project-24.jpg",
                            "alt":  "Hovenier Nuenen teras en gazonaanleg",
-                           "thumbnail":  "/images/original-site/project-24.jpg",
-                           "width":  480,
-                           "height":  640
+                           "thumbnail":  "/images/thumbnails/hovenier-nuenen-photo-24.webp",
+                           "width":  1200,
+                           "height":  1600
                        }
                    ]
     },
@@ -674,9 +674,9 @@
                            "id":  "photo-25",
                            "src":  "/images/original-site/project-25.jpg",
                            "alt":  "Tuinaanleg Schijndel",
-                           "thumbnail":  "/images/original-site/project-25.jpg",
-                           "width":  480,
-                           "height":  640
+                           "thumbnail":  "/images/thumbnails/tuinaanleg-schijndel-photo-25.webp",
+                           "width":  1280,
+                           "height":  720
                        }
                    ]
     },
@@ -700,9 +700,9 @@
                            "id":  "photo-26",
                            "src":  "/images/original-site/project-26.jpg",
                            "alt":  "Tuinaanleg Oisterwijk terras en gazon",
-                           "thumbnail":  "/images/original-site/project-26.jpg",
-                           "width":  480,
-                           "height":  640
+                           "thumbnail":  "/images/thumbnails/tuinen-oisterwijk-photo-26.webp",
+                           "width":  1280,
+                           "height":  960
                        }
                    ]
     },
@@ -726,20 +726,20 @@
                            "id":  "photo-27",
                            "src":  "/images/original-site/project-27.jpg",
                            "alt":  "Tuinaanleg keramische tegels onder overkapping",
-                           "thumbnail":  "/images/original-site/project-27.jpg",
-                           "width":  480,
-                           "height":  640
+                           "thumbnail":  "/images/thumbnails/hovenier-vught-photo-27.webp",
+                           "width":  960,
+                           "height":  1280
                        }
                    ]
     },
     {
         "id":  28,
-        "src":  "/images/original-site/project-28.jpg",
+        "src":  "/images/original-site/project-28.JPG",
         "alt":  "Tuinaanleg best met organische vormen en kleurrijke beplanting",
         "title":  "Tuinaanleg met organische vormen en kleurrijke beplanting",
         "category":  "tuin aanleggen",
         "slug":  "grazonaanleg-best",
-        "city":  "best",
+        "city":  "Best",
         "status":  "confirmed",
         "contentStatus":  "verified",
         "summary":  "Tuinaanleg met organische vormen en kleurrijke beplanting. De bewoners wilden een tuin waarin een terras en groen elkaar aanvullen.",
@@ -752,9 +752,9 @@
                            "id":  "photo-28",
                            "src":  "/images/original-site/project-28.JPG",
                            "alt":  "Tuinaanleg best met organische vormen en kleurrijke beplanting",
-                           "thumbnail":  "/images/original-site/project-28.JPG",
-                           "width":  480,
-                           "height":  640
+                           "thumbnail":  "/images/thumbnails/grazonaanleg-best-photo-28.webp",
+                           "width":  3840,
+                           "height":  2160
                        }
                    ]
     },
@@ -765,7 +765,7 @@
         "title":  "Terras aanleg met keramische tegels",
         "category":  "terras aanleggen",
         "slug":  "terras-aanleg-met-keramische-tegels",
-        "city":  "nuenen",
+        "city":  "Nuenen",
         "status":  "confirmed",
         "contentStatus":  "verified",
         "summary":  "Terras aanleg in Nuenen met keramische tegels. De bewoners wilden een terras dat zich aansluit bij de omgeving.",
@@ -778,9 +778,9 @@
                            "id":  "photo-29",
                            "src":  "/images/original-site/project-29.jpg",
                            "alt":  "Terras aanleg met keramische tegels",
-                           "thumbnail":  "/images/original-site/project-29.jpg",
-                           "width":  480,
-                           "height":  640
+                           "thumbnail":  "/images/thumbnails/terras-aanleg-met-keramische-tegels-photo-29.webp",
+                           "width":  1536,
+                           "height":  2048
                        }
                    ]
     }

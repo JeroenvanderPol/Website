@@ -1,6 +1,5 @@
 "use client";
 import { useRef, useState } from "react";
-import Image from "next/image";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
@@ -75,21 +74,6 @@ export function Contact({ standalone = false }: { standalone?: boolean }) {
       <span id="Contact-opnemen" className="poc-anchor" />
       <div className="poc-container poc-contact-grid">
         <div className="poc-contact-copy">
-          {standalone && (
-            <Link
-              href="/"
-              className="poc-contact-brand"
-              aria-label="Van de Voort Tuinen - home"
-            >
-              <Image
-                src="/images/original-site/logo.png"
-                alt="Van de Voort Tuinen"
-                width={300}
-                height={80}
-                priority
-              />
-            </Link>
-          )}
           <div className="poc-contact-eyebrow">
             <span>Contact</span>
           </div>
