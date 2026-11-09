@@ -7,6 +7,7 @@ import { About } from "@/components/sections/about";
 import { Portfolio } from "@/components/sections/portfolio";
 import { Testimonials } from "@/components/sections/testimonials";
 import { Contact } from "@/components/sections/contact";
+import { Analytics } from "@vercel/analytics/next"
 import type { Metadata } from "next";
 import { siteUrl } from "@/lib/site";
 
@@ -27,6 +28,7 @@ export default function Home() {
           <Portfolio />
           <Testimonials />
           <Contact />
+          <Analytics />
         </div>
       </main>
       <Footer />
