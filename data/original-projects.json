@@ -57,9 +57,9 @@
     "status": "confirmed",
     "contentStatus": "verified",
     "summary": "Gazon aanleg in Son en Breugel met voorbreiding trampoline. De wens was een groen gazon met ruimte voor de trampoline.",
-    "period": "Februari 2026",
-    "materials": ["Stapstenen", "Graszoden", "Beplanting"],
-    "area": "ca 80m²",
+    "period": "Mei 2026",
+    "materials": ["Graszoden"],
+    "area": "ca 60m²",
     "tags": [
       "Gras aanleggen"
     ],
@@ -87,7 +87,7 @@
     "contentStatus": "verified",
     "summary": "Stapstenen in het gazon aanlegen in Oisterwijk. De bewoners zochten een looproute door het gras zonder een breed pad.",
     "period": "Februari 2026",
-    "materials": ["Stapstenen"],
+    "materials": ["Stapstenen,gazonzoden,beplanting"],
     "area": "80 m²",
     "tags": [
       "Tuin aanleggen",
@@ -116,9 +116,9 @@
     "status": "confirmed",
     "contentStatus": "verified",
     "summary": "Tuin tijdens de aanleg in Oisterwijk. Een bestaande buitenruimte moest een nieuwe tuinindeling krijgen.",
-    "period": "",
-    "materials": [],
-    "area": "",
+    "period": "Februari 2026",
+    "materials": ["Stapstenen", "Bestrating", "Graszoden", "Beplanting"],
+    "area": "80 m²",
     "tags": [
       "Tuin aanleggen"
     ],
@@ -145,9 +145,9 @@
     "status": "confirmed",
     "contentStatus": "verified",
     "summary": "Terras en gazon aanleg in Drunen. De vraag was een terras dat prettig aansluit op het gazon.",
-    "period": "",
-    "materials": [],
-    "area": "",
+    "period": "Juni 2025",
+    "materials": ["Gazonzoden"],
+    "area": "ca 60m²",
     "tags": [
       "Gras aanleggen",
       "Bestrating aanleggen"
