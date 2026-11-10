@@ -175,9 +175,9 @@
     "status": "confirmed",
     "contentStatus": "verified",
     "summary": "Gazon aanleg bij een overkapping in Drunen. Bij de overkapping wilden de bewoners een groen gazon.",
-    "period": "",
-    "materials": [],
-    "area": "",
+    "period": "Juni 2025",
+    "materials": ["keramische tegels 60x60", "Waalformaat klinkers", "Graszoden"],
+    "area": "ca.60 m²",
     "tags": [
       "Gras aanleggen"
     ],
@@ -205,8 +205,8 @@
     "contentStatus": "verified",
     "summary": "Nieuw aangelegd gazon in Drunen. De tuin kon een frisse groene basis gebruiken.",
     "period": "",
-    "materials": [],
-    "area": "",
+    "materials": ["Gazonzoden"],
+    "area": "60 m²",
     "tags": [
       "Gras aanleggen"
     ],
@@ -233,9 +233,9 @@
     "status": "confirmed",
     "contentStatus": "verified",
     "summary": "Tuin in aanleg in best. De bewoners wilden een tuin met organische vormen en beplanting in de vorm van Portugese laurier wolken.",
-    "period": "",
-    "materials": [],
-    "area": "",
+    "period": "maart 2026",
+    "materials": ["Portugese laurier"],
+    "area": "ca.50 m²",
     "tags": [
       "Tuin aanleggen"
     ],
@@ -262,9 +262,9 @@
     "status": "confirmed",
     "contentStatus": "verified",
     "summary": "Beplanting langs een tuinpad in best. Langs het tuinpad was aandacht nodig voor de beplanting.",
-    "period": "",
-    "materials": [],
-    "area": "",
+    "period": "maart 2026",
+    "materials": ["beplanting"],
+    "area": "ca. 40 m²",
     "tags": [
       "Tuin aanleggen"
     ],
@@ -291,9 +291,9 @@
     "status": "confirmed",
     "contentStatus": "verified",
     "summary": "Oprit bij de woning in Vught. De bewoners wilden een verzorgde toegang tot hun woning.",
-    "period": "",
-    "materials": [],
-    "area": "",
+    "period": "juli",
+    "materials": ["beton klinkers"],
+    "area": "ca. 20 m²",
     "tags": [
       "Bestrating aanleggen"
     ],
