@@ -1,8 +1,11 @@
+export type ServiceFaq = { question: string; answer: string };
+
 export const serviceDetails: Record<string, {
   intro: string;
   heading: string;
   paragraphs: string[];
   preparation: string;
+  faq: ServiceFaq[];
 }> = {
   "tuin-aanleggen": {
     intro: "Een tuin begint bij hoe u buiten wilt leven. Van de Voort Tuinen helpt met het ontwerpen en aanleggen van een tuin die past bij uw wensen.",
@@ -12,6 +15,12 @@ export const serviceDetails: Record<string, {
       "Wilt u ook een nieuw gazon? Bekijk dan onze dienst gras aanleggen. In ons portfolio vindt u foto's van tuinen, terrassen en beplanting om ideeën op te doen voor uw eigen buitenruimte.",
     ],
     preparation: "Vertel hoe u de tuin wilt gebruiken, welke onderdelen u wilt behouden en wat u wilt veranderen. Foto's van de huidige situatie en globale afmetingen helpen om uw plannen te bespreken.",
+    faq: [
+      {
+        question: "Kan Van de Voort Tuinen ook het tuinontwerp maken?",
+        answer: "Ja. Van de Voort Tuinen helpt met zowel het ontwerpen als het aanleggen van een tuin die past bij uw wensen. Tuinontwerp, beplanting en sfeerverlichting zijn onderdelen die u met ons kunt bespreken, net als de indeling van zitplekken en ruimte voor groen.",
+      },
+    ],
   },
   tuinonderhoud: {
     intro: "Een tuin heeft aandacht nodig om verzorgd te blijven. Van de Voort Tuinen verzorgt onderhoud aan bestaande tuinen en aan tuinen die we zelf hebben aangelegd.",
@@ -21,6 +30,12 @@ export const serviceDetails: Record<string, {
       "U kunt regelmatig of seizoensgebonden onderhoud met ons bespreken. Geef aan welke taken u zelf wilt blijven doen en waarbij u hulp zoekt. Zo kunt u gericht bespreken welk onderhoud bij uw tuin past.",
     ],
     preparation: "Stuur foto's van de tuin en geef aan of het om snoeiwerk, onkruidbestrijding, gazonverzorging of een combinatie gaat. Vermeld ook of u hulp voor één moment of terugkerend onderhoud zoekt.",
+    faq: [
+      {
+        question: "Onderhoudt Van de Voort Tuinen ook tuinen die het niet zelf heeft aangelegd?",
+        answer: "Ja. Van de Voort Tuinen verzorgt onderhoud aan bestaande tuinen en aan tuinen die we zelf hebben aangelegd. Snoeien, onkruidbestrijding en gazonverzorging vormen de basis. U kunt regelmatig of seizoensgebonden onderhoud bespreken, en aangeven welke taken u zelf wilt blijven doen.",
+      },
+    ],
   },
   "bestrating-aanleggen": {
     intro: "Een terras om buiten te zitten, een tuinpad of een oprit: Van de Voort Tuinen helpt met bestrating die past bij uw tuin en het gebruik ervan.",
@@ -30,6 +45,12 @@ export const serviceDetails: Record<string, {
       "Een goede voorbereiding en aandacht voor afwatering en aansluitingen zijn belangrijk voor de aanleg. In ons portfolio ziet u voorbeelden van terrassen en paden met verschillende vormen en legpatronen.",
     ],
     preparation: "Stuur foto's en globale afmetingen van het terras, pad of de oprit. Vertel welke bestrating er nu ligt, wat u wilt veranderen en hoe de plek bereikbaar is.",
+    faq: [
+      {
+        question: "Legt Van de Voort Tuinen ook opritten aan?",
+        answer: "Ja. Van de Voort Tuinen legt bestrating aan voor terrassen, tuinpaden en opritten. Een oprit stelt andere eisen aan de indeling en ondergrond dan een zitplek. Daarom bespreken we vooraf het gebruik, de materialen, de afwatering en de aansluitingen.",
+      },
+    ],
   },
   "gras-aanleggen": {
     intro: "Een nieuw gazon met graszoden: Van de Voort Tuinen kan de graszoden zowel leveren als voor u aanleggen.",
@@ -39,5 +60,15 @@ export const serviceDetails: Record<string, {
       "Na het leggen heeft het gazon verzorging nodig. Bespreek ook de nazorg, zoals water geven en het moment waarop u het gras kunt gebruiken. Voor later onderhoud kunt u bij ons terecht voor gazonverzorging.",
     ],
     preparation: "Geef de geschatte oppervlakte door en stuur foto's van de ondergrond. Laat weten of er nog bestaand gras aanwezig is en hoe de tuin bereikbaar is.",
+    faq: [
+      {
+        question: "Leveren jullie graszoden ook zonder aanleg?",
+        answer: "Ja. Van de Voort Tuinen kan graszoden leveren en ook voor u aanleggen. Geef bij uw aanvraag de geschatte oppervlakte door en laat weten of u alleen de levering wilt, of ook de bodemvoorbereiding en het leggen van de graszoden.",
+      },
+      {
+        question: "Wanneer is de beste tijd om graszoden te leggen?",
+        answer: "Graszoden kunt u het hele jaar door laten leggen, zolang de grond niet bevroren is. Alleen bij vorst in de bodem moet het leggen wachten. Vermeld bij uw aanvraag de gewenste periode, de oppervlakte en de staat van de ondergrond, zodat de aanleg goed kan worden ingepland.",
+      },
+    ],
   },
 };

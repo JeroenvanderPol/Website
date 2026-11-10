@@ -31,6 +31,18 @@ De website is daarmee lokaal aangepast. Online publiceren is een aparte stap via
 
 De agent bedenkt geen feiten die u niet heeft opgegeven. Exacte prijzen, afmetingen en datums zijn niet verplicht. Deel geen privé-adres of naam van een opdrachtgever als dat niet nodig is.
 
+## Projectgegevens: periode, materialen en oppervlakte
+
+Ieder project heeft drie optionele velden. Zodra er iets is ingevuld, verschijnt het automatisch als blokje "Projectgegevens" op de projectpagina en in `/llms.txt`. Lege velden worden niet getoond.
+
+| Veld | Betekenis | Voorbeeld |
+| --- | --- | --- |
+| `period` | Wanneer het werk is uitgevoerd (globaal mag) | `"voorjaar 2025"` |
+| `materials` | Gebruikte materialen, als lijst | `["Keramische tegels 60x60", "Graszoden"]` |
+| `area` | Ongeveer hoe groot het gebied was | `"ca. 80 m²"` |
+
+Vraag het de agent, bijvoorbeeld: **Gebruik $project-toevoegen. Het project in Best is uitgevoerd in voorjaar 2025, met keramische tegels 60x60 en graszoden, ca. 80 m².** Zelf aanpassen kan ook in `data/original-projects.json`. Vul alleen in wat klopt; onbekende velden laat u leeg (`""` of `[]`).
+
 ## Bestaande projectgegevens corrigeren
 
 De 23 huidige projecten en foto's zijn echt. De klant heeft de zichtbare titels, plaatsen en korte projectbeschrijvingen gecontroleerd; alle records hebben `status: confirmed` en `contentStatus: verified`. Bij nieuwe of gewijzigde projectgegevens blijft controle nodig voordat ze als geverifieerd worden gepubliceerd. De gegevens staan centraal in `data/original-projects.json`; pas daar `title`, `city` en `summary` aan. Controleer ook `tags`, `alt` en `images[].alt` bij wijzigingen. Laat `slug` staan om de bestaande projectlink te behouden. De velden `request`, `approach` en `result` worden niet gebruikt en horen niet in een projectrecord.

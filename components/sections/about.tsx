@@ -18,6 +18,8 @@ export function About() {
           </h2>
           <p>Het is onze passie om al het groen te laten stralen!</p>
           <p>
+             Achter Van de Voort Tuinen staat eigenaar Randy, die al tien jaar
+            met tuinen werkt.
             Bij Van de Voort Tuinen kunt u terecht voor tuinaanleg,
             tuinonderhoud, bestrating aanleggen en het aanleggen van gras. Van een
             nieuwe tuin tot de verzorging van uw gazon en beplanting.

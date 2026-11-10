@@ -6,7 +6,7 @@ import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { ProjectGrid } from "@/components/projects/project-grid";
 import { ProjectImage } from "@/components/projects/project-image";
-import { projects, coverPhoto } from "@/lib/projects";
+import { projects, coverPhoto, projectFacts } from "@/lib/projects";
 import { absoluteUrl, isPreview } from "@/lib/site";
 import { locationHref } from "@/lib/locations";
 import services from "@/data/services.json";
@@ -41,10 +41,12 @@ export default async function ProjectPage({ params }: Props) {
   const service = services.find((item) => item.title === project.category);
   const related = projects.filter((item) => item.id !== project.id && item.tags.some(tag => project.tags.includes(tag))).slice(0, 3);
   const url = absoluteUrl(`/projecten/${project.slug}`);
+  const facts = copyVerified ? projectFacts(project) : [];
   return <div className="approved-site"><Header /><main id="main" className="service-page poc-container project-detail">
     {project.status === "confirmed" && project.contentStatus === "verified" && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
       "@context": "https://schema.org", "@type": "WebPage", "@id": url, url, name: `${project.title} in ${project.city}`, description: project.summary,
       primaryImageOfPage: { "@type": "ImageObject", contentUrl: absoluteUrl(coverPhoto(project).src), caption: coverPhoto(project).alt },
+      image: project.images.map((image) => absoluteUrl(image.src)),
       about: { "@type": "Service", name: project.category, provider: { "@id": absoluteUrl("/#business") } },
       breadcrumb: { "@type": "BreadcrumbList", itemListElement: [
         { "@type": "ListItem", position: 1, name: "Home", item: absoluteUrl("/") },
@@ -61,6 +63,7 @@ export default async function ProjectPage({ params }: Props) {
       <aside className="project-copy-review"><strong>Projectgegevens worden gecontroleerd</strong><p>Deze foto's tonen echt werk. De projecttitel, plaats en beschrijving worden bijgewerkt.</p></aside>
     </>}
     <div className="project-detail-tags">{project.tags.map(tag => <span className="project-badge" key={tag}>{tag}</span>)}</div>
+    {facts.length > 0 && <dl className="project-facts" aria-label="Projectgegevens">{facts.map(fact => <div key={fact.label}><dt>{fact.label}</dt><dd>{fact.value}</dd></div>)}</dl>}
     <ProjectImage images={project.images} coverImageId={project.coverImageId} />
     <section className="service-preparation"><h2>Ook plannen voor uw tuin?</h2><p>Bespreek uw wensen en de situatie in uw tuin met Van de Voort Tuinen.</p><div className="service-actions"><Link className="poc-button" href="/#contact">Offerte aanvragen</Link>{service && <Link className="service-text-link" href={`/diensten/${service.slug}`}>Meer over {service.title.toLowerCase()}</Link>}{copyVerified && <Link className="service-text-link" href={locationHref(project.city)}>Hovenier in {project.city}</Link>}</div></section>
     {related.length > 0 && <section className="service-work"><h2>Meer uit ons portfolio</h2><ProjectGrid projects={related} showProjectLink={false} /></section>}

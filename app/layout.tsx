@@ -7,6 +7,8 @@ import "./globals.css";
 import "./approved-poc.css";
 import { siteUrl, isPreview } from "@/lib/site";
 import business from "@/data/business.json";
+import services from "@/data/services.json";
+import googleBusiness from "@/data/google-business.json";
 
 const geistSans = Geist({
   subsets: ["latin"],
@@ -31,15 +33,47 @@ export const metadata: Metadata = {
     ],
     apple: { url: "/images/brand/leaves-180.png", sizes: "180x180", type: "image/png" },
   },
-  keywords: [
-    "hoveniersbedrijf",
-    "tuinaanleg",
-    "bestrating",
-    "gras aanleggen",
-    "tuinonderhoud",
-  ],
   authors: [{ name: "Van de Voort Tuinen" }],
   ...socialMetadata("Van de Voort Tuinen | Tuinontwerp, Aanleg & Onderhoud", "Uw specialist in tuinaanleg, tuinonderhoud, gras aanleggen en bestrating aanleggen."),
+};
+
+const businessSchema = {
+  "@context": "https://schema.org",
+  "@type": ["LocalBusiness", "HomeAndConstructionBusiness"],
+  "@id": `${siteUrl}/#business`,
+  name: business.name,
+  alternateName: "Van de Voort Tuinen",
+  url: siteUrl,
+  telephone: business.phone,
+  email: business.email,
+  logo: `${siteUrl}/images/original-site/logo.png`,
+  image: `${siteUrl}/images/original-site/project-01.jpg`,
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: business.address,
+    postalCode: business.postcode,
+    addressLocality: business.city,
+    addressCountry: "NL",
+  },
+  geo: { "@type": "GeoCoordinates", latitude: 51.64056, longitude: 5.35619 },
+  hasMap: googleBusiness.mapsUrl,
+  identifier: { "@type": "PropertyValue", propertyID: "KvK", value: business.kvk },
+  founder: { "@type": "Person", name: "Randy van de Voort", jobTitle: "Eigenaar" },
+  areaServed: business.workArea.map((name) => ({ "@type": "City", name })),
+  sameAs: [googleBusiness.mapsUrl],
+  hasOfferCatalog: {
+    "@type": "OfferCatalog",
+    name: "Diensten",
+    itemListElement: services.map((service) => ({
+      "@type": "Offer",
+      itemOffered: {
+        "@type": "Service",
+        "@id": `${siteUrl}/diensten/${service.slug}#service`,
+        name: service.title,
+        url: `${siteUrl}/diensten/${service.slug}`,
+      },
+    })),
+  },
 };
 
 export default function RootLayout({
@@ -52,13 +86,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased`}
       >
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-          "@context": "https://schema.org", "@type": "LocalBusiness", "@id": `${siteUrl}/#business`,
-          name: business.name, url: siteUrl, telephone: business.phone, email: business.email,
-          logo: `${siteUrl}/images/original-site/logo.png`,
-          address: { "@type": "PostalAddress", streetAddress: business.address, postalCode: business.postcode, addressLocality: business.city, addressCountry: "NL" },
-          areaServed: business.workArea,
-        }).replace(/</g, "\\u003c") }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(businessSchema).replace(/</g, "\\u003c") }} />
         <ThemeProvider
           attribute="class"
           defaultTheme="light"

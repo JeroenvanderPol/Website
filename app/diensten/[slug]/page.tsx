@@ -43,6 +43,17 @@ export default async function ServicePage({ params }: Props) {
     .filter((photo) => photo.tags.includes(service.title))
     .slice(0, 3);
   const url = absoluteUrl(`/diensten/${slug}`);
+  const faqs = [
+    ...content.faq,
+    {
+      question: `Werkt Van de Voort Tuinen ook in mijn plaats?`,
+      answer: `Van de Voort Tuinen is gevestigd in ${business.city} en werkt in onder meer ${business.workArea.join(", ")}. Twijfelt u of uw locatie binnen ons werkgebied valt? Neem dan contact op om uw plaats en de werkzaamheden te bespreken.`,
+    },
+    {
+      question: `Hoe vraag ik een offerte aan voor ${service.title.toLowerCase()}?`,
+      answer: `${content.preparation} U kunt uw aanvraag sturen via het contactformulier of bellen naar ${business.phone}.`,
+    },
+  ];
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -66,6 +77,15 @@ export default async function ServicePage({ params }: Props) {
           },
           { "@type": "ListItem", position: 2, name: service.title, item: url },
         ],
+      },
+      {
+        "@type": "FAQPage",
+        "@id": `${url}#faq`,
+        mainEntity: faqs.map((faq) => ({
+          "@type": "Question",
+          name: faq.question,
+          acceptedAnswer: { "@type": "Answer", text: faq.answer },
+        })),
       },
     ],
   };
@@ -163,6 +183,15 @@ export default async function ServicePage({ params }: Props) {
             ))}
             . Neem contact op om uw locatie en werkzaamheden te bespreken.
           </p>
+        </section>
+        <section className="service-area service-faq" aria-labelledby="service-faq">
+          <h2 id="service-faq">Veelgestelde vragen</h2>
+          {faqs.map((faq) => (
+            <div key={faq.question}>
+              <h3>{faq.question}</h3>
+              <p>{faq.answer}</p>
+            </div>
+          ))}
         </section>
         <nav className="service-related" aria-label="Andere diensten">
           <h2>Ook voor uw tuin</h2>

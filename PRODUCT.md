@@ -63,4 +63,8 @@ The user selected **direction 1: POC verfijnd** after three development-only com
 
 ## Service feedback applied
 
-The owner feedback removes the standalone services Aanbouwen uitgraven and Bestrating aanleggen from all rendered sections and metadata. Four active services and portfolio filters share `data/services.json`: Tuin aanleggen, Tuinonderhoud, Sloopwerkzaamheden and Gras aanleggen. All 23 photographs remain; former paving/groundwork images are grouped under garden construction. No photo is asserted to show demolition; that filter has an honest empty state. All six source illustrations are retained on disk, with only the four active-service illustrations displayed. Original removed text remains recoverable in the source snapshots. The experience/statistics card remains absent pending verified figures; it can fit the existing design.
+`data/services.json` is the source of truth for the active services: Tuin aanleggen, Tuinonderhoud, Bestrating aanleggen and Gras aanleggen. Earlier notes that removed Bestrating aanleggen or listed Sloopwerkzaamheden are outdated. All 23 photographs remain. All six source illustrations are retained on disk, with only the four active-service illustrations displayed. Original removed text remains recoverable in the source snapshots.
+
+## Owner
+
+Client-confirmed: Randy is the owner of Van de Voort Tuinen and has worked in gardens for ten years. Other experience figures remain unverified and omitted.

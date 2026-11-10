@@ -17,6 +17,16 @@ export function Footer() {
                 height={80}
               />
             </div>
+            <address className="poc-footer-nap">
+              <strong>{business.name}</strong>
+              <span>{business.address}</span>
+              <span>
+                {business.postcode} {business.city}
+              </span>
+              <a href={`tel:${business.phone.replace(/\s/g, "")}`}>{business.phone}</a>
+              <a href={`mailto:${business.email}`}>{business.email}</a>
+              <span>KvK {business.kvk}</span>
+            </address>
           </div>
           <div>
             <h2>Diensten</h2>

@@ -5,12 +5,17 @@ import { Header } from "@/components/layout/header";
 import { GoogleReviewCards } from "@/components/sections/google-review-cards";
 import googleBusiness from "@/data/google-business.json";
 import { absoluteUrl } from "@/lib/site";
+import { socialMetadata } from "@/lib/social-metadata";
+
+const title = "Google reviews | Van de Voort Tuinen";
+const description =
+  "Bekijk een transparant gelabelde selectie van openbare Google-reviews van Van de Voort Tuinen.";
 
 export const metadata: Metadata = {
-  title: "Google reviews | Van de Voort Tuinen",
-  description:
-    "Bekijk een transparant gelabelde selectie van openbare Google-reviews van Van de Voort Tuinen.",
+  title,
+  description,
   alternates: { canonical: absoluteUrl("/reviews") },
+  ...socialMetadata(title, description, absoluteUrl("/reviews")),
 };
 
 export default function GoogleReviewsPage() {

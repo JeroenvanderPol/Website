@@ -33,6 +33,8 @@ test('all project records have unique routes, valid content and existing images'
     assert.match(project.slug, /^[a-z0-9]+(?:-[a-z0-9]+)*$/);
     for (const key of ['alt','title','city','summary']) assert.ok(project[key]?.trim(), `${project.slug}: ${key}`);
     for (const key of ['request', 'approach', 'result']) assert.ok(!(key in project), `${project.slug}: removed ${key} field`);
+    for (const key of ['period', 'area']) assert.ok(project[key] === undefined || typeof project[key] === 'string', `${project.slug}: ${key}`);
+    assert.ok(project.materials === undefined || (Array.isArray(project.materials) && project.materials.every(m => typeof m === 'string')), `${project.slug}: materials`);
     assert.equal(project.status, 'confirmed', `${project.slug}: project status`);
     assert.ok(['needs-review', 'verified'].includes(project.contentStatus), `${project.slug}: content status`);
     assert.ok(services.some(s => s.title === project.category));
@@ -49,6 +51,7 @@ function sitemap(preview, records) {
     if (name === '@/lib/projects') return { projects: records };
     if (name === '@/data/services.json') return { default: services };
     if (name === '@/lib/site') return { isPreview: preview, absoluteUrl: p => `https://vandevoortgrondwerken.nl${p}` };
+    if (name === '@/lib/locations') return { locations: [], isIndexable: () => false };
     throw new Error(name);
   }});
   return exports.default();

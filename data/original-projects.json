@@ -1,787 +1,868 @@
 [
-    {
-        "id":  1,
-        "src":  "/images/original-site/project-01.jpg",
-        "alt":  "Moderne tuinaanleg met organische vormen en kleurrijke beplanting",
-        "title":  "Tuin met terras en beplanting",
-        "category":  "Tuin aanleggen",
-        "slug":  "tuinaanleg-best",
-        "city":  "Best",
-        "status":  "confirmed",
-        "contentStatus":  "verified", 
-        "summary":  "Tuin met terras en beplanting aanleg in organische vormen in Best. De bewoners wilden een tuin waarin een terras en groen elkaar aanvullen.",
-        "tags":  [
-
-                     
-                     "Bestrating aanleggen", 
-                     "Tuin aanleggen",
-                     "Gras aanleggen"
-
-                 ],
-        "coverImageId":  "photo-1",
-        "images":  [
-                       {
-                           "id":  "photo-1",
-                           "src":  "/images/original-site/project-01.jpg",
-                           "alt":  "Moderne tuinaanleg met organische vormen en kleurrijke beplanting",
-                           "thumbnail":  "/images/thumbnails/project-1.webp",
-                           "width":  2000,
-                           "height":  1125
-                       },
-                       {
-                           "id":  "detail-path",
-                           "src":  "/images/original-site/project-03.jpg",
-                           "alt":  "Tuin aanleg met organische vormen en beplanting",
-                           "thumbnail":  "/images/thumbnails/project-1-detail-path.webp",
-                           "width":  2000,
-                           "height":  1500
-                       },
-                       {
-                           "id":  "detail-terrace",
-                           "src":  "/images/original-site/project-05.jpg",
-                           "alt":  "Terras naast het gazon",
-                           "thumbnail":  "/images/thumbnails/project-1-detail-terrace.webp",
-                           "width":  2000,
-                           "height":  1500
-                       }
-                   ]
-    },
-    {
-        "id":  2,
-        "src":  "/images/original-site/project-02.jpg",
-        "alt":  "uinaanleg met strak gazon en voorbereide ondergrond voor een trampoline",
-        "title":  "Gazon met voorbereiding trampoline",
-        "category":  "Gras aanleggen",
-        "slug":  "hovenier-son-en-breugel",
-        "city":  "Son en Breugel",
-        "status":  "confirmed",
-        "contentStatus":  "verified",
-        "summary":  "Gazon aanleg in Son en Breugel met voorbreiding trampoline. De wens was een groen gazon met ruimte voor de trampoline.",
-        "tags":  [
-                     "Gras aanleggen"
-                 ],
-        "coverImageId":  "photo-2",
-        "images":  [
-                       {
-                           "id":  "photo-2",
-                           "src":  "/images/original-site/project-02.jpg",
-                           "alt":  "uinaanleg met strak gazon en voorbereide ondergrond voor een trampoline",
-                           "thumbnail":  "/images/thumbnails/project-2.webp",
-                           "width":  2000,
-                           "height":  1500
-                       }
-                   ]
-    },
-    {
-        "id":  3,
-        "src":  "/images/original-site/project-03.jpg",
-        "alt":  "Tuinaanleg met stapstenen in een groen gazon",
-        "title":  "Stapstenen in het gazon",
-        "category":  "gazonaanleg-oisterwijk",
-        "slug":  "bestrating-oisterwijk",
-        "city":  "Oisterwijk",
-        "status":  "confirmed",
-        "contentStatus":  "verified",
-        "summary":  "Stapstenen in het gazon aanlegen in Oisterwijk. De bewoners zochten een looproute door het gras zonder een breed pad.",
-        "tags":  [
-                     "Tuin aanleggen",
-                     "Bestrating aanleggen"
-                 ],
-        "coverImageId":  "photo-3",
-        "images":  [
-                       {
-                           "id":  "photo-3",
-                           "src":  "/images/original-site/project-03.jpg",
-                           "alt":  "Tuinaanleg met stapstenen in een groen gazon",
-                           "thumbnail":  "/images/thumbnails/project-3.webp",
-                           "width":  2000,
-                           "height":  1500
-                       }
-                   ]
-    },
-    {
-        "id":  4,
-        "src":  "/images/original-site/project-04.jpg",
-        "alt":  "Hovenier bereid tuin voor met een nieuwe indeling in Oisterwijk",
-        "title":  "Tuinaanleg gazon en bestrating",
-        "category":  "Tuin aanleggen",
-        "slug":  "hovenier-oisterwijk",
-        "city":  "Oisterwijk",
-        "status":  "confirmed",
-        "contentStatus":  "verified",
-        "summary":  "Tuin tijdens de aanleg in Oisterwijk. Een bestaande buitenruimte moest een nieuwe tuinindeling krijgen.",
-        "tags":  [
-                     "Tuin aanleggen"
-                 ],
-        "coverImageId":  "photo-4",
-        "images":  [
-                       {
-                           "id":  "photo-4",
-                           "src":  "/images/original-site/project-04.jpg",
-                           "alt":  "Hovenier bereid tuin voor met een nieuwe indeling in Oisterwijk",
-                           "thumbnail":  "/images/thumbnails/project-4.webp",
-                           "width":  2000,
-                           "height":  1500
-                       }
-                   ]
-    },
-    {
-        "id":  5,
-        "src":  "/images/original-site/project-05.jpg",
-        "alt":  "Tuinaanleg drunen met een ruim terras, groen gazon en sfeervolle beplanting",
-        "title":  "Terras aanleg",
-        "category":  "Tuin aanleggen",
-        "slug":  "tuinaanleg-drunen",
-        "city":  "Drunen",
-        "status":  "confirmed",
-        "contentStatus":  "verified",
-        "summary":  "Terras en gazon aanleg in Drunen. De vraag was een terras dat prettig aansluit op het gazon.",
-        "tags":  [
-                     "Gras aanleggen",
-                     "Bestrating aanleggen"
-                 ],
-        "coverImageId":  "photo-5",
-        "images":  [
-                       {
-                           "id":  "photo-5",
-                           "src":  "/images/original-site/project-05.jpg",
-                           "alt":  "Tuinaanleg drunen met een ruim terras, groen gazon en sfeervolle beplanting",
-                           "thumbnail":  "/images/thumbnails/project-5.webp",
-                           "width":  2000,
-                           "height":  1500
-                       }
-                   ]
-    },
-    {
-        "id":  6,
-        "src":  "/images/original-site/project-06.jpg",
-        "alt":  "Tuinaanleg drunen met een strak gazon naast een sfeervolle overkapping",
-        "title":  "Gazon bij een overkapping",
-        "category":  "Gras aanleggen",
-        "slug":  "gazonaanleg-drunen",
-        "city":  "Drunen",
-        "status":  "confirmed",
-        "contentStatus":  "verified",
-        "summary":  "Gazon aanleg bij een overkapping in Drunen. Bij de overkapping wilden de bewoners een groen gazon.",
-        "tags":  [
-                     "Gras aanleggen"
-                 ],
-        "coverImageId":  "photo-6",
-        "images":  [
-                       {
-                           "id":  "photo-6",
-                           "src":  "/images/original-site/project-06.jpg",
-                           "alt":  "Tuinaanleg met een strak gazon naast een sfeervolle overkapping",
-                           "thumbnail":  "/images/thumbnails/project-6.webp",
-                           "width":  2000,
-                           "height":  1500
-                       }
-                   ]
-    },
-    {
-        "id":  7,
-        "src":  "/images/original-site/project-07.jpg",
-        "alt":  "Aangelegd gazon",
-        "title":  "Tuinaanleg met een nieuw aangelegd, strak groen gazon",
-        "category":  "Gras aanleggen",
-        "slug":  "hovenier-drunen",
-        "city":  "Drunen",
-        "status":  "confirmed",
-        "contentStatus":  "verified",
-        "summary":  "Nieuw aangelegd gazon in Drunen. De tuin kon een frisse groene basis gebruiken.",
-        "tags":  [
-                     "Gras aanleggen"
-                 ],
-        "coverImageId":  "photo-7",
-        "images":  [
-                       {
-                           "id":  "photo-7",
-                           "src":  "/images/original-site/project-07.jpg",
-                           "alt":  "Tuinaanleg met een nieuw aangelegd, strak groen gazon",
-                           "thumbnail":  "/images/thumbnails/project-7.webp",
-                           "width":  2000,
-                           "height":  1500
-                       }
-                   ]
-    },
-    {
-        "id":  8,
-        "src":  "/images/original-site/project-08.jpg",
-        "alt":  "Tuinaanleg in best met Portugese laurierwolken in speelse, organische vormen",
-        "title":  "Aanleg Portugese laurier wolken",
-        "category":  "Tuin aanleggen",
-        "slug":  "hovenier-best",
-        "city":  "Best",
-        "status":  "confirmed",
-        "contentStatus":  "verified",
-        "summary":  "Tuin in aanleg in best. De bewoners wilden een tuin met organische vormen en beplanting in de vorm van Portugese laurier wolken.",
-        "tags":  [
-        
-                     "Tuin aanleggen"
-                 ],
-        "coverImageId":  "photo-8",
-        "images":  [
-                       {
-                           "id":  "photo-8",
-                           "src":  "/images/original-site/project-08.jpg",
-                           "alt":  "Tuinaanleg in best met Portugese laurierwolken in speelse, organische vormen",
-                           "thumbnail":  "/images/thumbnails/project-8.webp",
-                           "width":  2000,
-                           "height":  1125
-                       }
-                   ]
-    },
-    {
-        "id":  9,
-        "src":  "/images/original-site/project-09.jpg",
-        "alt":  "Tuinaanleg best met gevarieerde beplanting langs een strak aangelegd tuinpad",
-        "title":  "Beplanting langs een tuinpad",
-        "category":  "Tuin aanleggen",
-        "slug":  "tuinen-best",
-        "city":  "Best",
-        "status":  "confirmed",
-        "contentStatus":  "verified",
-        "summary":  "Beplanting langs een tuinpad in best. Langs het tuinpad was aandacht nodig voor de beplanting.",
-        "tags":  [
-                     "Tuin aanleggen"
-                 ],
-        "coverImageId":  "photo-9",
-        "images":  [
-                       {
-                           "id":  "photo-9",
-                           "src":  "/images/original-site/project-09.jpg",
-                           "alt":  "Tuinaanleg best met gevarieerde beplanting langs een strak aangelegd tuinpad",
-                           "thumbnail":  "/images/thumbnails/project-9.webp",
-                           "width":  900,
-                           "height":  1600
-                       }
-                   ]
-    },
-    {
-        "id":  10,
-        "src":  "/images/original-site/project-10.jpg",
-        "alt":  "Oprit bij de woning",
-        "title":  "Oprit bij de woning",
-        "category":  "Tuin aanleggen",
-        "slug":  "bestrating-vught",
-        "city":  "Vught",
-        "status":  "confirmed",
-        "contentStatus":  "verified",
-        "summary":  "Oprit bij de woning in Vught. De bewoners wilden een verzorgde toegang tot hun woning.",
-        "tags":  [
-                     
-                     "Bestrating aanleggen"
-                 ],
-        "coverImageId":  "photo-10",
-        "images":  [
-                       {
-                           "id":  "photo-10",
-                           "src":  "/images/original-site/project-10.jpg",
-                           "alt":  "Oprit bij de woning",
-                           "thumbnail":  "/images/thumbnails/project-10.webp",
-                           "width":  2000,
-                           "height":  1500
-                       }
-                   ]
-    },
-    {
-        "id":  11,
-        "src":  "/images/original-site/project-11.jpg",
-        "alt":  "Tuinpad en terras",
-        "title":  "Tuinpad en terras",
-        "category":  "Tuin aanleggen",
-        "slug":  "bestrating-tiel",
-        "city":  "Tiel",
-        "status":  "confirmed",
-        "contentStatus":  "verified",
-        "summary":  "Tuinpad en terras in Tiel. Het terras en het tuinpad moesten samen een geheel vormen.",
-        "tags":  [
-                     "Tuin aanleggen",
-                     "Bestrating aanleggen"
-                 ],
-        "coverImageId":  "photo-11",
-        "images":  [
-                       {
-                           "id":  "photo-11",
-                           "src":  "/images/original-site/project-11.jpg",
-                           "alt":  "Tuinpad en terras",
-                           "thumbnail":  "/images/thumbnails/project-11.webp",
-                           "width":  640,
-                           "height":  480
-                       }
-                   ]
-    },
-    {
-        "id":  12,
-        "src":  "/images/original-site/project-12.jpg",
-        "alt":  "Klinkerpad in visgraatverband",
-        "title":  "Klinkerpad in visgraatverband",
-        "category":  "Tuin aanleggen",
-        "slug":  "hovenier-tiel",
-        "city":  "Tiel",
-        "status":  "confirmed",
-        "contentStatus":  "verified",
-        "summary":  "Klinkerpad in visgraatverband in Tiel. De wens was een tuinpad met een herkenbaar legpatroon.",
-        "tags":  [
-                     "Tuin aanleggen",
-                     "Bestrating aanleggen"
-                 ],
-        "coverImageId":  "photo-12",
-        "images":  [
-                       {
-                           "id":  "photo-12",
-                           "src":  "/images/original-site/project-12.jpg",
-                           "alt":  "Klinkerpad in visgraatverband",
-                           "thumbnail":  "/images/thumbnails/project-12.webp",
-                           "width":  1500,
-                           "height":  2000
-                       }
-                   ]
-    },
-    {
-        "id":  13,
-        "src":  "/images/original-site/project-13.jpg",
-        "alt":  "Terras met klinkers",
-        "title":  "Terras met klinkers",
-        "category":  "Tuin aanleggen",
-        "slug":  "tuinaanleg-tiel",
-        "city":  "Tiel",
-        "status":  "confirmed",
-        "contentStatus":  "verified",
-        "summary":  "Terras met klinkers in Tiel. De bewoners zochten een zitplek die aansluit bij hun tuin.",
-        "tags":  [
-                     "Tuin aanleggen",
-                     "Bestrating aanleggen"
-                 ],
-        "coverImageId":  "photo-13",
-        "images":  [
-                       {
-                           "id":  "photo-13",
-                           "src":  "/images/original-site/project-13.jpg",
-                           "alt":  "Terras met klinkers",
-                           "thumbnail":  "/images/thumbnails/project-13.webp",
-                           "width":  2000,
-                           "height":  1500
-                       }
-                   ]
-    },
-    {
-        "id":  14,
-        "src":  "/images/original-site/project-14.jpg",
-        "alt":  "Voorbereide ondergrond",
-        "title":  "Voorbereide ondergrond",
-        "category":  "Tuin aanleggen",
-        "slug":  "hovenier-sint-michielsgestel",
-        "city":  "Sint-Michielsgestel",
-        "status":  "confirmed",
-        "contentStatus":  "verified",
-        "summary":  "Voorbereide ondergrond tuin in Sint-Michielsgestel. Voor de volgende fase van de tuin was een voorbereide basis nodig.",
-        "tags":  [
-                     "Tuin aanleggen"
-                 ],
-        "coverImageId":  "photo-14",
-        "images":  [
-                       {
-                           "id":  "photo-14",
-                           "src":  "/images/original-site/project-14.jpg",
-                           "alt":  "Voorbereide ondergrond",
-                           "thumbnail":  "/images/thumbnails/project-14.webp",
-                           "width":  2000,
-                           "height":  1652
-                       }
-                   ]
-    },
-    {
-        "id":  15,
-        "src":  "/images/original-site/project-15.jpg",
-        "alt":  "Terras bij een overkapping",
-        "title":  "Terras bij een overkapping",
-        "category":  "Tuin aanleggen",
-        "slug":  "hovenier-schijndel",
-        "city":  "Schijndel",
-        "status":  "confirmed",
-        "contentStatus":  "verified",
-        "summary":  "Terras bij een overkapping in Schijndel. De ruimte bij de overkapping moest een bruikbare zitplek worden.",
-        "tags":  [
-                     "Tuin aanleggen",
-                     "Bestrating aanleggen"
-                 ],
-        "coverImageId":  "photo-15",
-        "images":  [
-                       {
-                           "id":  "photo-15",
-                           "src":  "/images/original-site/project-15.jpg",
-                           "alt":  "Terras bij een overkapping",
-                           "thumbnail":  "/images/thumbnails/project-15.webp",
-                           "width":  2000,
-                           "height":  1500
-                       }
-                   ]
-    },
-    {
-        "id":  16,
-        "src":  "/images/original-site/project-16.jpg",
-        "alt":  "Tuin tijdens de voorbereiding",
-        "title":  "Tuin tijdens de voorbereiding",
-        "category":  "Tuin aanleggen",
-        "slug":  "tuinen-sint-michielsgestel",
-        "city":  "Sint-Michielsgestel",
-        "status":  "confirmed",
-        "contentStatus":  "verified",
-        "summary":  "Tuin tijdens de voorbereiding in Sint-Michielsgestel. Een nieuwe indeling vroeg eerst om voorbereiding van de tuin.",
-        "tags":  [
-                     "Tuin aanleggen"
-                 ],
-        "coverImageId":  "photo-16",
-        "images":  [
-                       {
-                           "id":  "photo-16",
-                           "src":  "/images/original-site/project-16.jpg",
-                           "alt":  "Tuin tijdens de voorbereiding",
-                           "thumbnail":  "/images/thumbnails/project-16.webp",
-                           "width":  2000,
-                           "height":  1500
-                       }
-                   ]
-    },
-    {
-        "id":  17,
-        "src":  "/images/original-site/project-17.jpg",
-        "alt":  "Terras in een overkapping",
-        "title":  "Terras in een overkapping",
-        "category":  "Tuinen-vught",
-        "slug":  "terras-in-een-overkapping",
-        "city":  "Vught",
-        "status":  "confirmed",
-        "contentStatus":  "verified",
-        "summary":  "Terras in een overkapping in Vught. De bewoners wilden de ruimte onder de overkapping als terras gebruiken.",
-        "tags":  [
-                     "Tuin aanleggen",
-                     "Bestrating aanleggen"
-                 ],
-        "coverImageId":  "photo-17",
-        "images":  [
-                       {
-                           "id":  "photo-17",
-                           "src":  "/images/original-site/project-17.jpg",
-                           "alt":  "Terras in een overkapping",
-                           "thumbnail":  "/images/thumbnails/project-17.webp",
-                           "width":  2000,
-                           "height":  1500
-                       }
-                   ]
-    },
-    {
-        "id":  18,
-        "src":  "/images/original-site/project-18.jpg",
-        "alt":  "Gazon langs de erfafscheiding",
-        "title":  "Gazon langs de erfafscheiding",
-        "category":  "Gras aanleggen",
-        "slug":  "tuinen-dendungen",
-        "city":  "Den Dungen",
-        "status":  "confirmed",
-        "contentStatus":  "verified",
-        "summary":  "Gazon langs de erfafscheiding in Den Dungen. Langs de erfafscheiding moest een groen geheel ontstaan.",
-        "tags":  [
-                     "Gras aanleggen"
-                 ],
-        "coverImageId":  "photo-18",
-        "images":  [
-                       {
-                           "id":  "photo-18",
-                           "src":  "/images/original-site/project-18.jpg",
-                           "alt":  "Gazon langs de erfafscheiding",
-                           "thumbnail":  "/images/thumbnails/project-18.webp",
-                           "width":  1500,
-                           "height":  2000
-                       }
-                   ]
-    },
-    {
-        "id":  19,
-        "src":  "/images/original-site/project-19.jpg",
-        "alt":  "Tuin met zithoek en overkapping",
-        "title":  "Tuin met zithoek en overkapping",
-        "category":  "Tuin aanleggen",
-        "slug":  "tuin-met-zithoek-en-overkapping",
-        "city":  "Best",
-        "status":  "confirmed",
-        "contentStatus":  "verified",
-        "summary":  "Tuinaanleg met zithoek en overkapping in Best. De tuin moest ruimte bieden voor groen en een comfortabele zitplek.",
-        "tags":  [
-                     "Tuin aanleggen"
-                 ],
-        "coverImageId":  "photo-19",
-        "images":  [
-                       {
-                           "id":  "photo-19",
-                           "src":  "/images/original-site/project-19.jpg",
-                           "alt":  "Tuin met zithoek en overkapping",
-                           "thumbnail":  "/images/thumbnails/project-19.webp",
-                           "width":  2000,
-                           "height":  1125
-                       }
-                   ]
-    },
-    {
-        "id":  20,
-        "src":  "/images/original-site/project-20.jpg",
-        "alt":  "Tuinvoorbereiding naast een woning",
-        "title":  "Tuinvoorbereiding naast een woning",
-        "category":  "Tuin aanleggen",
-        "slug":  "tuinvoorbereiding-naast-een-woning",
-        "city":  "Best",
-        "status":  "confirmed",
-        "contentStatus":  "verified",
-        "summary":  "Inrit aanleg met voorbereiding plantenborder in Best. Naast de woning was voorbereiding nodig voor de toekomstige tuin.",
-        "tags":  [
-                     "Tuin aanleggen"
-                 ],
-        "coverImageId":  "photo-20",
-        "images":  [
-                       {
-                           "id":  "photo-20",
-                           "src":  "/images/original-site/project-20.jpg",
-                           "alt":  "Tuinvoorbereiding naast een woning",
-                           "thumbnail":  "/images/thumbnails/project-20.webp",
-                           "width":  360,
-                           "height":  640
-                       }
-                   ]
-    },
-    {
-        "id":  21,
-        "src":  "/images/original-site/project-21.jpg",
-        "alt":  "Beplanting aan de straatzijde",
-        "title":  "Beplanting aan de straatzijde",
-        "category":  "Tuin aanleggen",
-        "slug":  "beplanting-aan-de-straatzijde",
-        "city":  "Best",
-        "status":  "confirmed",
-        "contentStatus":  "verified",
-        "summary":  "Beplanting aan de straatzijde in Best. De beplanting aan de straatzijde verdiende extra aandacht.",
-        "tags":  [
-                     "Tuin aanleggen"
-                 ],
-        "coverImageId":  "photo-21",
-        "images":  [
-                       {
-                           "id":  "photo-21",
-                           "src":  "/images/original-site/project-21.jpg",
-                           "alt":  "Beplanting aan de straatzijde",
-                           "thumbnail":  "/images/thumbnails/project-21.webp",
-                           "width":  2000,
-                           "height":  1125
-                       }
-                   ]
-    },
-    {
-        "id":  22,
-        "src":  "/images/original-site/project-22.jpg",
-        "alt":  "Beplanting langs de gevel",
-        "title":  "Beplanting voortuin",
-        "category":  "Tuin aanleggen",
-        "slug":  "beplanting-voortuin",
-        "city":  "Eindhoven",
-        "status":  "confirmed",
-        "contentStatus":  "verified",
-        "summary":  "Beplanting voortuin in Eindhoven . Langs de gevel wilden de bewoners de beplanting verzorgd houden.",
-        "tags":  [
-                     "Tuin aanleggen"
-                 ],
-        "coverImageId":  "photo-22",
-        "images":  [
-                       {
-                           "id":  "photo-22",
-                           "src":  "/images/original-site/project-22.jpg",
-                           "alt":  "Beplanting langs de gevel",
-                           "thumbnail":  "/images/thumbnails/project-22.webp",
-                           "width":  1200,
-                           "height":  1600
-                       }
-                   ]
-    },
-    {
-        "id":  23,
-        "src":  "/images/original-site/project-23.jpg",
-        "alt":  "Tuinen eindhoven vervangen van de voortuin",
-        "title":  "Voortuinen aanleg",
-        "category":  "Tuin aanleggen",
-        "slug":  "nieuw-aangeplante-border",
-        "city":  "Eindhoven",
-        "status":  "confirmed",
-        "contentStatus":  "verified",
-        "summary":  "Nieuw aangeplante border in Eindhoven. Een nieuw aangeplante border had aandacht nodig om zich te ontwikkelen.",
-        "tags":  [
-                     "Tuin aanleggen"
-                 ],
-        "coverImageId":  "photo-23",
-        "images":  [
-                       {
-                           "id":  "photo-23",
-                           "src":  "/images/original-site/project-23.jpg",
-                           "alt":  "Tuinen eindhoven vervangen van de voortuin",
-                           "thumbnail":  "/images/thumbnails/project-23.webp",
-                           "width":  480,
-                           "height":  640
-                       }
-                   ]
-    },
-
-     {
-        "id":  24,
-        "src":  "/images/original-site/project-24.jpg",
-        "alt":  "Hovenier Nuenen teras en gazonaanleg",
-        "title":  "Tuinaanleg terras en gazon",
-        "category":  "Hovenier",
-        "slug":  "hovenier-nuenen",
-        "city":  "Nuenen",
-        "status":  "confirmed",
-        "contentStatus":  "verified",
-        "summary":  "Tuinaanleg in Nuenen. Bestrating / beplanting en kunstgras naar wensen van de klant.",
-        "tags":  [
-                     "Tuin aanleggen"
-                 ],
-        "coverImageId":  "photo-24",
-        "images":  [
-                       {
-                           "id":  "photo-24",
-                           "src":  "/images/original-site/project-24.jpg",
-                           "alt":  "Hovenier Nuenen teras en gazonaanleg",
-                           "thumbnail":  "/images/thumbnails/hovenier-nuenen-photo-24.webp",
-                           "width":  1200,
-                           "height":  1600
-                       }
-                   ]
-    },
-     {
-        "id":  25,
-        "src":  "/images/original-site/project-25.jpg",
-        "alt":  "Hovenier schijndel tuinaanleg bestrating en gazon",
-        "title":  "Tuinaanleg",
-        "category":  "Tuin aanleggen",
-        "slug":  "tuinaanleg-schijndel",
-        "city":  "Schijndel",
-        "status":  "confirmed",
-        "contentStatus":  "verified",
-        "summary":  "Tuinaanleg in Schijndel. Vervanging van de oude bestrating en gazon naar wensen van de klant.",
-        "tags":  [
-                     "Tuin aanleggen"
-                 ],
-        "coverImageId":  "photo-25",
-        "images":  [
-                       {
-                           "id":  "photo-25",
-                           "src":  "/images/original-site/project-25.jpg",
-                           "alt":  "Tuinaanleg Schijndel",
-                           "thumbnail":  "/images/thumbnails/tuinaanleg-schijndel-photo-25.webp",
-                           "width":  1280,
-                           "height":  720
-                       }
-                   ]
-    },
+  {
+    "id": 1,
+    "src": "/images/original-site/project-01.jpg",
+    "alt": "Moderne tuinaanleg met organische vormen en kleurrijke beplanting",
+    "title": "Tuin met terras en beplanting",
+    "category": "Tuin aanleggen",
+    "slug": "tuinaanleg-best",
+    "city": "Best",
+    "status": "confirmed",
+    "contentStatus": "verified",
+    "summary": "Tuin met terras en beplanting aanleg in organische vormen in Best. De bewoners wilden een tuin waarin een terras en groen elkaar aanvullen.",
+    "period": "Januari 2026",
+    "materials": ["Betontegels 80x80", "Graszoden", "Beplanting"],
+    "area": "ca. 120 m²",
+    "tags": [
+      "Bestrating aanleggen",
+      "Tuin aanleggen",
+      "Gras aanleggen"
+    ],
+    "coverImageId": "photo-1",
+    "images": [
       {
-        "id":  26,
-        "src":  "/images/original-site/project-26.jpg",
-        "alt":  "Tuinaanleg terras en gazon",
-        "title":  "Tuinaanleg terras en gazon",
-        "category":  "Tuin aanleggen",
-        "slug":  "tuinen-oisterwijk",
-        "city":  "Oisterwijk",
-        "status":  "confirmed",
-        "contentStatus":  "verified",
-        "summary":  "Tuinaanleg in Oisterwijk. Vervanging van de oude bestrating en gazon naar wensen van de klant.",
-        "tags":  [
-                     "Tuin aanleggen"
-                 ],
-        "coverImageId":  "photo-26",
-        "images":  [
-                       {
-                           "id":  "photo-26",
-                           "src":  "/images/original-site/project-26.jpg",
-                           "alt":  "Tuinaanleg Oisterwijk terras en gazon",
-                           "thumbnail":  "/images/thumbnails/tuinen-oisterwijk-photo-26.webp",
-                           "width":  1280,
-                           "height":  960
-                       }
-                   ]
-    },
-    {
-        "id":  27,
-        "src":  "/images/original-site/project-27.jpg",
-        "alt":  "Tuinaanleg keramische tegels onder overkapping",
-        "title":  "Tuinaanleg keramische tegels onder overkapping",
-        "category":  "bestrating aanleggen",
-        "slug":  "hovenier-vught",
-        "city":  "Vught",
-        "status":  "confirmed",
-        "contentStatus":  "verified",
-        "summary":  "Tuinaanleg in De Vught. Het plaatsen van keramische tegels onder de overkapping in de cement naar wensen van de klant.",
-        "tags":  [
-                     "Bestrating aanleggen"
-                 ],
-        "coverImageId":  "photo-27",
-        "images":  [
-                       {
-                           "id":  "photo-27",
-                           "src":  "/images/original-site/project-27.jpg",
-                           "alt":  "Tuinaanleg keramische tegels onder overkapping",
-                           "thumbnail":  "/images/thumbnails/hovenier-vught-photo-27.webp",
-                           "width":  960,
-                           "height":  1280
-                       }
-                   ]
-    },
-    {
-        "id":  28,
-        "src":  "/images/original-site/project-28.JPG",
-        "alt":  "Tuinaanleg best met organische vormen en kleurrijke beplanting",
-        "title":  "Tuinaanleg met organische vormen en kleurrijke beplanting",
-        "category":  "tuin aanleggen",
-        "slug":  "grazonaanleg-best",
-        "city":  "Best",
-        "status":  "confirmed",
-        "contentStatus":  "verified",
-        "summary":  "Tuinaanleg met organische vormen en kleurrijke beplanting. De bewoners wilden een tuin waarin een terras en groen elkaar aanvullen.",
-        "tags":  [
-                     "Tuin aanleggen"
-                 ],
-        "coverImageId":  "photo-28",
-        "images":  [
-                       {
-                           "id":  "photo-28",
-                           "src":  "/images/original-site/project-28.JPG",
-                           "alt":  "Tuinaanleg best met organische vormen en kleurrijke beplanting",
-                           "thumbnail":  "/images/thumbnails/grazonaanleg-best-photo-28.webp",
-                           "width":  3840,
-                           "height":  2160
-                       }
-                   ]
-    },
-    {
-        "id":  29,
-        "src":  "/images/original-site/project-29.jpg",
-        "alt":  "Terras aanleg met keramische tegels",
-        "title":  "Terras aanleg met keramische tegels",
-        "category":  "terras aanleggen",
-        "slug":  "terras-aanleg-met-keramische-tegels",
-        "city":  "Nuenen",
-        "status":  "confirmed",
-        "contentStatus":  "verified",
-        "summary":  "Terras aanleg in Nuenen met keramische tegels. De bewoners wilden een terras dat zich aansluit bij de omgeving.",
-        "tags":  [
-                     "Bestrating aanleggen"
-                 ],
-        "coverImageId":  "photo-29",
-        "images":  [
-                       {
-                           "id":  "photo-29",
-                           "src":  "/images/original-site/project-29.jpg",
-                           "alt":  "Terras aanleg met keramische tegels",
-                           "thumbnail":  "/images/thumbnails/terras-aanleg-met-keramische-tegels-photo-29.webp",
-                           "width":  1536,
-                           "height":  2048
-                       }
-                   ]
-    }
+        "id": "photo-1",
+        "src": "/images/original-site/project-01.jpg",
+        "alt": "Moderne tuinaanleg met organische vormen en kleurrijke beplanting",
+        "thumbnail": "/images/thumbnails/project-1.webp",
+        "width": 2000,
+        "height": 1125
+      },
+      {
+        "id": "detail-path",
+        "src": "/images/original-site/project-03.jpg",
+        "alt": "Tuin aanleg met organische vormen en beplanting",
+        "thumbnail": "/images/thumbnails/project-1-detail-path.webp",
+        "width": 2000,
+        "height": 1500
+      },
+      {
+        "id": "detail-terrace",
+        "src": "/images/original-site/project-05.jpg",
+        "alt": "Terras naast het gazon",
+        "thumbnail": "/images/thumbnails/project-1-detail-terrace.webp",
+        "width": 2000,
+        "height": 1500
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "src": "/images/original-site/project-02.jpg",
+    "alt": "uinaanleg met strak gazon en voorbereide ondergrond voor een trampoline",
+    "title": "Gazon met voorbereiding trampoline",
+    "category": "Gras aanleggen",
+    "slug": "hovenier-son-en-breugel",
+    "city": "Son en Breugel",
+    "status": "confirmed",
+    "contentStatus": "verified",
+    "summary": "Gazon aanleg in Son en Breugel met voorbreiding trampoline. De wens was een groen gazon met ruimte voor de trampoline.",
+    "period": "",
+    "materials": [],
+    "area": "",
+    "tags": [
+      "Gras aanleggen"
+    ],
+    "coverImageId": "photo-2",
+    "images": [
+      {
+        "id": "photo-2",
+        "src": "/images/original-site/project-02.jpg",
+        "alt": "uinaanleg met strak gazon en voorbereide ondergrond voor een trampoline",
+        "thumbnail": "/images/thumbnails/project-2.webp",
+        "width": 2000,
+        "height": 1500
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "src": "/images/original-site/project-03.jpg",
+    "alt": "Tuinaanleg met stapstenen in een groen gazon",
+    "title": "Stapstenen in het gazon",
+    "category": "gazonaanleg-oisterwijk",
+    "slug": "bestrating-oisterwijk",
+    "city": "Oisterwijk",
+    "status": "confirmed",
+    "contentStatus": "verified",
+    "summary": "Stapstenen in het gazon aanlegen in Oisterwijk. De bewoners zochten een looproute door het gras zonder een breed pad.",
+    "period": "",
+    "materials": [],
+    "area": "",
+    "tags": [
+      "Tuin aanleggen",
+      "Bestrating aanleggen"
+    ],
+    "coverImageId": "photo-3",
+    "images": [
+      {
+        "id": "photo-3",
+        "src": "/images/original-site/project-03.jpg",
+        "alt": "Tuinaanleg met stapstenen in een groen gazon",
+        "thumbnail": "/images/thumbnails/project-3.webp",
+        "width": 2000,
+        "height": 1500
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "src": "/images/original-site/project-04.jpg",
+    "alt": "Hovenier bereid tuin voor met een nieuwe indeling in Oisterwijk",
+    "title": "Tuinaanleg gazon en bestrating",
+    "category": "Tuin aanleggen",
+    "slug": "hovenier-oisterwijk",
+    "city": "Oisterwijk",
+    "status": "confirmed",
+    "contentStatus": "verified",
+    "summary": "Tuin tijdens de aanleg in Oisterwijk. Een bestaande buitenruimte moest een nieuwe tuinindeling krijgen.",
+    "period": "",
+    "materials": [],
+    "area": "",
+    "tags": [
+      "Tuin aanleggen"
+    ],
+    "coverImageId": "photo-4",
+    "images": [
+      {
+        "id": "photo-4",
+        "src": "/images/original-site/project-04.jpg",
+        "alt": "Hovenier bereid tuin voor met een nieuwe indeling in Oisterwijk",
+        "thumbnail": "/images/thumbnails/project-4.webp",
+        "width": 2000,
+        "height": 1500
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "src": "/images/original-site/project-05.jpg",
+    "alt": "Tuinaanleg drunen met een ruim terras, groen gazon en sfeervolle beplanting",
+    "title": "Terras aanleg",
+    "category": "Tuin aanleggen",
+    "slug": "tuinaanleg-drunen",
+    "city": "Drunen",
+    "status": "confirmed",
+    "contentStatus": "verified",
+    "summary": "Terras en gazon aanleg in Drunen. De vraag was een terras dat prettig aansluit op het gazon.",
+    "period": "",
+    "materials": [],
+    "area": "",
+    "tags": [
+      "Gras aanleggen",
+      "Bestrating aanleggen"
+    ],
+    "coverImageId": "photo-5",
+    "images": [
+      {
+        "id": "photo-5",
+        "src": "/images/original-site/project-05.jpg",
+        "alt": "Tuinaanleg drunen met een ruim terras, groen gazon en sfeervolle beplanting",
+        "thumbnail": "/images/thumbnails/project-5.webp",
+        "width": 2000,
+        "height": 1500
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "src": "/images/original-site/project-06.jpg",
+    "alt": "Tuinaanleg drunen met een strak gazon naast een sfeervolle overkapping",
+    "title": "Gazon bij een overkapping",
+    "category": "Gras aanleggen",
+    "slug": "gazonaanleg-drunen",
+    "city": "Drunen",
+    "status": "confirmed",
+    "contentStatus": "verified",
+    "summary": "Gazon aanleg bij een overkapping in Drunen. Bij de overkapping wilden de bewoners een groen gazon.",
+    "period": "",
+    "materials": [],
+    "area": "",
+    "tags": [
+      "Gras aanleggen"
+    ],
+    "coverImageId": "photo-6",
+    "images": [
+      {
+        "id": "photo-6",
+        "src": "/images/original-site/project-06.jpg",
+        "alt": "Tuinaanleg met een strak gazon naast een sfeervolle overkapping",
+        "thumbnail": "/images/thumbnails/project-6.webp",
+        "width": 2000,
+        "height": 1500
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "src": "/images/original-site/project-07.jpg",
+    "alt": "Aangelegd gazon",
+    "title": "Tuinaanleg met een nieuw aangelegd, strak groen gazon",
+    "category": "Gras aanleggen",
+    "slug": "hovenier-drunen",
+    "city": "Drunen",
+    "status": "confirmed",
+    "contentStatus": "verified",
+    "summary": "Nieuw aangelegd gazon in Drunen. De tuin kon een frisse groene basis gebruiken.",
+    "period": "",
+    "materials": [],
+    "area": "",
+    "tags": [
+      "Gras aanleggen"
+    ],
+    "coverImageId": "photo-7",
+    "images": [
+      {
+        "id": "photo-7",
+        "src": "/images/original-site/project-07.jpg",
+        "alt": "Tuinaanleg met een nieuw aangelegd, strak groen gazon",
+        "thumbnail": "/images/thumbnails/project-7.webp",
+        "width": 2000,
+        "height": 1500
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "src": "/images/original-site/project-08.jpg",
+    "alt": "Tuinaanleg in best met Portugese laurierwolken in speelse, organische vormen",
+    "title": "Aanleg Portugese laurier wolken",
+    "category": "Tuin aanleggen",
+    "slug": "hovenier-best",
+    "city": "Best",
+    "status": "confirmed",
+    "contentStatus": "verified",
+    "summary": "Tuin in aanleg in best. De bewoners wilden een tuin met organische vormen en beplanting in de vorm van Portugese laurier wolken.",
+    "period": "",
+    "materials": [],
+    "area": "",
+    "tags": [
+      "Tuin aanleggen"
+    ],
+    "coverImageId": "photo-8",
+    "images": [
+      {
+        "id": "photo-8",
+        "src": "/images/original-site/project-08.jpg",
+        "alt": "Tuinaanleg in best met Portugese laurierwolken in speelse, organische vormen",
+        "thumbnail": "/images/thumbnails/project-8.webp",
+        "width": 2000,
+        "height": 1125
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "src": "/images/original-site/project-09.jpg",
+    "alt": "Tuinaanleg best met gevarieerde beplanting langs een strak aangelegd tuinpad",
+    "title": "Beplanting langs een tuinpad",
+    "category": "Tuin aanleggen",
+    "slug": "tuinen-best",
+    "city": "Best",
+    "status": "confirmed",
+    "contentStatus": "verified",
+    "summary": "Beplanting langs een tuinpad in best. Langs het tuinpad was aandacht nodig voor de beplanting.",
+    "period": "",
+    "materials": [],
+    "area": "",
+    "tags": [
+      "Tuin aanleggen"
+    ],
+    "coverImageId": "photo-9",
+    "images": [
+      {
+        "id": "photo-9",
+        "src": "/images/original-site/project-09.jpg",
+        "alt": "Tuinaanleg best met gevarieerde beplanting langs een strak aangelegd tuinpad",
+        "thumbnail": "/images/thumbnails/project-9.webp",
+        "width": 900,
+        "height": 1600
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "src": "/images/original-site/project-10.jpg",
+    "alt": "Oprit bij de woning",
+    "title": "Oprit bij de woning",
+    "category": "Tuin aanleggen",
+    "slug": "bestrating-vught",
+    "city": "Vught",
+    "status": "confirmed",
+    "contentStatus": "verified",
+    "summary": "Oprit bij de woning in Vught. De bewoners wilden een verzorgde toegang tot hun woning.",
+    "period": "",
+    "materials": [],
+    "area": "",
+    "tags": [
+      "Bestrating aanleggen"
+    ],
+    "coverImageId": "photo-10",
+    "images": [
+      {
+        "id": "photo-10",
+        "src": "/images/original-site/project-10.jpg",
+        "alt": "Oprit bij de woning",
+        "thumbnail": "/images/thumbnails/project-10.webp",
+        "width": 2000,
+        "height": 1500
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "src": "/images/original-site/project-11.jpg",
+    "alt": "Tuinpad en terras",
+    "title": "Tuinpad en terras",
+    "category": "Tuin aanleggen",
+    "slug": "bestrating-tiel",
+    "city": "Tiel",
+    "status": "confirmed",
+    "contentStatus": "verified",
+    "summary": "Tuinpad en terras in Tiel. Het terras en het tuinpad moesten samen een geheel vormen.",
+    "period": "",
+    "materials": [],
+    "area": "",
+    "tags": [
+      "Tuin aanleggen",
+      "Bestrating aanleggen"
+    ],
+    "coverImageId": "photo-11",
+    "images": [
+      {
+        "id": "photo-11",
+        "src": "/images/original-site/project-11.jpg",
+        "alt": "Tuinpad en terras",
+        "thumbnail": "/images/thumbnails/project-11.webp",
+        "width": 640,
+        "height": 480
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "src": "/images/original-site/project-12.jpg",
+    "alt": "Klinkerpad in visgraatverband",
+    "title": "Klinkerpad in visgraatverband",
+    "category": "Tuin aanleggen",
+    "slug": "hovenier-tiel",
+    "city": "Tiel",
+    "status": "confirmed",
+    "contentStatus": "verified",
+    "summary": "Klinkerpad in visgraatverband in Tiel. De wens was een tuinpad met een herkenbaar legpatroon.",
+    "period": "",
+    "materials": [],
+    "area": "",
+    "tags": [
+      "Tuin aanleggen",
+      "Bestrating aanleggen"
+    ],
+    "coverImageId": "photo-12",
+    "images": [
+      {
+        "id": "photo-12",
+        "src": "/images/original-site/project-12.jpg",
+        "alt": "Klinkerpad in visgraatverband",
+        "thumbnail": "/images/thumbnails/project-12.webp",
+        "width": 1500,
+        "height": 2000
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "src": "/images/original-site/project-13.jpg",
+    "alt": "Terras met klinkers",
+    "title": "Terras met klinkers",
+    "category": "Tuin aanleggen",
+    "slug": "tuinaanleg-tiel",
+    "city": "Tiel",
+    "status": "confirmed",
+    "contentStatus": "verified",
+    "summary": "Terras met klinkers in Tiel. De bewoners zochten een zitplek die aansluit bij hun tuin.",
+    "period": "",
+    "materials": [],
+    "area": "",
+    "tags": [
+      "Tuin aanleggen",
+      "Bestrating aanleggen"
+    ],
+    "coverImageId": "photo-13",
+    "images": [
+      {
+        "id": "photo-13",
+        "src": "/images/original-site/project-13.jpg",
+        "alt": "Terras met klinkers",
+        "thumbnail": "/images/thumbnails/project-13.webp",
+        "width": 2000,
+        "height": 1500
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "src": "/images/original-site/project-14.jpg",
+    "alt": "Voorbereide ondergrond",
+    "title": "Voorbereide ondergrond",
+    "category": "Tuin aanleggen",
+    "slug": "hovenier-sint-michielsgestel",
+    "city": "Sint-Michielsgestel",
+    "status": "confirmed",
+    "contentStatus": "verified",
+    "summary": "Voorbereide ondergrond tuin in Sint-Michielsgestel. Voor de volgende fase van de tuin was een voorbereide basis nodig.",
+    "period": "",
+    "materials": [],
+    "area": "",
+    "tags": [
+      "Tuin aanleggen"
+    ],
+    "coverImageId": "photo-14",
+    "images": [
+      {
+        "id": "photo-14",
+        "src": "/images/original-site/project-14.jpg",
+        "alt": "Voorbereide ondergrond",
+        "thumbnail": "/images/thumbnails/project-14.webp",
+        "width": 2000,
+        "height": 1652
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "src": "/images/original-site/project-15.jpg",
+    "alt": "Terras bij een overkapping",
+    "title": "Terras bij een overkapping",
+    "category": "Tuin aanleggen",
+    "slug": "hovenier-schijndel",
+    "city": "Schijndel",
+    "status": "confirmed",
+    "contentStatus": "verified",
+    "summary": "Terras bij een overkapping in Schijndel. De ruimte bij de overkapping moest een bruikbare zitplek worden.",
+    "period": "",
+    "materials": [],
+    "area": "",
+    "tags": [
+      "Tuin aanleggen",
+      "Bestrating aanleggen"
+    ],
+    "coverImageId": "photo-15",
+    "images": [
+      {
+        "id": "photo-15",
+        "src": "/images/original-site/project-15.jpg",
+        "alt": "Terras bij een overkapping",
+        "thumbnail": "/images/thumbnails/project-15.webp",
+        "width": 2000,
+        "height": 1500
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "src": "/images/original-site/project-16.jpg",
+    "alt": "Tuin tijdens de voorbereiding",
+    "title": "Tuin tijdens de voorbereiding",
+    "category": "Tuin aanleggen",
+    "slug": "tuinen-sint-michielsgestel",
+    "city": "Sint-Michielsgestel",
+    "status": "confirmed",
+    "contentStatus": "verified",
+    "summary": "Tuin tijdens de voorbereiding in Sint-Michielsgestel. Een nieuwe indeling vroeg eerst om voorbereiding van de tuin.",
+    "period": "",
+    "materials": [],
+    "area": "",
+    "tags": [
+      "Tuin aanleggen"
+    ],
+    "coverImageId": "photo-16",
+    "images": [
+      {
+        "id": "photo-16",
+        "src": "/images/original-site/project-16.jpg",
+        "alt": "Tuin tijdens de voorbereiding",
+        "thumbnail": "/images/thumbnails/project-16.webp",
+        "width": 2000,
+        "height": 1500
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "src": "/images/original-site/project-17.jpg",
+    "alt": "Terras in een overkapping",
+    "title": "Terras in een overkapping",
+    "category": "Tuinen-vught",
+    "slug": "terras-in-een-overkapping",
+    "city": "Vught",
+    "status": "confirmed",
+    "contentStatus": "verified",
+    "summary": "Terras in een overkapping in Vught. De bewoners wilden de ruimte onder de overkapping als terras gebruiken.",
+    "period": "",
+    "materials": [],
+    "area": "",
+    "tags": [
+      "Tuin aanleggen",
+      "Bestrating aanleggen"
+    ],
+    "coverImageId": "photo-17",
+    "images": [
+      {
+        "id": "photo-17",
+        "src": "/images/original-site/project-17.jpg",
+        "alt": "Terras in een overkapping",
+        "thumbnail": "/images/thumbnails/project-17.webp",
+        "width": 2000,
+        "height": 1500
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "src": "/images/original-site/project-18.jpg",
+    "alt": "Gazon langs de erfafscheiding",
+    "title": "Gazon langs de erfafscheiding",
+    "category": "Gras aanleggen",
+    "slug": "tuinen-dendungen",
+    "city": "Den Dungen",
+    "status": "confirmed",
+    "contentStatus": "verified",
+    "summary": "Gazon langs de erfafscheiding in Den Dungen. Langs de erfafscheiding moest een groen geheel ontstaan.",
+    "period": "",
+    "materials": [],
+    "area": "",
+    "tags": [
+      "Gras aanleggen"
+    ],
+    "coverImageId": "photo-18",
+    "images": [
+      {
+        "id": "photo-18",
+        "src": "/images/original-site/project-18.jpg",
+        "alt": "Gazon langs de erfafscheiding",
+        "thumbnail": "/images/thumbnails/project-18.webp",
+        "width": 1500,
+        "height": 2000
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "src": "/images/original-site/project-19.jpg",
+    "alt": "Tuin met zithoek en overkapping",
+    "title": "Tuin met zithoek en overkapping",
+    "category": "Tuin aanleggen",
+    "slug": "tuin-met-zithoek-en-overkapping",
+    "city": "Best",
+    "status": "confirmed",
+    "contentStatus": "verified",
+    "summary": "Tuinaanleg met zithoek en overkapping in Best. De tuin moest ruimte bieden voor groen en een comfortabele zitplek.",
+    "period": "",
+    "materials": [],
+    "area": "",
+    "tags": [
+      "Tuin aanleggen"
+    ],
+    "coverImageId": "photo-19",
+    "images": [
+      {
+        "id": "photo-19",
+        "src": "/images/original-site/project-19.jpg",
+        "alt": "Tuin met zithoek en overkapping",
+        "thumbnail": "/images/thumbnails/project-19.webp",
+        "width": 2000,
+        "height": 1125
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "src": "/images/original-site/project-20.jpg",
+    "alt": "Tuinvoorbereiding naast een woning",
+    "title": "Tuinvoorbereiding naast een woning",
+    "category": "Tuin aanleggen",
+    "slug": "tuinvoorbereiding-naast-een-woning",
+    "city": "Best",
+    "status": "confirmed",
+    "contentStatus": "verified",
+    "summary": "Inrit aanleg met voorbereiding plantenborder in Best. Naast de woning was voorbereiding nodig voor de toekomstige tuin.",
+    "period": "",
+    "materials": [],
+    "area": "",
+    "tags": [
+      "Tuin aanleggen"
+    ],
+    "coverImageId": "photo-20",
+    "images": [
+      {
+        "id": "photo-20",
+        "src": "/images/original-site/project-20.jpg",
+        "alt": "Tuinvoorbereiding naast een woning",
+        "thumbnail": "/images/thumbnails/project-20.webp",
+        "width": 360,
+        "height": 640
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "src": "/images/original-site/project-21.jpg",
+    "alt": "Beplanting aan de straatzijde",
+    "title": "Beplanting aan de straatzijde",
+    "category": "Tuin aanleggen",
+    "slug": "beplanting-aan-de-straatzijde",
+    "city": "Best",
+    "status": "confirmed",
+    "contentStatus": "verified",
+    "summary": "Beplanting aan de straatzijde in Best. De beplanting aan de straatzijde verdiende extra aandacht.",
+    "period": "",
+    "materials": [],
+    "area": "",
+    "tags": [
+      "Tuin aanleggen"
+    ],
+    "coverImageId": "photo-21",
+    "images": [
+      {
+        "id": "photo-21",
+        "src": "/images/original-site/project-21.jpg",
+        "alt": "Beplanting aan de straatzijde",
+        "thumbnail": "/images/thumbnails/project-21.webp",
+        "width": 2000,
+        "height": 1125
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "src": "/images/original-site/project-22.jpg",
+    "alt": "Beplanting langs de gevel",
+    "title": "Beplanting voortuin",
+    "category": "Tuin aanleggen",
+    "slug": "beplanting-voortuin",
+    "city": "Eindhoven",
+    "status": "confirmed",
+    "contentStatus": "verified",
+    "summary": "Beplanting voortuin in Eindhoven . Langs de gevel wilden de bewoners de beplanting verzorgd houden.",
+    "period": "",
+    "materials": [],
+    "area": "",
+    "tags": [
+      "Tuin aanleggen"
+    ],
+    "coverImageId": "photo-22",
+    "images": [
+      {
+        "id": "photo-22",
+        "src": "/images/original-site/project-22.jpg",
+        "alt": "Beplanting langs de gevel",
+        "thumbnail": "/images/thumbnails/project-22.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "src": "/images/original-site/project-23.jpg",
+    "alt": "Tuinen eindhoven vervangen van de voortuin",
+    "title": "Voortuinen aanleg",
+    "category": "Tuin aanleggen",
+    "slug": "nieuw-aangeplante-border",
+    "city": "Eindhoven",
+    "status": "confirmed",
+    "contentStatus": "verified",
+    "summary": "Nieuw aangeplante border in Eindhoven. Een nieuw aangeplante border had aandacht nodig om zich te ontwikkelen.",
+    "period": "",
+    "materials": [],
+    "area": "",
+    "tags": [
+      "Tuin aanleggen"
+    ],
+    "coverImageId": "photo-23",
+    "images": [
+      {
+        "id": "photo-23",
+        "src": "/images/original-site/project-23.jpg",
+        "alt": "Tuinen eindhoven vervangen van de voortuin",
+        "thumbnail": "/images/thumbnails/project-23.webp",
+        "width": 480,
+        "height": 640
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "src": "/images/original-site/project-24.jpg",
+    "alt": "Hovenier Nuenen teras en gazonaanleg",
+    "title": "Tuinaanleg terras en gazon",
+    "category": "Hovenier",
+    "slug": "hovenier-nuenen",
+    "city": "Nuenen",
+    "status": "confirmed",
+    "contentStatus": "verified",
+    "summary": "Tuinaanleg in Nuenen. Bestrating / beplanting en kunstgras naar wensen van de klant.",
+    "period": "",
+    "materials": [],
+    "area": "",
+    "tags": [
+      "Tuin aanleggen"
+    ],
+    "coverImageId": "photo-24",
+    "images": [
+      {
+        "id": "photo-24",
+        "src": "/images/original-site/project-24.jpg",
+        "alt": "Hovenier Nuenen teras en gazonaanleg",
+        "thumbnail": "/images/thumbnails/hovenier-nuenen-photo-24.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "src": "/images/original-site/project-25.jpg",
+    "alt": "Hovenier schijndel tuinaanleg bestrating en gazon",
+    "title": "Tuinaanleg",
+    "category": "Tuin aanleggen",
+    "slug": "tuinaanleg-schijndel",
+    "city": "Schijndel",
+    "status": "confirmed",
+    "contentStatus": "verified",
+    "summary": "Tuinaanleg in Schijndel. Vervanging van de oude bestrating en gazon naar wensen van de klant.",
+    "period": "",
+    "materials": [],
+    "area": "",
+    "tags": [
+      "Tuin aanleggen"
+    ],
+    "coverImageId": "photo-25",
+    "images": [
+      {
+        "id": "photo-25",
+        "src": "/images/original-site/project-25.jpg",
+        "alt": "Tuinaanleg Schijndel",
+        "thumbnail": "/images/thumbnails/tuinaanleg-schijndel-photo-25.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "src": "/images/original-site/project-26.jpg",
+    "alt": "Tuinaanleg terras en gazon",
+    "title": "Tuinaanleg terras en gazon",
+    "category": "Tuin aanleggen",
+    "slug": "tuinen-oisterwijk",
+    "city": "Oisterwijk",
+    "status": "confirmed",
+    "contentStatus": "verified",
+    "summary": "Tuinaanleg in Oisterwijk. Vervanging van de oude bestrating en gazon naar wensen van de klant.",
+    "period": "",
+    "materials": [],
+    "area": "",
+    "tags": [
+      "Tuin aanleggen"
+    ],
+    "coverImageId": "photo-26",
+    "images": [
+      {
+        "id": "photo-26",
+        "src": "/images/original-site/project-26.jpg",
+        "alt": "Tuinaanleg Oisterwijk terras en gazon",
+        "thumbnail": "/images/thumbnails/tuinen-oisterwijk-photo-26.webp",
+        "width": 1280,
+        "height": 960
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "src": "/images/original-site/project-27.jpg",
+    "alt": "Tuinaanleg keramische tegels onder overkapping",
+    "title": "Tuinaanleg keramische tegels onder overkapping",
+    "category": "bestrating aanleggen",
+    "slug": "hovenier-vught",
+    "city": "Vught",
+    "status": "confirmed",
+    "contentStatus": "verified",
+    "summary": "Tuinaanleg in De Vught. Het plaatsen van keramische tegels onder de overkapping in de cement naar wensen van de klant.",
+    "period": "",
+    "materials": [],
+    "area": "",
+    "tags": [
+      "Bestrating aanleggen"
+    ],
+    "coverImageId": "photo-27",
+    "images": [
+      {
+        "id": "photo-27",
+        "src": "/images/original-site/project-27.jpg",
+        "alt": "Tuinaanleg keramische tegels onder overkapping",
+        "thumbnail": "/images/thumbnails/hovenier-vught-photo-27.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "src": "/images/original-site/project-28.JPG",
+    "alt": "Tuinaanleg best met organische vormen en kleurrijke beplanting",
+    "title": "Tuinaanleg met organische vormen en kleurrijke beplanting",
+    "category": "tuin aanleggen",
+    "slug": "grazonaanleg-best",
+    "city": "Best",
+    "status": "confirmed",
+    "contentStatus": "verified",
+    "summary": "Tuinaanleg met organische vormen en kleurrijke beplanting. De bewoners wilden een tuin waarin een terras en groen elkaar aanvullen.",
+    "period": "",
+    "materials": [],
+    "area": "",
+    "tags": [
+      "Tuin aanleggen"
+    ],
+    "coverImageId": "photo-28",
+    "images": [
+      {
+        "id": "photo-28",
+        "src": "/images/original-site/project-28.JPG",
+        "alt": "Tuinaanleg best met organische vormen en kleurrijke beplanting",
+        "thumbnail": "/images/thumbnails/grazonaanleg-best-photo-28.webp",
+        "width": 3840,
+        "height": 2160
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "src": "/images/original-site/project-29.jpg",
+    "alt": "Terras aanleg met keramische tegels",
+    "title": "Terras aanleg met keramische tegels",
+    "category": "terras aanleggen",
+    "slug": "terras-aanleg-met-keramische-tegels",
+    "city": "Nuenen",
+    "status": "confirmed",
+    "contentStatus": "verified",
+    "summary": "Terras aanleg in Nuenen met keramische tegels. De bewoners wilden een terras dat zich aansluit bij de omgeving.",
+    "period": "",
+    "materials": [],
+    "area": "",
+    "tags": [
+      "Bestrating aanleggen"
+    ],
+    "coverImageId": "photo-29",
+    "images": [
+      {
+        "id": "photo-29",
+        "src": "/images/original-site/project-29.jpg",
+        "alt": "Terras aanleg met keramische tegels",
+        "thumbnail": "/images/thumbnails/terras-aanleg-met-keramische-tegels-photo-29.webp",
+        "width": 1536,
+        "height": 2048
+      }
+    ]
+  }
 ]
