@@ -320,9 +320,9 @@
     "status": "confirmed",
     "contentStatus": "verified",
     "summary": "Tuinpad en terras in Tiel. Het terras en het tuinpad moesten samen een geheel vormen.",
-    "period": "",
-    "materials": [],
-    "area": "",
+    "period": "Juni 2026",
+    "materials": ["gebakken waaltjes"],
+    "area": "20 m²", 
     "tags": [
       "Tuin aanleggen",
       "Bestrating aanleggen"
@@ -350,8 +350,8 @@
     "status": "confirmed",
     "contentStatus": "verified",
     "summary": "Klinkerpad in visgraatverband in Tiel. De wens was een tuinpad met een herkenbaar legpatroon.",
-    "period": "",
-    "materials": [],
+    "period": "Juni 2026",
+    "materials": ["gebakken waaltjes"],
     "area": "",
     "tags": [
       "Tuin aanleggen",
@@ -381,8 +381,8 @@
     "contentStatus": "verified",
     "summary": "Terras met klinkers in Tiel. De bewoners zochten een zitplek die aansluit bij hun tuin.",
     "period": "",
-    "materials": [],
-    "area": "",
+    "materials": ["gebakken waaltjes"],
+    "area": "20 m²",
     "tags": [
       "Tuin aanleggen",
       "Bestrating aanleggen"
@@ -410,9 +410,9 @@
     "status": "confirmed",
     "contentStatus": "verified",
     "summary": "Voorbereide ondergrond tuin in Sint-Michielsgestel. Voor de volgende fase van de tuin was een voorbereide basis nodig.",
-    "period": "",
-    "materials": [],
-    "area": "",
+    "period": "Januari 2026",
+    "materials": ["Zand"],
+    "area": "100 m²",
     "tags": [
       "Tuin aanleggen"
     ],
@@ -439,9 +439,9 @@
     "status": "confirmed",
     "contentStatus": "verified",
     "summary": "Terras bij een overkapping in Schijndel. De ruimte bij de overkapping moest een bruikbare zitplek worden.",
-    "period": "",
-    "materials": [],
-    "area": "",
+    "period": "Juni 2025",
+    "materials": ["keramische tegels 60x60"],
+    "area": "15 m²",
     "tags": [
       "Tuin aanleggen",
       "Bestrating aanleggen"
@@ -498,9 +498,9 @@
     "status": "confirmed",
     "contentStatus": "verified",
     "summary": "Terras in een overkapping in Vught. De bewoners wilden de ruimte onder de overkapping als terras gebruiken.",
-    "period": "",
-    "materials": [],
-    "area": "",
+    "period": "augustus 2026 ",
+    "materials": ["keramische tegels 60x60"],
+    "area": "20 m²",
     "tags": [
       "Tuin aanleggen",
       "Bestrating aanleggen"
@@ -528,9 +528,9 @@
     "status": "confirmed",
     "contentStatus": "verified",
     "summary": "Gazon langs de erfafscheiding in Den Dungen. Langs de erfafscheiding moest een groen geheel ontstaan.",
-    "period": "",
-    "materials": [],
-    "area": "",
+    "period": "Februari 2026",
+    "materials": ["gazonzoden"],
+    "area": "40 m²",
     "tags": [
       "Gras aanleggen"
     ],
@@ -557,9 +557,9 @@
     "status": "confirmed",
     "contentStatus": "verified",
     "summary": "Tuinaanleg met zithoek en overkapping in Best. De tuin moest ruimte bieden voor groen en een comfortabele zitplek.",
-    "period": "",
-    "materials": [],
-    "area": "",
+    "period": "Februari 2026",
+    "materials": ["gazonzoden"],
+    "area": "120 m²",
     "tags": [
       "Tuin aanleggen"
     ],
@@ -586,9 +586,9 @@
     "status": "confirmed",
     "contentStatus": "verified",
     "summary": "Inrit aanleg met voorbereiding plantenborder in Best. Naast de woning was voorbereiding nodig voor de toekomstige tuin.",
-    "period": "",
-    "materials": [],
-    "area": "",
+    "period": "Februari 2026",
+    "materials": ["gazonzoden"],
+    "area": "120 m²",
     "tags": [
       "Tuin aanleggen"
     ],
