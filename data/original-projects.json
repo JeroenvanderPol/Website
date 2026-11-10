@@ -57,9 +57,9 @@
     "status": "confirmed",
     "contentStatus": "verified",
     "summary": "Gazon aanleg in Son en Breugel met voorbreiding trampoline. De wens was een groen gazon met ruimte voor de trampoline.",
-    "period": "",
-    "materials": [],
-    "area": "",
+    "period": "Februari 2026",
+    "materials": ["Stapstenen", "Graszoden", "Beplanting"],
+    "area": "ca 80m²",
     "tags": [
       "Gras aanleggen"
     ],
@@ -86,9 +86,9 @@
     "status": "confirmed",
     "contentStatus": "verified",
     "summary": "Stapstenen in het gazon aanlegen in Oisterwijk. De bewoners zochten een looproute door het gras zonder een breed pad.",
-    "period": "",
-    "materials": [],
-    "area": "",
+    "period": "Februari 2026",
+    "materials": ["Stapstenen"],
+    "area": "80 m²",
     "tags": [
       "Tuin aanleggen",
       "Bestrating aanleggen"
