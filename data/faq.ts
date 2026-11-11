@@ -29,4 +29,9 @@ export const homepageFaq = [
     answer:
       "Voor het onderhoud van de tuin maken wij gebruik van onder andere heggenscharen en bladblazers. De meeste apparaten die wij gebruiken werken op accu. Ze zijn stiller in gebruik en minder belastend voor het milieu.",
   },
+  {
+    question: "Zetten jullie ook tuinhuisjes en overkappingen?",
+    answer:
+      "Ja, zeker! Wij verzorgen ook de aanleg van tuinhuisjes. Dit doen wij in samenwerking met S&G Tuintotaal. Zo kunnen wij u ook hierbij van dienst zijn. ",
+  },
 ];

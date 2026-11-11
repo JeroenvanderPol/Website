@@ -28,8 +28,8 @@ export default function TermsPage() {
           <section>
             <h2>Gebruik van deze website</h2>
             <p>
-              Deze website wordt aangeboden door Van de Voort Tuinen, een
-              eenmanszaak met KvK-nummer {business.kvk}, gevestigd aan
+              Deze website wordt aangeboden door Van de Voort Tuinen,
+              met KvK-nummer {business.kvk}, gevestigd aan
               {" "}{business.address}, {business.postcode} {business.city}. U mag de
               website gebruiken voor persoonlijk, normaal bezoek en om informatie
               over onze diensten of projecten te bekijken.
