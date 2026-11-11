@@ -34,4 +34,9 @@ export const homepageFaq = [
     answer:
       "Ja, zeker! Wij verzorgen ook de aanleg van tuinhuisjes. Dit doen wij in samenwerking met S&G Tuintotaal. Zo kunnen wij u ook hierbij van dienst zijn. ",
   },
+  {
+    question: "Zetten jullie ook schuttingen?",
+    answer:
+      "Ja, zeker! Wij verzorgen ook de aanleg van schuttingen. Dit doen wij in samenwerking met S&G Tuintotaal. Zo kunnen wij u ook hierbij van dienst zijn.",
+  },
 ];
