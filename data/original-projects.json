@@ -868,14 +868,14 @@
   {
     "id": 30,
     "src": "/images/original-site/project-30.jpg",
-    "alt": "Beton tegels voor looppad voor het huis langs",
-    "title": "Beton tegels voor looppad voor het huis langs",
+    "alt": "Beton tegel looppad voor het huis langs",
+    "title": "Beton tegel looppad voor het huis langs",
     "category": "terras aanleggen",
     "slug": "beton-tegels-best",
     "city": "Best",
     "status": "confirmed",
     "contentStatus": "verified",
-    "summary": "Beton tegels voor looppad voor het huis langs met kleurijke beplanting.",
+    "summary": "Beton tegel looppad voor het huis langs met kleurijke beplanting.",
     "period": "Juni 2026",
     "materials": ["Beton tegels 200x100"],
     "area": "60 m²",
@@ -887,7 +887,7 @@
       {
         "id": "photo-30",
         "src": "/images/original-site/project-30.jpg",
-        "alt": "Beton tegels voor looppad voor het huis langs met kleurijke beplanting",
+        "alt": "Beton tegel looppad voor het huis langs met kleurijke beplanting",
         "thumbnail": "/images/thumbnails/beton-tegels-best-photo-30.webp",
         "width": 1536,
         "height": 2048
