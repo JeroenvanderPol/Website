@@ -1261,16 +1261,13 @@ html {
 }
 .poc-footer-nap {
   display: grid;
-  margin-top: 20px;
+  width: min(240px, 100%);
+  margin: 0 0 20px;
   font-size: 13px;
   font-style: normal;
   line-height: 1.8;
-  color: #526257;
 }
-.poc-footer-nap strong {
-  color: #202d24;
-  font-weight: 550;
-}
+
 .poc-footer .poc-footer-nap a {
   margin: 0;
   justify-self: start;

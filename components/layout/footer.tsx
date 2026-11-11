@@ -9,16 +9,8 @@ export function Footer() {
       <div className="poc-container">
         <div className="poc-footer-grid">
           <div className="poc-footer-brand-column">
-            <div className="poc-footer-brand">
-              <Image
-                src="/images/original-site/logo.png"
-                alt="Van de Voort Tuinen"
-                width={300}
-                height={80}
-              />
-            </div>
             <address className="poc-footer-nap">
-              <strong>{business.name}</strong>
+              <h2>{business.name}</h2>
               <span>{business.address}</span>
               <span>
                 {business.postcode} {business.city}
@@ -27,6 +19,14 @@ export function Footer() {
               <a href={`mailto:${business.email}`}>{business.email}</a>
               <span>KvK {business.kvk}</span>
             </address>
+            <div className="poc-footer-brand">
+              <Image
+                src="/images/original-site/logo.png"
+                alt="Van de Voort Tuinen"
+                width={300}
+                height={80}
+              />
+            </div>
           </div>
           <div>
             <h2>Diensten</h2>
