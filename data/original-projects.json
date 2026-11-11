@@ -87,7 +87,7 @@
     "contentStatus": "verified",
     "summary": "Stapstenen in het gazon aanlegen in Oisterwijk. De bewoners zochten een looproute door het gras zonder een breed pad.",
     "period": "Februari 2026",
-    "materials": ["Stapstenen","gazonzoden","beplanting"],
+    "materials": ["Stapstenen","Graszoden","beplanting"],
     "area": "80 m²",
     "tags": [
       "Tuin aanleggen",
@@ -146,7 +146,7 @@
     "contentStatus": "verified",
     "summary": "Terras en gazon aanleg in Drunen. De vraag was een terras dat prettig aansluit op het gazon.",
     "period": "Juni 2025",
-    "materials": ["Gazonzoden"],
+    "materials": ["Graszoden"],
     "area": "ca 60m²",
     "tags": [
       "Gras aanleggen",
@@ -205,7 +205,7 @@
     "contentStatus": "verified",
     "summary": "Nieuw aangelegd gazon in Drunen. De tuin kon een frisse groene basis gebruiken.",
     "period": "",
-    "materials": ["Gazonzoden"],
+    "materials": ["Graszoden"],
     "area": "60 m²",
     "tags": [
       "Gras aanleggen"
@@ -411,7 +411,7 @@
     "contentStatus": "verified",
     "summary": "Voorbereide ondergrond tuin in Sint-Michielsgestel. Voor de volgende fase van de tuin was een voorbereide basis nodig.",
     "period": "Januari 2026",
-    "materials": ["Zand"],
+    "materials": ["Grond"],
     "area": "100 m²",
     "tags": [
       "Tuin aanleggen"
@@ -529,7 +529,7 @@
     "contentStatus": "verified",
     "summary": "Gazon langs de erfafscheiding in Den Dungen. Langs de erfafscheiding moest een groen geheel ontstaan.",
     "period": "Februari 2026",
-    "materials": ["Gazonzoden"],
+    "materials": ["Graszoden"],
     "area": "40 m²",
     "tags": [
       "Gras aanleggen"
@@ -558,7 +558,7 @@
     "contentStatus": "verified",
     "summary": "Tuinaanleg met zithoek en overkapping in Best. De tuin moest ruimte bieden voor groen en een comfortabele zitplek.",
     "period": "Februari 2026",
-    "materials": ["Gazonzoden"],
+    "materials": ["Graszoden"],
     "area": "120 m²",
     "tags": [
       "Tuin aanleggen"
@@ -587,7 +587,7 @@
     "contentStatus": "verified",
     "summary": "Inrit aanleg met voorbereiding plantenborder in Best. Naast de woning was voorbereiding nodig voor de toekomstige tuin.",
     "period": "Februari 2026",
-    "materials": ["Gazonzoden"],
+    "materials": ["Graszoden"],
     "area": "120 m²",
     "tags": [
       "Tuin aanleggen"
