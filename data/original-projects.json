@@ -263,7 +263,7 @@
     "contentStatus": "verified",
     "summary": "Beplanting langs een tuinpad in best. Langs het tuinpad was aandacht nodig voor de beplanting.",
     "period": "maart 2026",
-    "materials": ["beplanting"],
+    "materials": ["Beplanting"],
     "area": "ca. 40 m²",
     "tags": [
       "Tuin aanleggen"
@@ -292,7 +292,7 @@
     "contentStatus": "verified",
     "summary": "Oprit bij de woning in Vught. De bewoners wilden een verzorgde toegang tot hun woning.",
     "period": "juli",
-    "materials": ["beton klinkers"],
+    "materials": ["Beton klinkers"],
     "area": "ca. 20 m²",
     "tags": [
       "Bestrating aanleggen"
@@ -321,7 +321,7 @@
     "contentStatus": "verified",
     "summary": "Tuinpad en terras in Tiel. Het terras en het tuinpad moesten samen een geheel vormen.",
     "period": "Juni 2026",
-    "materials": ["gebakken waaltjes"],
+    "materials": ["Gebakken waaltjes"],
     "area": "20 m²", 
     "tags": [
       "Tuin aanleggen",
@@ -351,7 +351,7 @@
     "contentStatus": "verified",
     "summary": "Klinkerpad in visgraatverband in Tiel. De wens was een tuinpad met een herkenbaar legpatroon.",
     "period": "Juni 2026",
-    "materials": ["gebakken waaltjes"],
+    "materials": ["Gebakken waaltjes"],
     "area": "",
     "tags": [
       "Tuin aanleggen",
@@ -381,7 +381,7 @@
     "contentStatus": "verified",
     "summary": "Terras met klinkers in Tiel. De bewoners zochten een zitplek die aansluit bij hun tuin.",
     "period": "",
-    "materials": ["gebakken waaltjes"],
+    "materials": ["Gebakken waaltjes"],
     "area": "20 m²",
     "tags": [
       "Tuin aanleggen",
@@ -440,7 +440,7 @@
     "contentStatus": "verified",
     "summary": "Terras bij een overkapping in Schijndel. De ruimte bij de overkapping moest een bruikbare zitplek worden.",
     "period": "Juni 2025",
-    "materials": ["keramische tegels 60x60"],
+    "materials": ["Keramische tegels 60x60"],
     "area": "15 m²",
     "tags": [
       "Tuin aanleggen",
@@ -469,9 +469,9 @@
     "status": "confirmed",
     "contentStatus": "verified",
     "summary": "Tuin tijdens de voorbereiding in Sint-Michielsgestel. Een nieuwe indeling vroeg eerst om voorbereiding van de tuin.",
-    "period": "",
-    "materials": [],
-    "area": "",
+    "period": "Februari 2025",
+    "materials": ["Grond"],
+    "area": "120 m²",
     "tags": [
       "Tuin aanleggen"
     ],
@@ -499,7 +499,7 @@
     "contentStatus": "verified",
     "summary": "Terras in een overkapping in Vught. De bewoners wilden de ruimte onder de overkapping als terras gebruiken.",
     "period": "augustus 2026 ",
-    "materials": ["keramische tegels 60x60"],
+    "materials": ["Keramische tegels 60x60"],
     "area": "20 m²",
     "tags": [
       "Tuin aanleggen",
@@ -529,7 +529,7 @@
     "contentStatus": "verified",
     "summary": "Gazon langs de erfafscheiding in Den Dungen. Langs de erfafscheiding moest een groen geheel ontstaan.",
     "period": "Februari 2026",
-    "materials": ["gazonzoden"],
+    "materials": ["Gazonzoden"],
     "area": "40 m²",
     "tags": [
       "Gras aanleggen"
@@ -558,7 +558,7 @@
     "contentStatus": "verified",
     "summary": "Tuinaanleg met zithoek en overkapping in Best. De tuin moest ruimte bieden voor groen en een comfortabele zitplek.",
     "period": "Februari 2026",
-    "materials": ["gazonzoden"],
+    "materials": ["Gazonzoden"],
     "area": "120 m²",
     "tags": [
       "Tuin aanleggen"
@@ -587,7 +587,7 @@
     "contentStatus": "verified",
     "summary": "Inrit aanleg met voorbereiding plantenborder in Best. Naast de woning was voorbereiding nodig voor de toekomstige tuin.",
     "period": "Februari 2026",
-    "materials": ["gazonzoden"],
+    "materials": ["Gazonzoden"],
     "area": "120 m²",
     "tags": [
       "Tuin aanleggen"
@@ -615,9 +615,9 @@
     "status": "confirmed",
     "contentStatus": "verified",
     "summary": "Beplanting aan de straatzijde in Best. De beplanting aan de straatzijde verdiende extra aandacht.",
-    "period": "",
-    "materials": [],
-    "area": "",
+    "period": "December 2025",
+    "materials": ["Beplanting"],
+    "area": "100 m²",
     "tags": [
       "Tuin aanleggen"
     ],
@@ -644,9 +644,9 @@
     "status": "confirmed",
     "contentStatus": "verified",
     "summary": "Beplanting voortuin in Eindhoven . Langs de gevel wilden de bewoners de beplanting verzorgd houden.",
-    "period": "",
-    "materials": [],
-    "area": "",
+    "period": "Januari 2026",
+    "materials": ["Beplanting"],
+    "area": "60 m²",
     "tags": [
       "Tuin aanleggen"
     ],
@@ -673,9 +673,9 @@
     "status": "confirmed",
     "contentStatus": "verified",
     "summary": "Nieuw aangeplante border in Eindhoven. Een nieuw aangeplante border had aandacht nodig om zich te ontwikkelen.",
-    "period": "",
-    "materials": [],
-    "area": "",
+    "period": "Januari 2026",
+    "materials": ["Beplanting"],
+    "area": "60 m²",
     "tags": [
       "Tuin aanleggen"
     ],
@@ -702,9 +702,9 @@
     "status": "confirmed",
     "contentStatus": "verified",
     "summary": "Tuinaanleg in Nuenen. Bestrating / beplanting en kunstgras naar wensen van de klant.",
-    "period": "",
-    "materials": [],
-    "area": "",
+    "period": "Juni 2026",
+    "materials": ["Beplanting", "Keramische tegels 60x60", "Kunstgras"],
+    "area": "80 m²",
     "tags": [
       "Tuin aanleggen"
     ],
@@ -731,9 +731,9 @@
     "status": "confirmed",
     "contentStatus": "verified",
     "summary": "Tuinaanleg in Schijndel. Vervanging van de oude bestrating en gazon naar wensen van de klant.",
-    "period": "",
-    "materials": [],
-    "area": "",
+    "period": "Oktober 2026",
+    "materials": ["Gebakken waaltjes", "Keramische tegels 60x60", "Graszoden", "Beplanting"],
+    "area": "100 m²",
     "tags": [
       "Tuin aanleggen"
     ],
@@ -760,9 +760,9 @@
     "status": "confirmed",
     "contentStatus": "verified",
     "summary": "Tuinaanleg in Oisterwijk. Vervanging van de oude bestrating en gazon naar wensen van de klant.",
-    "period": "",
-    "materials": [],
-    "area": "",
+    "period": "Mei 2026",
+    "materials": ["Copelstones", "Graszoden"],
+    "area": "50 m²",
     "tags": [
       "Tuin aanleggen"
     ],
@@ -789,9 +789,9 @@
     "status": "confirmed",
     "contentStatus": "verified",
     "summary": "Tuinaanleg in De Vught. Het plaatsen van keramische tegels onder de overkapping in de cement naar wensen van de klant.",
-    "period": "",
-    "materials": [],
-    "area": "",
+    "period": "Oktober 2026",
+    "materials": ["Keramische tegels 60x60"],
+    "area": "30 m²",
     "tags": [
       "Bestrating aanleggen"
     ],
@@ -818,9 +818,9 @@
     "status": "confirmed",
     "contentStatus": "verified",
     "summary": "Tuinaanleg met organische vormen en kleurrijke beplanting. De bewoners wilden een tuin waarin een terras en groen elkaar aanvullen.",
-    "period": "",
-    "materials": [],
-    "area": "",
+    "period": "Februari 2026",
+    "materials": ["Beplanting", "Graszoden"],
+    "area": "120 m²",
     "tags": [
       "Tuin aanleggen"
     ],
@@ -847,9 +847,9 @@
     "status": "confirmed",
     "contentStatus": "verified",
     "summary": "Terras aanleg in Nuenen met keramische tegels. De bewoners wilden een terras dat zich aansluit bij de omgeving.",
-    "period": "",
-    "materials": [],
-    "area": "",
+    "period": "Juni 2026",
+    "materials": ["Keramische tegels 60x60"],
+    "area": "30 m²",
     "tags": [
       "Bestrating aanleggen"
     ],
