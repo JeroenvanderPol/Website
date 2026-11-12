@@ -39,4 +39,9 @@ export const homepageFaq = [
     answer:
       "Ja, zeker! Wij verzorgen ook de aanleg van schuttingen. Dit doen wij in samenwerking met S&G Tuintotaal. Zo kunnen wij u ook hierbij van dienst zijn.",
   },
+   {
+    question: "Hoe kan ik een offerte aanvragen?",
+    answer:
+      "U kunt eenvoudig contact met ons opnemen via telefoon, e-mail of het contactformulier op onze website voor een vrijblijvende offerte.",
+  },
 ];

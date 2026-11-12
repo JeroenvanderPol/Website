@@ -12,11 +12,15 @@
     "Boxtel",
     "Breda",
     "Den Dungen",
+    "Drunen",
     "Eindhoven",
+    "Liempde",
     "Oss",
     "Oirschot",
     "Oisterwijk",
+    "Nuenen",
     "Rosmalen",
+    "Sint-Oedenrode",
     "Veldhoven",
     "Vlijmen",
     "Vught",
@@ -25,11 +29,8 @@
     "Tilburg",
     "Waalwijk",
     "Zaltbommel",
-    "Drunen",
-    "Uden",
-    "Sint-Oedenrode",
-    "Liempde",
-    "Nuenen"
+    "Uden"   
+    
   ],
   "source": "https://vandevoorttuinen.nl/"
 }
