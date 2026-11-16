@@ -8,7 +8,7 @@ The homepage remains a single scrolling page. Its service cards and footer link 
 
 Slugs and shared labels live in `data/services.json`; additional service copy lives in `data/service-details.ts`. Existing original descriptions remain in the JSON. No project dates, locations, customer outcomes, certifications or statistics were added as verified facts. Project detail pages await owner-provided grouping and descriptions.
 
-`lib/site.ts` owns the canonical production origin, https://vandevoortgrondwerken.nl. Each page has a self-canonical URL, Dutch title and description, and Open Graph metadata. JSON-LD supplies sourced LocalBusiness details plus Service and BreadcrumbList on service pages. No review or rating markup is published.
+`lib/site.ts` owns the canonical production origin, https://vandevoorttuinen.nl. Each page has a self-canonical URL, Dutch title and description, and Open Graph metadata. JSON-LD supplies sourced LocalBusiness details plus Service and BreadcrumbList on service pages. No review or rating markup is published.
 
 `/sitemap.xml` lists the homepage and four services, adding the project overview and verified project details when their copy is approved. No invented last-modified dates. `/robots.txt` references the production sitemap and excludes API and design-preview paths. Vercel preview builds emit noindex metadata, disallow crawling, and an empty sitemap. These controls do not make previews private; use Vercel deployment protection if privacy is required. A Vercel production deployment on a temporary hostname still needs deployment protection or a redirect when the real domain is connected.
 
