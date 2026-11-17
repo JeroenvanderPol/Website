@@ -27,7 +27,7 @@ export default function PrivacyPage() {
           <section>
             <h2>Wie is verantwoordelijk?</h2>
             <p>
-              Van de Voort Tuinen is een eenmanszaak, ingeschreven bij de Kamer
+              Van de Voort Tuinen, ingeschreven bij de Kamer
               van Koophandel onder nummer {business.kvk}. Het correspondentieadres
               is {business.address}, {business.postcode} {business.city}. U kunt
               contact opnemen via <a href={`mailto:${business.email}`}>{business.email}</a> of {business.phone}.
