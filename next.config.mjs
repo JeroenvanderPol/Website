@@ -6,8 +6,27 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  images: {
-    unoptimized: true,
+  async redirects() {
+    return [
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "www.vandevoorttuinen.nl" }],
+        destination: "https://vandevoorttuinen.nl/:path*",
+        permanent: true,
+      },
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "vanderpoltuinen.nl" }],
+        destination: "https://vandevoorttuinen.nl/:path*",
+        permanent: true,
+      },
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "www.vanderpoltuinen.nl" }],
+        destination: "https://vandevoorttuinen.nl/:path*",
+        permanent: true,
+      },
+    ];
   },
 };
 

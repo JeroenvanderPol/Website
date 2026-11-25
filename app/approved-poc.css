@@ -1531,6 +1531,7 @@ html {
   line-height: 1.2;
   text-transform: uppercase;
 }
+.poc-contact h1,
 .poc-contact h2 {
   max-width: 12ch;
   font-size: clamp(42px, 5vw, 60px);
@@ -1539,6 +1540,7 @@ html {
   letter-spacing: -0.02em;
   text-wrap: balance;
 }
+.poc-contact h1 span,
 .poc-contact h2 span {
   color: #70a638;
 }
@@ -1651,6 +1653,7 @@ html {
     grid-template-columns: minmax(0, 1fr);
     gap: 34px;
   }
+  .poc-contact h1,
   .poc-contact h2 {
     font-size: clamp(38px, 10vw, 48px);
   }

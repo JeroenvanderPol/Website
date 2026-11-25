@@ -1,12 +1,8 @@
 import type { Metadata } from "next";
+import { absoluteUrl } from "@/lib/site";
 
-// Assets must resolve on the deployed rebuild, even while the canonical
-// business domain still serves the previous website.
-const assetOrigin = process.env.VERCEL_PROJECT_PRODUCTION_URL
-  ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
-  : "https://v0-vandevoort-grondwerken-data.vercel.app";
 export const socialImage = {
-  url: `${assetOrigin}/share-image`,
+  url: absoluteUrl("/share-image"),
   width: 1200,
   height: 630,
   type: "image/png",

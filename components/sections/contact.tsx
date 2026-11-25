@@ -77,11 +77,19 @@ export function Contact({ standalone = false }: { standalone?: boolean }) {
           <div className="poc-contact-eyebrow">
             <span>Contact</span>
           </div>
-          <h2>
-            Vertel ons
-            <br />
-            {" "}over uw <span>plannen.</span>
-          </h2>
+          {standalone ? (
+            <h1>
+              Vertel ons
+              <br />
+              {" "}over uw <span>plannen.</span>
+            </h1>
+          ) : (
+            <h2>
+              Vertel ons
+              <br />
+              {" "}over uw <span>plannen.</span>
+            </h2>
+          )}
           <p className="poc-contact-intro">
             Een nieuwe tuin, een groen gazon of hulp bij het onderhoud? Neem
             contact met ons op.
