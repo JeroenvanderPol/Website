@@ -47,7 +47,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   );
   const serviceList = formatList(localServices);
   const title = location.inWorkArea
-    ? `Hovenier en tuinwerk in ${location.name} | Van de Voort Tuinen`
+    ? `Hovenier en tuinaanleg in ${location.name} | Van de Voort Tuinen`
     : `Tuinprojecten in ${location.name} | Van de Voort Tuinen`;
   const description =
     projectCount > 0
@@ -118,7 +118,7 @@ export default async function LocationPage({ params }: Props) {
         </nav>
         <h1 className="location-title">
           {location.inWorkArea
-            ? `Hovenier en tuinwerk in ${name}`
+            ? `Hovenier en tuinaanleg in ${name}`
             : `Tuinprojecten in ${name}`}
         </h1>
         <p className="service-lead">
