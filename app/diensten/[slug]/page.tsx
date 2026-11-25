@@ -78,15 +78,6 @@ export default async function ServicePage({ params }: Props) {
           { "@type": "ListItem", position: 2, name: service.title, item: url },
         ],
       },
-      {
-        "@type": "FAQPage",
-        "@id": `${url}#faq`,
-        mainEntity: faqs.map((faq) => ({
-          "@type": "Question",
-          name: faq.question,
-          acceptedAnswer: { "@type": "Answer", text: faq.answer },
-        })),
-      },
     ],
   };
   return (

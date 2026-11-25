@@ -1,17 +1,5 @@
 import { ChevronDown } from "lucide-react";
 import { homepageFaq } from "@/data/faq";
-import { absoluteUrl } from "@/lib/site";
-
-const schema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "@id": absoluteUrl("/#veelgestelde-vragen"),
-  mainEntity: homepageFaq.map((faq) => ({
-    "@type": "Question",
-    name: faq.question,
-    acceptedAnswer: { "@type": "Answer", text: faq.answer },
-  })),
-};
 
 export function Faq() {
   return (
@@ -20,10 +8,6 @@ export function Faq() {
       className="poc-section poc-container poc-faq"
       aria-labelledby="faq-heading"
     >
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, "\\u003c") }}
-      />
       <div className="poc-heading">
         <h2 id="faq-heading">Veelgestelde vragen</h2>
         <p>Antwoorden op vragen die we vaak krijgen over aanleg, onderhoud en werkwijze.</p>

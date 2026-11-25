@@ -50,7 +50,8 @@ export default async function ProjectPage({ params }: Props) {
       about: { "@type": "Service", name: project.category, provider: { "@id": absoluteUrl("/#business") } },
       breadcrumb: { "@type": "BreadcrumbList", itemListElement: [
         { "@type": "ListItem", position: 1, name: "Home", item: absoluteUrl("/") },
-        { "@type": "ListItem", position: 2, name: project.title, item: url },
+        { "@type": "ListItem", position: 2, name: "Ons werk", item: absoluteUrl("/projecten") },
+        { "@type": "ListItem", position: 3, name: project.title, item: url },
       ] },
     }).replace(/</g, "\\u003c") }} />}
     <nav className="service-breadcrumb" aria-label="Broodkruimel"><Link href="/">Home</Link><span>/</span><Link href="/projecten">Ons werk</Link><span>/</span><span aria-current="page">{copyVerified ? project.title : "Projectfoto's"}</span></nav>

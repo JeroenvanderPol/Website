@@ -22,7 +22,8 @@ export function Hero() {
           Onze handen.
         </h1>
         <p>
-          Tuinaanleg, tuinonderhoud en een groen gazon.
+          Tuinaanleg, tuinonderhoud, bestrating en gras aanleggen in
+          {" "}Sint-Michielsgestel en omgeving.
           <br />
           {" "}Van de eerste voorbereiding tot het laatste groen.
         </p>

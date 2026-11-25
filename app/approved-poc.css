@@ -711,7 +711,8 @@ html {
 .poc-hero-copy {
   position: relative;
   z-index: 1;
-  width: min(52%, 680px);
+  box-sizing: border-box;
+  width: 46%;
   padding: 24px 0 24px clamp(28px, 4.5vw, 96px);
   text-align: left;
 }
@@ -1393,8 +1394,9 @@ html {
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   .poc-hero-copy {
-    width: 43%;
+    width: 46%;
     padding-left: clamp(24px, 4vw, 52px);
+    padding-right: clamp(12px, 1.5vw, 20px);
   }
   .approved-site .poc-hero h1 {
     font-size: clamp(34px, 4.5vw, 52px);

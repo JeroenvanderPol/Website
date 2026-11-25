@@ -37,7 +37,7 @@ export const locations: Location[] = [
   }))
   .sort((a, b) => a.slug.localeCompare(b.slug, "nl"));
 
-// Pages without local projects would be near-duplicates, so they stay out of the index.
+// Index location pages only when both the service area and local project evidence are confirmed.
 export function isIndexable(location: Location) {
-  return location.projects.length > 0;
+  return location.inWorkArea && location.projects.length > 0;
 }

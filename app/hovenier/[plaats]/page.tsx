@@ -8,7 +8,7 @@ import { ProjectGrid } from "@/components/projects/project-grid";
 import { ServiceCards } from "@/components/sections/services";
 import services from "@/data/services.json";
 import business from "@/data/business.json";
-import { isIndexable, locations } from "@/lib/locations";
+import { isIndexable, locations, type Location } from "@/lib/locations";
 import { absoluteUrl, isPreview } from "@/lib/site";
 
 type Props = { params: Promise<{ plaats: string }> };
@@ -25,12 +25,36 @@ async function getLocation(params: Props["params"]) {
 }
 
 const serviceTitles = services.map((service) => service.title.toLowerCase());
-const serviceList = `${serviceTitles.slice(0, -1).join(", ")} en ${serviceTitles.at(-1)}`;
+
+function formatList(items: string[]) {
+  if (items.length < 2) return items[0] ?? "";
+  return `${items.slice(0, -1).join(", ")} en ${items.at(-1)}`;
+}
+
+function getLocationServices(location: Location) {
+  const projectServices = services.filter((service) =>
+    location.projects.some((project) => project.tags.includes(service.title)),
+  );
+  return projectServices.length > 0 ? projectServices : services;
+}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const location = await getLocation(params);
-  const title = `Hovenier & tuinaanleg ${location.name} | Van de Voort Tuinen`;
-  const description = `Hovenier of tuinaanleg in ${location.name}? Van de Voort Tuinen uit ${business.city} helpt met ${serviceList}. Bekijk ons werk en vraag een offerte aan.`;
+  const projectCount = location.projects.length;
+  const projectLabel = projectCount === 1 ? "tuinproject" : "tuinprojecten";
+  const localServices = getLocationServices(location).map((service) =>
+    service.title.toLowerCase(),
+  );
+  const serviceList = formatList(localServices);
+  const title = location.inWorkArea
+    ? `Hovenier en tuinwerk in ${location.name} | Van de Voort Tuinen`
+    : `Tuinprojecten in ${location.name} | Van de Voort Tuinen`;
+  const description =
+    projectCount > 0
+      ? location.inWorkArea
+        ? `Bekijk ${projectCount} ${projectLabel} in ${location.name}, met werk aan ${serviceList}. Van de Voort Tuinen is gevestigd in ${business.city}.`
+        : `Bekijk ${projectCount} afgeronde ${projectLabel} in ${location.name}, met werk aan ${serviceList} van Van de Voort Tuinen.`
+      : `Hovenier in ${location.name}? Van de Voort Tuinen uit ${business.city} helpt met ${formatList(serviceTitles)}. Bekijk ons werk en neem contact op.`;
   const url = absoluteUrl(`/hovenier/${location.slug}`);
   return {
     title: { absolute: title },
@@ -45,19 +69,28 @@ export default async function LocationPage({ params }: Props) {
   const location = await getLocation(params);
   const { name } = location;
   const isHome = name === business.city;
+  const localServices = getLocationServices(location);
+  const localServiceNames = localServices.map((service) => service.title.toLowerCase());
+  const localServiceList = formatList(localServiceNames);
+  const projectCount = location.projects.length;
+  const projectLabel = projectCount === 1 ? "project" : "projecten";
   const url = absoluteUrl(`/hovenier/${location.slug}`);
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
-      {
-        "@type": "Service",
-        "@id": `${url}#service`,
-        name: `Hovenier en tuinaanleg in ${name}`,
-        serviceType: ["Hovenier", "Tuinaanleg"],
-        url,
-        provider: { "@id": absoluteUrl("/#business") },
-        areaServed: { "@type": "City", name },
-      },
+      ...(location.inWorkArea && projectCount > 0
+        ? [
+            {
+              "@type": "Service",
+              "@id": `${url}#service`,
+              name: `${formatList(localServices.map((service) => service.title))} in ${name}`,
+              serviceType: localServices.map((service) => service.title),
+              url,
+              provider: { "@id": absoluteUrl("/#business") },
+              areaServed: { "@type": "City", name },
+            },
+          ]
+        : []),
       {
         "@type": "BreadcrumbList",
         itemListElement: [
@@ -79,13 +112,21 @@ export default async function LocationPage({ params }: Props) {
         <nav aria-label="Broodkruimel" className="service-breadcrumb">
           <Link href="/">Home</Link>
           <span aria-hidden="true">/</span>
-          <span aria-current="page">Hovenier {name}</span>
+          <span aria-current="page">
+            {location.inWorkArea ? `Hovenier ${name}` : `Projecten in ${name}`}
+          </span>
         </nav>
-        <h1 className="location-title">Hovenier en tuinaanleg in {name}</h1>
+        <h1 className="location-title">
+          {location.inWorkArea
+            ? `Hovenier en tuinwerk in ${name}`
+            : `Tuinprojecten in ${name}`}
+        </h1>
         <p className="service-lead">
-          {isHome
-            ? `Van de Voort Tuinen is gevestigd aan de ${business.address} in ${name}. Vanuit hier helpen we met ${serviceList}.`
-            : `Zoekt u een hovenier voor tuinaanleg of onderhoud in ${name}? Van de Voort Tuinen uit ${business.city} helpt in ${name} met ${serviceList}.`}
+          {projectCount > 0
+            ? location.inWorkArea
+              ? `${isHome ? `Van de Voort Tuinen is gevestigd aan de ${business.address} in ${name}.` : `Van de Voort Tuinen uit ${business.city} werkt in ${name}.`} Bekijk ${projectCount} ${projectLabel} met voorbeelden van ${localServiceList}.`
+              : `Deze pagina toont ${projectCount} afgeronde ${projectLabel} in ${name}. De projecten laten werk aan ${localServiceList} zien. Neem contact op om te bespreken of we uw plannen kunnen aannemen.`
+            : `Zoekt u een hovenier voor tuinaanleg of onderhoud in ${name}? Van de Voort Tuinen uit ${business.city} helpt met ${formatList(serviceTitles)}.`}
         </p>
         <div className="service-actions">
           <Link className="poc-button" href="/#contact">
@@ -97,10 +138,28 @@ export default async function LocationPage({ params }: Props) {
         </div>
 
         <section className="service-area" aria-labelledby="location-services">
-          <h2 id="location-services">Onze diensten in {name}</h2>
-          <div className="location-services">
-            <ServiceCards />
-          </div>
+          <h2 id="location-services">
+            {projectCount > 0
+              ? `Werkzaamheden in onze projecten in ${name}`
+              : `Onze diensten in ${name}`}
+          </h2>
+          {projectCount > 0 ? (
+            <nav className="service-related" aria-label={`Diensten in projecten in ${name}`}>
+              {localServices.map((service) => (
+                <Link
+                  className="service-text-link"
+                  href={`/diensten/${service.slug}`}
+                  key={service.slug}
+                >
+                  {service.title}
+                </Link>
+              ))}
+            </nav>
+          ) : (
+            <div className="location-services">
+              <ServiceCards />
+            </div>
+          )}
         </section>
 
         {location.projects.length > 0 ? (
@@ -124,10 +183,15 @@ export default async function LocationPage({ params }: Props) {
         )}
 
         <section className="service-preparation service-area" aria-labelledby="location-contact">
-          <h2 id="location-contact">Plannen voor uw tuin in {name}?</h2>
+          <h2 id="location-contact">
+            {location.inWorkArea
+              ? `Plannen voor uw tuin in ${name}?`
+              : `Plannen bespreken?`}
+          </h2>
           <p>
-            Vertel ons hoe u de tuin wilt gebruiken en welke werkzaamheden u zoekt. Foto&apos;s van de
-            huidige situatie en globale afmetingen helpen om uw plannen te bespreken.
+            {location.inWorkArea
+              ? "Vertel ons hoe u de tuin wilt gebruiken en welke werkzaamheden u zoekt. Foto's van de huidige situatie en globale afmetingen helpen om uw plannen te bespreken."
+              : `Neem contact op om te bespreken of Van de Voort Tuinen uw plannen in ${name} kan aannemen.`}
           </p>
           <Link className="service-text-link" href="/#contact">
             Vertel ons over uw tuin

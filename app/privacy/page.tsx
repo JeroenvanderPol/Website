@@ -4,11 +4,17 @@ import { Footer } from "@/components/layout/footer";
 import { Header } from "@/components/layout/header";
 import business from "@/data/business.json";
 import { absoluteUrl } from "@/lib/site";
+import { socialMetadata } from "@/lib/social-metadata";
+
+const title = "Privacyverklaring | Van de Voort Tuinen";
+const description = "Lees hoe Van de Voort Tuinen met persoonsgegevens omgaat.";
+const url = absoluteUrl("/privacy");
 
 export const metadata: Metadata = {
-  title: "Privacyverklaring | Van de Voort Tuinen",
-  description: "Lees hoe Van de Voort Tuinen met persoonsgegevens omgaat.",
-  alternates: { canonical: absoluteUrl("/privacy") },
+  title,
+  description,
+  alternates: { canonical: url },
+  ...socialMetadata(title, description, url),
 };
 
 export default function PrivacyPage() {
