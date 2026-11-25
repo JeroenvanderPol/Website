@@ -8,7 +8,8 @@ import { absoluteUrl, isPreview } from "@/lib/site";
 import { socialMetadata } from "@/lib/social-metadata";
 
 const title = "Ons werk | Van de Voort Tuinen";
-const description = "Bekijk de projectfoto's van Van de Voort Tuinen en filter het overzicht op dienst.";
+const description =
+  "Bekijk foto's van tuinprojecten van Van de Voort Tuinen. Ontdek voorbeelden van tuinaanleg, tuinonderhoud, bestrating en gras aanleggen. Filter op dienst.";
 const allProjectCopyVerified = projects.every(
   (project) => project.status === "confirmed" && project.contentStatus === "verified",
 );
