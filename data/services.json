@@ -4,6 +4,7 @@
     "description": "Van ontwerp tot realisatie: wij creëren uw droomtuin op maat. Met oog voor detail en duurzame materialen.",
     
     "icon": "/images/services/tuinaanleg.png",
+    "imageAlt": "Van tuinaanleg tot ontwerp tot realisatie: wij creëren uw droomtuin op maat. Met oog voor detail en duurzame materialen.",
     "originalDescription": "Overweegt u al een tijdje om uw droomtuin aan te laten leggen? Als u op zoek bent naar een prachtige tuin die bij uw wensen past, dan is Van de Voort Tuinen de perfecte keuze voor u.",
     "slug": "tuin-aanleggen"
   },
@@ -16,6 +17,7 @@
       "Gazonverzorging"
     ],
     "icon": "/images/services/onderhoud.png",
+    "imageAlt": "Professioneel onderhoud voor een verzorgde tuin het hele jaar door. Regelmatig of seizoensgebonden.",
     "originalDescription": "Bij Van de Voort tuinen begrijpen we dat tuinonderhoud essentieel is om je tuin in topconditie te houden. Of je nu een door ons ontworpen en aangelegde tuin hebt of een bestaande tuin, wij staan klaar om je te helpen met professioneel onderhoud",
     "slug": "tuinonderhoud"
   },
@@ -28,6 +30,7 @@
       "Opritten"
     ],
     "icon": "/images/services/bestraten%20.png",
+    "imageAlt": "Een terras, tuinpad of oprit die past bij uw buitenruimte. Met aandacht voor de ondergrond en een nette afwerking.",
     "originalDescription": "Voor het aanleggen van een terras, tuinpad of oprit kunt u bij Van de Voort Tuinen terecht.",
     "slug": "bestrating-aanleggen"
   },
@@ -40,6 +43,7 @@
       "Nazorg advies"
     ],
     "icon": "/images/services/grasaanleg.png",
+    "imageAlt": "Wij leveren en leggen graszoden voor een direct prachtig gazon. Professionele voorbereiding inclusief.",
     "originalDescription": "Wil je graszoden plaatsen in jouw tuin of op een ander gebied? Dan kunnen wij hiervoor niet alleen graszoden aanleveren, maar ook voor je aanleggen.",
     "slug": "gras-aanleggen"
   }

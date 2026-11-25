@@ -27,7 +27,7 @@ export function ServiceCards() {
             >
               <Image
                 src={service.icon}
-                alt=""
+                alt={service.imageAlt}
                 fill
                 sizes="(min-width: 1280px) 22vw, (min-width: 768px) 45vw, 90vw"
                 className="poc-service-image"
