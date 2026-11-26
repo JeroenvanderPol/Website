@@ -68,7 +68,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function LocationPage({ params }: Props) {
   const location = await getLocation(params);
   const { name } = location;
-  const isHome = name === business.city;
   const localServices = getLocationServices(location);
   const localServiceNames = localServices.map((service) => service.title.toLowerCase());
   const localServiceList = formatList(localServiceNames);
@@ -122,11 +121,9 @@ export default async function LocationPage({ params }: Props) {
             : `Tuinprojecten in ${name}`}
         </h1>
         <p className="service-lead">
-          {projectCount > 0
-            ? location.inWorkArea
-              ? `${isHome ? `Van de Voort Tuinen is gevestigd aan de ${business.address} in ${name}.` : `Van de Voort Tuinen uit ${business.city} werkt in ${name}.`} Bekijk ${projectCount} ${projectLabel} met voorbeelden van ${localServiceList}.`
-              : `Deze pagina toont ${projectCount} afgeronde ${projectLabel} in ${name}. De projecten laten werk aan ${localServiceList} zien. Neem contact op om te bespreken of we uw plannen kunnen aannemen.`
-            : `Zoekt u een hovenier voor tuinaanleg of onderhoud in ${name}? Van de Voort Tuinen uit ${business.city} helpt met ${formatList(serviceTitles)}.`}
+          {location.inWorkArea
+            ? `Zoekt u een hovenier voor tuinaanleg of onderhoud in ${name}? Van de Voort Tuinen uit ${business.city} helpt met ${formatList(serviceTitles)}.`
+            : `Deze pagina toont ${projectCount} afgeronde ${projectLabel} in ${name}. De projecten laten werk aan ${localServiceList} zien. Neem contact op om te bespreken of we uw plannen kunnen aannemen.`}
         </p>
         <div className="service-actions">
           <Link className="poc-button" href="/#contact">
@@ -139,27 +136,11 @@ export default async function LocationPage({ params }: Props) {
 
         <section className="service-area" aria-labelledby="location-services">
           <h2 id="location-services">
-            {projectCount > 0
-              ? `Werkzaamheden in onze projecten in ${name}`
-              : `Onze diensten in ${name}`}
+            {location.inWorkArea ? `Onze diensten in ${name}` : "Onze diensten"}
           </h2>
-          {projectCount > 0 ? (
-            <nav className="service-related" aria-label={`Diensten in projecten in ${name}`}>
-              {localServices.map((service) => (
-                <Link
-                  className="service-text-link"
-                  href={`/diensten/${service.slug}`}
-                  key={service.slug}
-                >
-                  {service.title}
-                </Link>
-              ))}
-            </nav>
-          ) : (
-            <div className="location-services">
-              <ServiceCards />
-            </div>
-          )}
+          <div className="location-services">
+            <ServiceCards />
+          </div>
         </section>
 
         {location.projects.length > 0 ? (
