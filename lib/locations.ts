@@ -37,7 +37,7 @@ export const locations: Location[] = [
   }))
   .sort((a, b) => a.slug.localeCompare(b.slug, "nl"));
 
-// Index location pages only when both the service area and local project evidence are confirmed.
+// Index every confirmed service-area page; project-only locations remain portfolio context.
 export function isIndexable(location: Location) {
-  return location.inWorkArea && location.projects.length > 0;
+  return location.inWorkArea;
 }
